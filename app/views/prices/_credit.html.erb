@@ -1,0 +1,53 @@
+<div class="block">
+
+
+
+  <% @prices.where(tarif_type:"1l").each do |price| %>
+      <div class="block_title">e-StyleTM  <span><td><%= price.title %></td></span></div>
+      <div class="block_center">
+        <div class="block_content">
+          <div><strong>Скорость:</strong></div>
+          <p>Download: 	<span><%= price.dspid %> <em>Мбит/с</em></span></p>
+          <p>Upload:		<span><%= price.uspid %><em>Мбит/с</em></span></p>
+          <div class="line"></div>
+          <div class="price_block"><strong>Цена:</strong> <span><%= price.cena %> <em>грн/мес</em></span></div>
+          <a href="#" title="Подключиться" class="show_on_map_link"><span>Подключиться</span></a>
+        </div><!--end block_content-->
+      </div><!--end block_center-->
+      </div><!--end block-->
+  <% end %>
+
+  <% @prices.where(tarif_type:"1c").each do |price| %>
+      <div class="block block_best">
+        <div class="block_title">e-StyleTM  <span><%= price.title %></span></div>
+        <div class="block_center">
+          <div class="block_content">
+            <div><strong>Скорость:</strong></div>
+            <p>Download: 	<span><%= price.dspid %> <em>Мбит/с</em></span></p>
+            <p>Upload:		<span><%= price.uspid %><em>Мбит/с</em></span></p>
+            <div class="line"></div>
+            <div class="price_block"><strong>Цена:</strong> <span><%= price.cena %> <em>грн/мес</em></span></div>
+            <center>Лучшее предложение!</center>
+            <a href="#" title="Подключиться" class="show_on_map_link"><span>Подключиться</span></a>
+          </div><!--end block_content-->
+        </div><!--end block_center-->
+      </div><!--end block-->
+  <% end %>
+      <% @prices.where(tarif_type:"1r").each do |price| %>
+      <div class="block">
+        <div class="block_title">e-StyleTM  <span><%= price.title %></span></div>
+        <div class="block_center">
+          <div class="block_content">
+            <div><strong>Скорость:</strong></div>
+            <p>Download: 	<span><%= price.dspid %> <em>Мбит/с</em></span></p>
+            <p>Upload:		<span><%= price.uspid %><em>Мбит/с</em></span></p>
+            <div class="line"></div>
+            <div class="price_block"><strong>Цена:</strong> <span><%= price.cena %> <em>грн/мес</em></span></div>
+            <a href="#" title="Подключиться" class="show_on_map_link"><span>Подключиться</span></a>
+          </div><!--end block_content-->
+        </div><!--end block_center-->
+      </div><!--end block-->
+  <% end %>
+      <div class="note">
+  Примечания: <span>*</span><br>- При подписании дополнительного соглашения<br>- На всех пакетах доступ к локальной сети и одесским ресурсам  - 100 Mbit/s.
+</div><!--end note-->

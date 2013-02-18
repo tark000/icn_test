@@ -1,0 +1,42 @@
+<div class="b-main-content">
+<div class="b-mc-news">
+  <h3>Тарифы:</h3>
+</div>
+<div class="clear"></div>
+<div class="tabs_payment">
+<ul class="tariff_list">
+  <li><a href="#tabs-1">Пакеты с кредитной системой оплаты<span></span></a></li>
+  <li><a href="#tabs-2">Пакеты с авансовой системой оплаты<span></span></a></li>
+  <li><a href="#tabs-3">Юридическим лицам<span></span></a></li>
+</ul>
+<div class="line"></div>
+
+<div id="tabs-1" class="payment_block">
+
+
+   <%= render 'prices/credit' %>
+   <%= render 'prices/add' %>
+</div><!--end payment_block-->
+
+
+
+
+
+
+<div id="tabs-3" class="payment_block">
+
+  <%= render 'prices/ured' %>
+  <%= render 'prices/add' %>
+
+</div><!--end payment_block-->
+
+
+
+  <div id="tabs-2" class="payment_block">
+    <%= render 'prices/avans' %>
+    <%= render 'prices/add' %>
+  </div><!--end payment_block-->
+
+</div>
+<div class="clear"></div>
+</div>

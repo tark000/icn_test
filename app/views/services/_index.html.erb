@@ -1,0 +1,15 @@
+
+  <div class="tabs_about">
+    <% @services.each do |service| %>
+    <div class="our_services">
+      <div class="our_services_img"><td> <%= image_tag service.image_url(:thumb) if service.image? %></td></div>
+      <section>
+        <header>
+          <h2><td><%= service.title %></td></h2>
+        </header>
+        <p><%= service.text %> </p>
+      </section>
+    </div><!--end our_services-->
+    <% end %>
+  </div><!--end tabs_about-->
+

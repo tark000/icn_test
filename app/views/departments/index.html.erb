@@ -1,0 +1,61 @@
+
+<div class="b-main-content">
+<div class="b-mc-news b-mc-news_large">
+  <h3>Расположение и время работы абонентских отделов:</h3>
+</div>
+
+  <div class="tabs_about">
+
+
+
+
+
+      <div class="about_block"  >
+
+        <%= raw @dep.map %>
+
+      </div><!--end about_block-->
+
+
+
+
+    <div class="show_on_map">
+
+      <% @departments.each do |department| %>
+
+          <div class="show_on_map_block">
+            <article>
+              <header>
+                <span>Адрес:</span>
+              </header>
+              <p><%= department.addres %></p>
+
+            </article>
+          </div><!--end show_on_map_block-->
+
+          <div class="show_on_map_block">
+            <article>
+              <header>
+                <span>График работы:</span>
+              </header>
+              <p><%= department.worktime %></p>
+
+            </article>
+          </div><!--end show_on_map_block-->
+
+
+
+        <a href=<%= department_path(department) %> title="Показать на карте" class="show_on_map_link"><span>Показать на карте</span></a>
+
+          </div><!--end show_on_map-->
+
+      <% end %>
+
+
+
+  </div>
+
+
+  </div>
+
+<div class="clear"></div>

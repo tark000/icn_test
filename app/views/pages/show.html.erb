@@ -1,0 +1,40 @@
+<div class="main_item">
+  <div class="b-main-slider">
+    <div >
+
+
+          <%= image_tag @page.image_url(:big_post) if @page.image? %>
+
+
+
+    </div>
+
+  </div><!--end b-main-slider-->
+  <article class="news_item">
+    <header>
+      <h1><%= @page.title %></h1>
+    </header>
+    <a href="javascript:history.back()" title="" class="back_link"><span>назад</span></a>
+    <div class="clear"></div>
+    <p><%= @page.description %></p>
+  </article><!--end news_item-->
+  <div class="clear"></div>
+</div><!--end main_item-->
+
+<div class="clear"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+<%= render 'layouts/sidebar' %>
+
+<div class="about">
+  <div class="tabs_about">
+    <ul id="mycarousel">
+      <% @quides = Quide.order('ochered') %>
+      <% @quides.each do |quide| %>
+          <li><a href="#tabs-<%= quide.ochered %>"><strong><%= quide.name %></strong> <%= quide.surname %> <span><%= quide.post %></span></a></li>
+      <% end %>
+
+    </ul>
+
+
+
+
+
+    <% @quides.each do |quide| %>
+        <div class="about_block" id="tabs-<%= quide.ochered %>">
+          <p><%= image_tag quide.image_url(:thumb) if quide.image? %>
+            <%= quide.info %></p>
+
+        </div><!--end about_block-->
+    <% end %>
+
+
+  </div><!--end about_block-->
+
+  </div><!--end tabs_about-->
+
+  </div><!--end about-->
+
+  <div class="clear"></div>
+
+
+

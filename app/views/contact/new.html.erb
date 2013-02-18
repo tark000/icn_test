@@ -1,0 +1,57 @@
+
+
+<div class="b-main-content">
+  <div id="sidebar">
+    <aside>
+      <div class="contact_form_description">
+        <p><span>*</span> Обязательно для заполнения</p>
+        <p><span>**</span> Данная форма не является заключением договора на подключение. По данной форме будет выполнена проверка технической возможности подключения по указанному адресу.</p>
+        <a href="#" class="pdf" target="_blank">Регламент<span>20 кб.</span></a>
+        <a href="#" class="pdf" target="_blank">Договор<span>17 кб.</span></a>
+      </div><!--end contact_form_description-->
+    </aside>
+  </div><!--end sidebar-->
+  <div class="about">
+    <div class="top_popups_container">
+      Заявка на подключение:
+    </div><!--end top_popups_container-->
+    <div class="center_popups_container">
+
+        <%= form_for @message, :url => contact_path, :class=>"contact" do |form| %>
+
+
+            <%= form.label "Имя: *" %>
+            <%= form.text_field( :name, :class=>"contactlabel") %>
+            <%= form.label "Фамилия: *" %>
+            <%= form.text_field(:surname, :class=>"contactlabel") %>
+            <%= form.label "Отчество: " %>
+            <%= form.text_field :patronymic %>
+            <%= form.label "Улица: *" %>
+            <%= form.text_field :street %>
+            <%= form.label "Дом: *" %>
+            <%= form.text_field :house %>
+            <%= form.label "Квартира: *" %>
+            <%= form.text_field :apartment %>
+            <%= form.label "E-Mail: " %>
+            <%= form.text_field :email %>
+            <%= form.label "Телефон: *" %>
+            <%= form.text_field :phone %>
+            <%= form.label "Сообщение: " %>
+            <%= form.text_field :message %>
+
+          <a href="#" title="" class="clear_inputs" onClick="document.forms['subform'].reset()">Очистить</a>
+          <%= form.submit "Отправить", :class=>"contactb" %>
+          <div class="send">Ваше сообщение успешно отправлено. Ждите звонка оператора, спасибо!</div>
+        <% end %>
+
+
+    </div><!--end center_popups_container-->
+
+  </div><!--end about-->
+  <div class="clear"></div>
+</div>
+
+
+
+
+

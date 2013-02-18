@@ -1,0 +1,27 @@
+<footer class="b-main-footer">
+
+  <div class="b-main-inner">
+    <div class="b-foot-logo">
+      <%= link_to image_tag("foot-logo.png"), pages_path %>
+      <div class="b-foot-phone">048 732 33 44</div>
+    </div>
+    <ul class="b-foot-nav">
+      <li><%= link_to 'Тарифы', prices_path %></li>
+      <li><%= link_to 'О нас', abouts_path %></li>
+      <li><%= link_to 'Форум', 'http://forum.icn.od.ua/' %></li>
+    </ul>
+    <a href="#" title="" class="b-foot-map">
+      <span class="ico"></span>
+      <h4>Карта покрытия</h4>
+      <span class="link">Смотреть карту</span>
+    </a>
+    <div class="b-foot-social">
+      <h4>Мы в социальных сетях</h4>
+      <%= link_to image_tag("facebook.png"), "http://79.135.200.40/", :class=>"social-link", :width=>"16", :height=>"16" %>
+      <%= link_to image_tag("twitter.png"), "http://79.135.200.40/", :class=>"social-link", :width=>"16", :height=>"16" %>
+      <%= link_to image_tag("vkontakte.gif"), "http://79.135.200.40/", :class=>"social-link", :width=>"16", :height=>"16" %>
+    </div>
+      <%= link_to image_tag("hb.png"), "http://hb.od.ua", :height=>"18" %>
+  </div>
+
+</footer>

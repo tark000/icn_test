@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  payment_id: 1
+  title: MyString
+  image: MyString
+  ochered: MyString
+
+two:
+  payment_id: 1
+  title: MyString
+  image: MyString
+  ochered: MyString
