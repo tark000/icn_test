@@ -2,7 +2,7 @@ require "bundler/capistrano"
 
 server "79.135.200.52", :web, :app, :db, primary: true
 
-set :application, "icn_site"
+set :application, "icn"
 set :user, "deployer"
 set :deploy_to, "/home/#{user}/apps/#{application}"
 set :deploy_via, :remote_cache
