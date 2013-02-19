@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @price.title %>
+</p>
+
+<p>
+  <b>Cena:</b>
+  <%= @price.cena %>
+</p>
+
+<p>
+  <b>Dspid:</b>
+  <%= @price.dspid %>
+</p>
+
+<p>
+  <b>Uspid:</b>
+  <%= @price.uspid %>
+</p>
+
+<p>
+  <b>Usualorhot:</b>
+  <%= @price.usualorhot %>
+</p>
+
+<p>
+  <b>Tarif type:</b>
+  <%= @price.tarif_type %>
+</p>
+
+
+<%= link_to 'Edit', edit_price_path(@price) %> |
+<%= link_to 'Back', prices_path %>

@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @service.title %>
+</p>
+
+<p>
+  <b>Text:</b>
+  <%= @service.text %>
+</p>
+
+<p>
+  <b>Image:</b>
+  <%= image_tag @service.image_url(:thumb) if @service.image? %>
+</p>
+
+
+<%= link_to 'Edit', edit_service_path(@service) %> |
+<%= link_to 'Back', services_path %>

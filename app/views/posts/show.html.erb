@@ -1,0 +1,43 @@
+<div class="main_item">
+  <div class="b-main-slider">
+    <div class="cycle-slideshow" data-cycle-speed="500" data-cycle-timeout="0" data-cycle-slides="> div" data-cycle-pager=".b-main-slider_switches">
+
+      <div class="b-main-slider_item">
+        <div class="b-main-slider_imgs">
+          <%= image_tag @post.image_url(:big_post) if @post.image? %>
+        </div>
+      </div>
+
+
+      <% @post_images.each do |post_im| %>
+      <div class="b-main-slider_item">
+        <div class="b-main-slider_imgs">
+          <%= image_tag post_im.image_url(:big_post)%>
+        </div>
+      </div>
+      <% end %>
+    </div>
+
+    <div class="b-main-slider_switches"></div>
+  </div><!--end b-main-slider-->
+  <article class="news_item">
+    <header>
+      <h1><%= @post.title %></h1>
+
+    </header>
+    <a href="javascript:history.back()" title="" class="back_link"><span>назад</span></a>
+    <div class="clear"></div>
+    <p><%= @post.text %></p>
+      </article><!--end news_item-->
+  <div class="clear"></div>
+</div><!--end main_item-->
+<a href=<%= post_path(@previous) %> title="" class="prev_post"><span>Предыдущая</span></a>
+<a href=<%= post_path(@next) %> title="" class="next_post"><span>Следующая</span></a>
+
+
+
+<div class="clear"></div>
+
+
+
+

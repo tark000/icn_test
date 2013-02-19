@@ -1,0 +1,17 @@
+<div class="about">
+  <div class="tabs_about">
+    <% @jobs.each do |job| %>
+        <div class="our_services jobs">
+
+          <section>
+            <header>
+              <h2><%= job.post %></h2>
+            </header>
+            <p><%= truncate(job.description, :length => 100) %> </p>
+            <%= link_to 'Подробнее', job_path(job) %>
+          </section>
+
+        </div><!--end our_services-->
+    <% end %>
+  </div><!--end tabs_about-->
+</div><!--end about-->

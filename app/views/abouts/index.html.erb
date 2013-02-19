@@ -1,0 +1,87 @@
+<div class="b-main-content">
+<div class="b-main-inner">
+<div class="b-main-content">
+<div class="tabs_about_box">
+<div id="sidebar">
+  <aside>
+    <ul>
+      <li><a href="#about-1" title="О нас">О нас</a></li>
+      <li><a href="#about-2" title="Руководство компании">Руководство компании</a></li>
+      <li><a href="#about-3" title="Наши заслуги">Наши заслуги</a></li>
+      <li><a href="#about-4" title="Миссия">Миссия</a></li>
+      <li><a href="#about-5" title="Вакансии">Вакансии</a></li>
+    </ul>
+  </aside>
+</div><!--end sidebar-->
+
+
+<div class="about" id="about-1">
+  <% @abouts.each do |about| %>
+      <div class="tabs_about">
+
+        <div class="about_block">
+          <section>
+            <header>
+              <h1><%= about.title %></h1>
+            </header>
+            <p><%= about.discription1 %></p>
+          </section>
+        </div><!--end about_block-->
+      </div><!--end tabs_about-->
+      <div class="more_about">
+        <td><%= image_tag about.image_url(:thumb) if about.image? %></td>
+        <p><%= about.discription2 %></p>
+  <% end %>
+  </div>
+
+</div><!--end about-->
+
+
+
+<div class="about" id="about-2">
+  <div class="tabs_about">
+    <%=  render 'quides/b' %>
+
+
+</div><!--end about-->
+
+</div><!--end about-->
+
+<div class="about" id="about-3">
+  <div class="tabs_about">
+
+     <%= render 'services/index'%>
+
+  </div><!--end tabs_about-->
+</div><!--end about-->
+
+
+<div class="about" id="about-4">
+  <div class="tabs_about">
+    <div class="mission">
+      <div class="step_number">1</div><span>Предоставить широкий канал</span>
+    </div><!--end mission-->
+    <div class="mission_down"></div>
+    <div class="mission">
+      <div class="step_number">2</div><span>Качественное обслуживание</span>
+    </div><!--end mission-->
+    <div class="mission_down"></div>
+    <div class="mission">
+      <div class="step_number">3</div><span>Довольные клиенты</span>
+    </div><!--end mission-->
+  </div><!--end tabs_about-->
+</div><!--end about-->
+
+
+
+
+
+<div class="about" id="about-5">
+  <%= render 'jobs/jobs'%>
+</div><!--end about-->
+<div class="clear"></div>
+</div>
+</div>
+</div>
+
+</div>

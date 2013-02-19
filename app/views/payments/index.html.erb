@@ -1,0 +1,105 @@
+<div class="b-main-content">
+  <div class="b-mc-news">
+    <h3>Способы оплаты:</h3>
+  </div>
+  <div class="clear"></div>
+  <div class="payment_title">Пополнение счета возможно с  помощью: </div>
+  <div class="tabs_payment">
+    <ul class="list_payment">
+      <li>
+        <a href="#tabs-1">
+          <span class="list_payment_title">Платежные<br>терминалы:</span>
+          <span class="list_payment_more">Подробнее</span>
+        </a>
+      </li>
+      <li>
+        <a href="#tabs-2">
+          <span class="list_payment_title">Карточки:<br><em>Visa/Mastercard</em></span>
+          <span class="list_payment_more">Подробнее</span>
+        </a>
+      </li>
+      <li>
+        <a href="#tabs-3">
+          <span class="list_payment_title">Интернет кошелек:<br><em>Webmoney</em></span>
+          <span class="list_payment_more">Подробнее</span>
+        </a>
+      </li>
+    </ul>
+
+
+
+
+
+    <% @types.each do |type| %>
+        <% @mans = [] %>
+    <div id="tabs-<%= type.id %>" class="payment_block">
+      <div class="tabs_payment">
+        <div class="terminals"><p>Терминалы:</p>
+          <ul>
+            <% @payments = type.payments %>
+
+
+            <% @payments.each do |payment| %>
+                <li><a href="#tabs-<%= payment.id+50%>"><%= image_tag payment.image_url(:thumb) if payment.image? %></a></li>
+                <% @mans << payment.manuals  %>
+            <% end %>
+            </ul>
+        </div>
+
+
+
+
+        <% @mans.each do |man| %>
+
+                <div id="tabs-<%= man[0].payment_id.to_i+50 %>">
+
+                  <%= man[0].payment_id.to_i+50 %>
+
+
+                </div><!--end tabs-12-->
+
+
+
+
+
+        <% end %>
+      </div><!--end tabs_payment-->
+    </div><!--end payment_block-->
+    <% end %>
+
+
+
+      </div><!--end tabs_payment-->
+    </div><!--end payment_block-->
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  <div class="clear"></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

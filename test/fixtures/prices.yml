@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: MyString
+  cena: MyString
+  dspid: MyString
+  uspid: MyString
+  usualorhot: false
+  tarif_type: MyString
+
+two:
+  title: MyString
+  cena: MyString
+  dspid: MyString
+  uspid: MyString
+  usualorhot: false
+  tarif_type: MyString

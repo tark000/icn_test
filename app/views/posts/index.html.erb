@@ -1,0 +1,33 @@
+    <div class="b-main-content">
+<div class="b-mc-news">
+  <h3>Новости:</h3>
+
+</div>
+
+
+<div class="clear"></div>
+
+<% @posts.each do |post| %>
+
+
+<article class="news">
+  <%= image_tag post.image_url(:small_post)%>
+  <header>
+    <a href="#" class="news_title" title="Получение сетевого доступа !"><%= post.title %></a>
+  </header>
+  <p><%= truncate(post.text, :length => 200) %></p>
+  <%=  link_to 'Читать далее', post_path(post), :class=>"news_more "%>
+</article><!--end news-->
+
+
+<% end %>
+
+
+<div class="flickr_pagination  ">
+  <%= will_paginate @posts, previous_label: h("<"), next_label: h(">") %>
+
+</div><!--end paginator-->
+<div class="clear"></div>
+
+</div>
+

@@ -1,0 +1,2 @@
+module QuidesHelper
+end

@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: MyString
+  price: MyString
+  dspid: MyString
+  uspid: MyString
+  usualorhot: false
+
+two:
+  title: MyString
+  price: MyString
+  dspid: MyString
+  uspid: MyString
+  usualorhot: false
