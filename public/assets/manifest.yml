@@ -121,8 +121,13 @@ vkontakte.gif: vkontakte-7fd01a7e6cbd14c3dd5dd0fe272892ee.gif
 vkontakte/index.gif: vkontakte-7fd01a7e6cbd14c3dd5dd0fe272892ee.gif
 active_admin.js: active_admin-76495de5f9a0a6af340457a8d11e1130.js
 active_admin/index.js: active_admin-76495de5f9a0a6af340457a8d11e1130.js
+<<<<<<< HEAD
 application.js: application-a3079bda281ca4b7698a71e3385bf673.js
 application/index.js: application-a3079bda281ca4b7698a71e3385bf673.js
+=======
+application.js: application-7684e9b4de0d91c93ac1a5f7cb383d54.js
+application/index.js: application-7684e9b4de0d91c93ac1a5f7cb383d54.js
+>>>>>>> new
 active_admin.css: active_admin-f58fc98e42733be6473403cf53156e11.css
 active_admin/index.css: active_admin-f58fc98e42733be6473403cf53156e11.css
 application.css: application-17310c3c9280eba4ecc9eabb70d54ec9.css
@@ -161,7 +166,10 @@ active_admin/pages/application.js: active_admin/pages/application-9962e9eb4723fd
 active_admin/pages/application/index.js: active_admin/pages/application-9962e9eb4723fd98f06bcc5dd97d3416.js
 active_admin/print.css: active_admin/print-80ebe25ed30c2f719a2720c7dffad181.css
 active_admin/print/index.css: active_admin/print-80ebe25ed30c2f719a2720c7dffad181.css
+<<<<<<< HEAD
 jquery-ui.js: jquery-ui-4856b8d4fb395706be8d907efda018e4.js
 jquery-ui/index.js: jquery-ui-4856b8d4fb395706be8d907efda018e4.js
+=======
+>>>>>>> new
 jquery.min.map: jquery.min-959a5819c76e1508f5a8655c289c0de8.map
 jquery/index.min.map: jquery.min-959a5819c76e1508f5a8655c289c0de8.map

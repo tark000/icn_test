@@ -1,6 +1,8 @@
 <div id="popups">
 
+
   <div id="popups_container">
+
 
 
     <div class="top_popups_container">
@@ -8,12 +10,34 @@
       <a href="#" class="close_popups"></a>
     </div><!--end top_popups_container-->
 
-
     <div class="center_popups_container">
-
-
-     <%= render 'contact/form'%>
-
+      <form action="" method="get" class="contact">
+        <label>Имя:<span>*</span></label>
+        <input name="" type="text" class="error_input">
+        <label>Фамилия:<span>*</span></label>
+        <input name="" type="text">
+        <label>Отчество:</label>
+        <input name="" type="text">
+        <label>Улица:<span>*</span></label>
+        <select name="default" class="default">
+          <option>ул.Ленина</option>
+          <option>ул.Ленина 150</option>
+          <option>ул.Ленина 300</option>
+        </select>
+        <label>Дом:<span>*</span></label>
+        <input name="" type="text">
+        <label>Квартира:<span>*</span></label>
+        <input name="" type="text">
+        <label>E-Mail:</label>
+        <input name="" type="text">
+        <label>Телефон:<span>*</span></label>
+        <input name="" type="text">
+        <label>Сообщение:</label>
+        <textarea name="" cols="" rows=""></textarea>
+        <a href="#" class="clear_inputs" onClick="document.forms['subform'].reset()">Очистить</a>
+        <input name="" type="button" value="Отправить">
+        <div class="send">Ваше сообщение успешно отправлено. Ждите звонка оператора, спасибо!</div>
+      </form>
 
     </div><!--end center_popups_container-->
   </div><!--end popups_container-->
