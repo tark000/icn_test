@@ -59,13 +59,11 @@ module IcnSite
 
     # Enable the asset pipeline
     config.assets.enabled = true
-
+    config.assets.debug = false
     # Version of your assets, change this if you want to expire all your assets
-    config.assets.version = '1.0'
-
+    config.assets.version = '2.0'
     #config.assets.precompile = ['*.js', '*.css']
-    config.assets.precompile += ['active_admin.css', 'active_admin.js',' jquery-ui.js']
-    #config.assets.initialize_on_precompile = false
+    config.assets.precompile += ['jquery-ui.js', 'app.js', 'app.css']
 
   end
 end
