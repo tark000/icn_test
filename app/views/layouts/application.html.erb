@@ -5,14 +5,9 @@
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= stylesheet_link_tag "active_admin/editor/wysiwyg" %>
 
-
   <%= javascript_include_tag "application" %>
   <%= javascript_include_tag "jquery-ui" %>
-
   <%= javascript_include_tag "app" %>
-
-
-
 
   <%= csrf_meta_tags %>
 </head>
@@ -32,29 +27,15 @@
   <div class="b-main-container">
     <div class="b-main-inner">
 
-
-
-
       <%= yield %>
-
 
     </div>
 
   </div>
   <%= render 'layouts/footer' %>
 
-
-
-
 </div>
 <%= render 'layouts/popups' %>
-
-
-
-
-
-
-
 
 </body>
 </html>
