@@ -2,14 +2,14 @@ require "bundler/capistrano"
 
 server "79.135.200.52", :web, :app, :db, primary: true
 
-set :application, "icn_site"
+set :application, "icn"
 set :user, "deployer"
 set :deploy_to, "/home/#{user}/apps/#{application}"
 set :deploy_via, :remote_cache
 set :use_sudo, false
 
 set :scm, "git"
-set :repository, "git@github.com:StasKoval/#{application}.git"
+set :repository, "ghttps://github.com/tark000#{application}.git"
 set :branch, "master"
 
 default_run_options[:pty] = true
