@@ -6,6 +6,7 @@ IcnSite::Application.routes.draw do
   match 'contact' => 'contact#create', :as => 'contact', :via => :post
 
 
+
   get "payment/index"
 
   resources :payments

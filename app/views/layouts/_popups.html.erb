@@ -5,33 +5,33 @@
       <a href="#" class="close_popups"></a>
     </div><!--end top_popups_container-->
     <div class="center_popups_container">
-      <form action="" method="get" class="contact">
-        <label>Имя:<span>*</span></label>
-        <input name="" type="text" class="error_input">
-        <label>Фамилия:<span>*</span></label>
-        <input name="" type="text">
-        <label>Отчество:</label>
-        <input name="" type="text">
-        <label>Улица:<span>*</span></label>
-        <select name="default" class="default">
-          <option>ул.Ленина</option>
-          <option>ул.Ленина 150</option>
-          <option>ул.Ленина 300</option>
-        </select>
-        <label>Дом:<span>*</span></label>
-        <input name="" type="text">
-        <label>Квартира:<span>*</span></label>
-        <input name="" type="text">
-        <label>E-Mail:</label>
-        <input name="" type="text">
-        <label>Телефон:<span>*</span></label>
-        <input name="" type="text">
-        <label>Сообщение:</label>
-        <textarea name="" cols="" rows=""></textarea>
-        <a href="#" class="clear_inputs" onClick="document.forms['subform'].reset()">Очистить</a>
-        <input name="" type="button" value="Отправить">
-        <div class="send">Ваше сообщение успешно отправлено. Ждите звонка оператора, спасибо!</div>
-      </form>
+      <% @message = Message.new %>
+      <%= form_for @message, :url => contact_path, :html => { :class => "contact"} do |form| %>
+
+
+          <%= form.label "Имя: *" %>
+          <%= form.text_field( :name, :class=>"contactlabel") %>
+          <%= form.label "Фамилия: *" %>
+          <%= form.text_field(:surname, :class=>"contactlabel") %>
+          <%= form.label "Отчество: " %>
+          <%= form.text_field :patronymic %>
+          <%= form.label "Улица: *" %>
+          <%= form.text_field :street %>
+          <%= form.label "Дом: *" %>
+          <%= form.text_field :house %>
+          <%= form.label "Квартира: *" %>
+          <%= form.text_field :apartment %>
+          <%= form.label "E-Mail: " %>
+          <%= form.text_field :email %>
+          <%= form.label "Телефон: *" %>
+          <%= form.text_field :phone %>
+          <%= form.label "Сообщение: " %>
+          <%= form.text_field :message %>
+
+          <a href="#" title="" class="clear_inputs" onClick="document.forms['subform'].reset()">Очистить</a>
+          <%= form.submit "Отправить", :class=>"contactb" %>
+          <div class="send">Ваше сообщение успешно отправлено. Ждите звонка оператора, спасибо!</div>
+      <% end %>
     </div><!--end center_popups_container-->
   </div><!--end popups_container-->
 </div><!--end popups-->

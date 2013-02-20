@@ -17,32 +17,10 @@
     </div><!--end top_popups_container-->
     <div class="center_popups_container">
 
-        <%= form_for @message, :url => contact_path, :class=>"contact" do |form| %>
+        <%= render 'form' %>
 
 
-            <%= form.label "Имя: *" %>
-            <%= form.text_field( :name, :class=>"contactlabel") %>
-            <%= form.label "Фамилия: *" %>
-            <%= form.text_field(:surname, :class=>"contactlabel") %>
-            <%= form.label "Отчество: " %>
-            <%= form.text_field :patronymic %>
-            <%= form.label "Улица: *" %>
-            <%= form.text_field :street %>
-            <%= form.label "Дом: *" %>
-            <%= form.text_field :house %>
-            <%= form.label "Квартира: *" %>
-            <%= form.text_field :apartment %>
-            <%= form.label "E-Mail: " %>
-            <%= form.text_field :email %>
-            <%= form.label "Телефон: *" %>
-            <%= form.text_field :phone %>
-            <%= form.label "Сообщение: " %>
-            <%= form.text_field :message %>
 
-          <a href="#" title="" class="clear_inputs" onClick="document.forms['subform'].reset()">Очистить</a>
-          <%= form.submit "Отправить", :class=>"contactb" %>
-          <div class="send">Ваше сообщение успешно отправлено. Ждите звонка оператора, спасибо!</div>
-        <% end %>
 
 
     </div><!--end center_popups_container-->
