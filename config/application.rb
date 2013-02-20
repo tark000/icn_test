@@ -56,14 +56,10 @@ module IcnSite
     # parameters by using an attr_accessible or attr_protected declaration.
     config.active_record.whitelist_attributes = true
 
-
     # Enable the asset pipeline
     config.assets.enabled = true
-    config.assets.debug = false
-    # Version of your assets, change this if you want to expire all your assets
-    config.assets.version = '2.0'
-    #config.assets.precompile = ['*.js', '*.css']
-    config.assets.precompile += ['jquery-ui.js', 'app.js', 'app.css']
 
+    # Version of your assets, change this if you want to expire all your assets
+    config.assets.version = '1.0'
   end
 end
