@@ -1,24 +1,16 @@
-
-<p>
+ <p>
   <%= raw @department.map %>
 </p>
-
-
-
 <div class="show_on_map">
-
-  <% @departs.each do |department| %>
-
+<% @departs.each do |department| %>
       <div class="show_on_map_block">
         <article>
           <header>
             <span>Адрес:</span>
           </header>
           <p><%= department.addres %></p>
-
         </article>
       </div><!--end show_on_map_block-->
-
       <div class="show_on_map_block">
         <article>
           <header>
@@ -29,17 +21,9 @@
         </article>
       </div><!--end show_on_map_block-->
       <a href=<%= department_path(department) %> title="Показать на карте" class="show_on_map_link"><span>Показать на карте</span></a>
-
-
       </div><!--end show_on_map-->
 
   <% end %>
-
-
-
   </div>
-
-
-  </div>
-
+</div>
   <div class="clear"></div>
