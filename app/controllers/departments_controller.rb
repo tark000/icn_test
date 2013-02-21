@@ -2,7 +2,7 @@ class DepartmentsController < InheritedResources::Base
 
   def index
     @departments = Department.all
-    @dep = Department.find(1)
+    @dep = Department.first
   end
 
   def show

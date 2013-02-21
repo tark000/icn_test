@@ -1,3 +1,3 @@
 class Department < ActiveRecord::Base
-  attr_accessible :addres, :map, :title, :worktime
+  attr_accessible :addres, :map, :title, :worktime, :ochered
 end
