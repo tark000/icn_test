@@ -6,8 +6,12 @@
       <div class="contact_form_description">
         <p><span>*</span> Обязательно для заполнения</p>
         <p><span>**</span> Данная форма не является заключением договора на подключение. По данной форме будет выполнена проверка технической возможности подключения по указанному адресу.</p>
-        <a href="#" class="pdf" target="_blank">Регламент<span>20 кб.</span></a>
-        <a href="#" class="pdf" target="_blank">Договор<span>17 кб.</span></a>
+        <%@pdf = PdfFile.all %>
+        <% @pdf.each do |pdf| %>
+            <div class="our_services jobs">
+              <a href=<%=pdf.file %> class="pdf" target="_blank"><%= pdf.title%><span><%= pdf.siza%></span></a>
+
+        <% end %>
       </div><!--end contact_form_description-->
     </aside>
   </div><!--end sidebar-->

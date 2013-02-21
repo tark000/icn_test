@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130221094809) do
+ActiveRecord::Schema.define(:version => 20130221143354) do
 
   create_table "abouts", :force => true do |t|
     t.string   "title"
@@ -83,7 +83,6 @@ ActiveRecord::Schema.define(:version => 20130221094809) do
     t.text     "map"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
-    t.integer  "ochered"
   end
 
   create_table "jobs", :force => true do |t|
@@ -130,6 +129,14 @@ ActiveRecord::Schema.define(:version => 20130221094809) do
     t.text     "text"
     t.string   "image"
     t.integer  "type_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "pdf_files", :force => true do |t|
+    t.string   "title"
+    t.string   "file"
+    t.string   "siza"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
