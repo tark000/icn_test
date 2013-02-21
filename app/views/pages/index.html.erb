@@ -13,7 +13,7 @@
       <div class="b-main-slider_imgs">
         <%= image_tag page.image_url(:index) if page.image? %>
       </div>
-      <div class="b-days-left"><span class="days">2</span> дня</div>
+      <div class="b-days-left"><span class="days"><%= ((page.finish_at - Time.now)/86400).ceil %></span> дня</div>
       <div class="b-main-slider_slide-descr">
         <h2><%= page.title %></h2>
         <p><%= truncate(page.text, :length=>150) %></p>
