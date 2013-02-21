@@ -1,7 +1,4 @@
 <div class="block">
-
-
-
   <% @prices.where(tarif_type:"1l").each do |price| %>
       <div class="block_title">e-StyleTM  <span><td><%= price.title %></td></span></div>
       <div class="block_center">
@@ -16,8 +13,7 @@
       </div><!--end block_center-->
       </div><!--end block-->
   <% end %>
-
-  <% @prices.where(tarif_type:"1c").each do |price| %>
+   <% @prices.where(tarif_type:"1c").each do |price| %>
       <div class="block block_best">
         <div class="block_title">e-StyleTM  <span><%= price.title %></span></div>
         <div class="block_center">

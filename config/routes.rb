@@ -6,17 +6,7 @@ IcnSite::Application.routes.draw do
   match 'contact' => 'contact#create', :as => 'contact', :via => :post
 
 
-
-  get "payment/index"
-
   resources :payments
-
-
-
-  resources :manuals
-
-
-  resources :bank_descriptions
 
 
   ActiveAdmin.routes(self)
@@ -25,37 +15,10 @@ IcnSite::Application.routes.draw do
 
   root :to => "pages#index"
 
-  resources :actions
-
-
-  resources :posttypes
-
-
-  resources :connections
-
-
-  resources :avans
-
-
-  resources :credits
-
 
   resources :abouts
 
 
-  get "info/error404"
-
-  get "info/about"
-
-  get "info/contact"
-
-  get "info/mission"
-
-  get "info/index"
-
-  get "info/not_paid"
-
-  get "info/map"
 
   resources :prices
 
@@ -63,25 +26,13 @@ IcnSite::Application.routes.draw do
   resources :posts
 
 
-  resources :banks
-
-
   resources :payments
-
-
-  resources :services
-
-
-  resources :news
 
 
   resources :jobs
 
 
   resources :departments
-
-
-  resources :quides
 
 
   ActiveAdmin.routes(self)

@@ -1,6 +1,4 @@
 <%= form_for @message, :url => contact_path, :html => { :class => "contact"} do |form| %>
-
-
     <%= form.label "Имя: *" %>
     <%= form.text_field( :name, :class=>"contactlabel") %>
     <%= form.label "Фамилия: *" %>
@@ -19,8 +17,6 @@
     <%= form.text_field :phone %>
     <%= form.label "Сообщение: " %>
     <%= form.text_field :message %>
-
     <a href="#" title="" class="clear_inputs" onClick="document.forms['subform'].reset()">Очистить</a>
     <%= form.submit "Отправить", :class=>"contactb" %>
-
 <% end %>

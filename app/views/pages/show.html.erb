@@ -1,15 +1,9 @@
 <div class="main_item">
   <div class="b-main-slider">
     <div >
-
-
-          <%= image_tag @page.image_url(:big_post) if @page.image? %>
-
-
-
+      <%= image_tag @page.image_url(:big_post) if @page.image? %>
     </div>
-
-  </div><!--end b-main-slider-->
+   </div><!--end b-main-slider-->
   <article class="news_item">
     <header>
       <h1><%= @page.title %></h1>
@@ -20,7 +14,6 @@
   </article><!--end news_item-->
   <div class="clear"></div>
 </div><!--end main_item-->
-
 <div class="clear"></div>
 
 

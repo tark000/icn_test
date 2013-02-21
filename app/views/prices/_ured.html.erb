@@ -1,8 +1,4 @@
 <div class="block">
-
-
-
-
   <% @prices.where(tarif_type:"3l").each do |price| %>
       <div class="block_title">e-StyleTM  <span><td><%= price.title %></td></span></div>
       <div class="block_center">
@@ -17,7 +13,6 @@
       </div><!--end block_center-->
       </div><!--end block-->
   <% end %>
-
   <% @prices.where(tarif_type:"3c").each do |price| %>
       <div class="block block_best">
         <div class="block_title">e-StyleTM  <span><%= price.title %></span></div>
@@ -49,7 +44,6 @@
         </div><!--end block_center-->
       </div><!--end block-->
   <% end %>
-
-  <div class="note">
+   <div class="note">
     Примечания: <span>*</span><br>- При подписании дополнительного соглашения<br>- На всех пакетах доступ к локальной сети и одесским ресурсам  - 100 Mbit/s.
   </div><!--end note-->

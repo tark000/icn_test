@@ -4,8 +4,5 @@ def index
   @jobs=Job.all
   @services = Service.all
   @quides = Quide.all
-
-
 end
-
 end

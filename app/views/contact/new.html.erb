@@ -10,7 +10,6 @@
         <% @pdf.each do |pdf| %>
             <div class="our_services jobs">
               <a href=<%=pdf.file %> class="pdf" target="_blank"><%= pdf.title%><span><%= pdf.siza%></span></a>
-
         <% end %>
       </div><!--end contact_form_description-->
     </aside>
@@ -22,10 +21,6 @@
     <div class="center_popups_container">
 
         <%= render 'form' %>
-
-
-
-
 
     </div><!--end center_popups_container-->
 

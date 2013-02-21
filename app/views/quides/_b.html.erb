@@ -1,4 +1,3 @@
-
     <ul id="mycarousel">
       <% @quides = Quide.order('ochered') %>
       <% @quides.each do |quide| %>
@@ -6,12 +5,7 @@
       <% end %>
 
     </ul>
-
-
-
-
-
-    <% @quides.each do |quide| %>
+   <% @quides.each do |quide| %>
         <div class="about_block" id="tabs-<%= quide.ochered %>">
           <p><%= image_tag quide.image_url(:thumb) if quide.image? %>
             <%= quide.info %></p>

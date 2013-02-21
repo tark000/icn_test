@@ -9,12 +9,8 @@ class AdminUser < ActiveRecord::Base
   attr_accessible :email, :password, :password_confirmation, :remember_me
   # attr_accessible :title, :body
 
-
-
   ActiveAdmin.register Post do
     config.paginate = false
   end
-
-
 
 end

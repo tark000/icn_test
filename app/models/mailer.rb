@@ -1,6 +1,5 @@
 class Mailer < ActiveRecord::Base
 
-
     include ActiveModel::Validations
     include ActiveModel::Conversion
     extend ActiveModel::Naming
