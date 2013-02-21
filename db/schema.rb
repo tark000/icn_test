@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130214113649) do
+ActiveRecord::Schema.define(:version => 20130221094809) do
 
   create_table "abouts", :force => true do |t|
     t.string   "title"
@@ -36,6 +36,14 @@ ActiveRecord::Schema.define(:version => 20130214113649) do
   add_index "active_admin_comments", ["author_type", "author_id"], :name => "index_active_admin_comments_on_author_type_and_author_id"
   add_index "active_admin_comments", ["namespace"], :name => "index_active_admin_comments_on_namespace"
   add_index "active_admin_comments", ["resource_type", "resource_id"], :name => "index_admin_notes_on_resource_type_and_resource_id"
+
+  create_table "add_prices", :force => true do |t|
+    t.string   "title"
+    t.string   "price"
+    t.text     "text"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "admin_notes", :force => true do |t|
     t.string   "resource_id",     :null => false
