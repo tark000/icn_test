@@ -2,51 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="037a724a-bae5-4d56-86d8-2ec9cd821e01" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/abouts/_form.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/abouts/edit.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/abouts/new.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/abouts/show.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/departments/_form.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/departments/edit.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/departments/new.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/jobs/_form.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/jobs/edit.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/jobs/index.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/jobs/new.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/pages/edit.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/pages/new.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/payments/_form.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/payments/edit.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/payments/new.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/payments/show.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/posts/_form.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/posts/edit.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/posts/new.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/prices/_form.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/prices/edit.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/prices/new.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/prices/show.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/quides/_form.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/quides/edit.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/quides/index.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/quides/new.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/quides/show.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/services/_form.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/services/edit.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/services/new.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/services/show.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/data/meta_request/0d0af82f2cbfe82bc053e052d36f1237.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/data/meta_request/0fa2a036649be82f80dacfc5814e1df1.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/data/meta_request/40033f85e23eb1d3de554ab804613e8f.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/data/meta_request/95624968970c418889152a8026976f1e.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/data/meta_request/a1639aae2244965232aa8af24175dfd9.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/data/meta_request/a42b7b9736f8c306a7947fabbce14e04.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/data/meta_request/b7b7683545bbc45c5fda139b27b19a3f.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/data/meta_request/e0ccdfdd7548ee4891c0298874960461.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/data/meta_request/e6495d79b8209816e4c8dce3af092c15.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/data/meta_request/e967d1e8fcb92012c02ca8c09652e7dc.json" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/departments/show.html.erb" afterPath="$PROJECT_DIR$/app/views/departments/show.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
     </list>
     <ignored path="icn.iws" />
@@ -539,7 +494,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
