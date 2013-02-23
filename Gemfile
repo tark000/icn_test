@@ -34,8 +34,8 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-  gem 'jquery-rails'
-
+gem "jquery-rails", "~> 2.1.0"
+gem 'jquery-ui-rails'
 
   group :development do
     gem 'better_errors'
