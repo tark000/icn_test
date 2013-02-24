@@ -32,6 +32,7 @@ production:
   reconnect: false
   database: icn_ror
   pool: 5
+  host: localhost
   username: root
   password: "123"
   socket: /var/run/mysqld/mysqld.sock
