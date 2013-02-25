@@ -121,6 +121,8 @@ vkontakte.gif: vkontakte-7fd01a7e6cbd14c3dd5dd0fe272892ee.gif
 vkontakte/index.gif: vkontakte-7fd01a7e6cbd14c3dd5dd0fe272892ee.gif
 active_admin.js: active_admin-615f53605989f58aefd67f21b1661ab2.js
 active_admin/index.js: active_admin-615f53605989f58aefd67f21b1661ab2.js
+app.js: app-d7160640eb69ed532f51c56ab58d9bcb.js
+app/index.js: app-d7160640eb69ed532f51c56ab58d9bcb.js
 application.js: application-8e3eeec9a63c444507aff45ee83b99f1.js
 application/index.js: application-8e3eeec9a63c444507aff45ee83b99f1.js
 cufon-yui.js: cufon-yui-085b6a3d725e70507d709c1d97e3d424.js
