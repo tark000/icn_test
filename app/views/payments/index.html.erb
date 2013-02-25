@@ -38,7 +38,10 @@
             <% end %>
             </ul>
         </div>
+        <% %>
         <% @mans.each do |man| %>
+
+          <% if man !=[] %>
             <div id="tabs-<%= man[0].payment_id.to_i+50 %>">
               <% man.each do |m| %>
                   <div class="step">
@@ -48,6 +51,11 @@
                   </div><!--end step-->
               <% end %>
             </div><!--end tabs-12-->
+          <% else %>
+
+          <% end %>
+
+
         <% end %>
       </div><!--end tabs_payment-->
     </div><!--end payment_block-->
