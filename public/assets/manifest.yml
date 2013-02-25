@@ -131,6 +131,12 @@ foundation.min.js: foundation.min-0d0b853be067e34c7c61f0f595668702.js
 foundation/index.min.js: foundation.min-0d0b853be067e34c7c61f0f595668702.js
 jquery.cycle2.min.js: jquery.cycle2.min-4626d6aae3a30f3fb69d7e8ed58341f8.js
 jquery/index.cycle2.min.js: jquery.cycle2.min-4626d6aae3a30f3fb69d7e8ed58341f8.js
+jquery.dropkick.js: jquery.dropkick-c5495d69e98974cfe84fa3088a440a87.js
+jquery/index.dropkick.js: jquery.dropkick-c5495d69e98974cfe84fa3088a440a87.js
+jquery.jcarousel.min.js: jquery.jcarousel.min-c2bb468f2a6caca93ca1dae0260260dc.js
+jquery/index.jcarousel.min.js: jquery.jcarousel.min-c2bb468f2a6caca93ca1dae0260260dc.js
+modernizr.foundation.js: modernizr.foundation-5c8db04796b258cc87b05ceddc790040.js
+modernizr/index.foundation.js: modernizr.foundation-5c8db04796b258cc87b05ceddc790040.js
 script.js: script-37ce48b886a574cb84164e62fb7241a6.js
 script/index.js: script-37ce48b886a574cb84164e62fb7241a6.js
 active_admin.css: active_admin-90609299a46139379c83b41e2efa617b.css
