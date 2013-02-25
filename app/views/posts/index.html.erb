@@ -13,7 +13,7 @@
   <header>
     <%=  link_to post.title, post_path(post), :class=>"news_title" %>
   </header>
-  <p><%= truncate(post.text, :length => 200) %></p>
+  <p><%= truncate(post.text, :length => 135) %></p>
   <%=  link_to 'Читать далее', post_path(post), :class=>"news_more "%>
 </article><!--end news-->
 

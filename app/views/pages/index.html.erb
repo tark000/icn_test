@@ -50,12 +50,12 @@
   <div class="b-mc-news">
     <h3>Новости:</h3>
     <div class="b-mc-news_col">
-      <div class="date ico1"><%= @post_calendar.updated_at.strftime("%d %m %y") %></div>
+      <div class="date ico1"><%= @post_calendar.updated_at.strftime("%d.%m.%y") %></div>
       <p><%= truncate(@post_calendar.text, :length => 100) %></p>
       <%=  link_to 'Читать далее', post_path(@post_calendar)%>
     </div>
     <div class="b-mc-news_col">
-      <div class="date ico2"><%= @post_break.updated_at.strftime("%d %m %y") %></div>
+      <div class="date ico2"><%= @post_break.updated_at.strftime("%d.%m.%y") %></div>
       <p><%= truncate(@post_break.text, :length => 100) %></p>
       <%=  link_to 'Читать далее', post_path(@post_break)%>
     </div>
