@@ -56,7 +56,7 @@ IcnSite::Application.configure do
   # config.action_controller.asset_host = "http://assets.example.com"
 
   # Precompile additional assets (application.js, application.css, and all non-JS/CSS are already added)
-  # config.assets.precompile += %w( search.js )
+  config.assets.precompile += ['foundation.min.js','jquery.dropkick.js','foundation.css','script.js','app.css','app.js','fonts.js','cufon-yui.js','jquery.ui.all.js','jquery.cycle2.min.js','jquery.jcarousel.min.js','modernizr.foundation.js']
 
   # Disable delivery errors, bad email addresses will be ignored
   # config.action_mailer.raise_delivery_errors = false
