@@ -1,21 +1,21 @@
 <%= form_for @message, :url => contact_path, :html => { :class => "contact"} do |form| %>
-    <%= form.label "Имя: *" %>
+    <label>Имя:<span>*</span></label>
     <%= form.text_field( :name, :class=>"contactlabel") %>
-    <%= form.label "Фамилия: *" %>
+    <label>Фамилия:<span>*</span></label>
     <%= form.text_field(:surname, :class=>"contactlabel") %>
-    <%= form.label "Отчество: " %>
+    <label>Отчество:</label>
     <%= form.text_field :patronymic %>
-    <%= form.label "Улица: *" %>
+    <label>Улица:<span>*</span></label>
     <%= form.text_field :street %>
-    <%= form.label "Дом: *" %>
+    <label>Дом:<span>*</span></label>
     <%= form.text_field :house %>
-    <%= form.label "Квартира: *" %>
+    <label>Квартира:<span>*</span></label>
     <%= form.text_field :apartment %>
-    <%= form.label "E-Mail: " %>
+    <label>E-Mail:</label>
     <%= form.text_field :email %>
-    <%= form.label "Телефон: *" %>
+    <label>Телефон:<span>*</span></label>
     <%= form.text_field :phone %>
-    <%= form.label "Сообщение: " %>
+    <label>Сообщение:</label>
     <%= form.text_field :message %>
     <a href="#" title="" class="clear_inputs" onClick="document.forms['subform'].reset()">Очистить</a>
     <%= form.submit "Отправить", :class=>"contactb" %>
