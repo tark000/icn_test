@@ -1,6 +1,6 @@
 class AboutsController < InheritedResources::Base
 def index
-  @abouts=About.all
+  @abouts=About.last
   @jobs=Job.all
   @services = Service.all
   @quides = Quide.all
