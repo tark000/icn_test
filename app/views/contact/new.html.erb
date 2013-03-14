@@ -1,5 +1,5 @@
 
-
+<% @info = AddPrice.where(title:"Контактная информация страница контакты") %>
 <div class="b-main-content">
   <div id="sidebar">
     <aside>
@@ -15,6 +15,22 @@
     </aside>
   </div><!--end sidebar-->
   <div class="about">
+
+
+    <div class="top_popups_container">
+      Контактная информация:
+    </div><!--end top_popups_container-->
+
+
+    <div class="clear">
+
+      <%=raw @info[0].text%>
+
+    </div><!--end center_popups_container-->
+
+
+
+
     <div class="top_popups_container">
       Заявка на подключение:
     </div><!--end top_popups_container-->
