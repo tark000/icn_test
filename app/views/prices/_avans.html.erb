@@ -11,7 +11,7 @@
   <% @prices.where(tarif_type:2).each do |price| %>
   <tr>
     <td width="35"><%=  @nomer %></td>
-    <td width="290"><%= price.title %></td>
+    <td width="290"><%= raw price.title %></td>
     <td width="160" class="center_td"><%= price.dspid %>/<%= price.uspid %></td>
     <td width="160" class="center_td">Неограниченый доступ</td>
     <td width="" class="center_td"><%= price.cena %></td>
