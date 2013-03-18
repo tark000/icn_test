@@ -50,6 +50,16 @@
                     <%= image_tag m.image_url(:manual) %>
                   </div><!--end step-->
               <% end %>
+              <% @link = Payment.where(id:man[0].payment_id)[0]  %>
+
+              <% if @link.show == true %>
+
+                 <div style="width: 100%; float: left;"><%= @link.description %>  <%=  link_to "здесь", @link.link %>.</div>
+
+              <%else%>
+
+              <% end %>
+
             </div><!--end tabs-12-->
           <% else %>
 
@@ -57,11 +67,13 @@
 
 
         <% end %>
+
       </div><!--end tabs_payment-->
     </div><!--end payment_block-->
     <% end %>
       </div><!--end tabs_payment-->
     </div><!--end payment_block-->
+
   </div>
   <div class="clear"></div>
 </div>

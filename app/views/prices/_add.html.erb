@@ -26,9 +26,14 @@
 <div class="scroll">
   <div class="scroll_box">
     <table class="table">
+      <tr>
+        <td width="35"></td>
+        <td width="578">Описание</td>
+        <td><span>Цена</span></td>
+      </tr>
       <% @nomer=1  %>
       <% @prices.where(tarif_type:4).each do |price| %>
-      <tr>
+      <tr style="height: 40px;">
         <td width="35"><%=  @nomer %></td>
         <td width="578"><%= price.title %></td>
         <td><span><%= price.cena %></span></td>

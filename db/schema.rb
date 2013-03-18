@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130221143354) do
+ActiveRecord::Schema.define(:version => 20130318112657) do
 
   create_table "abouts", :force => true do |t|
     t.string   "title"
@@ -129,8 +129,11 @@ ActiveRecord::Schema.define(:version => 20130221143354) do
     t.text     "text"
     t.string   "image"
     t.integer  "type_id"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+    t.string   "link"
+    t.string   "description"
+    t.boolean  "show"
   end
 
   create_table "pdf_files", :force => true do |t|
