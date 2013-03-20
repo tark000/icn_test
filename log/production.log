@@ -41247,3 +41247,696 @@ WARNING: box-shadow is deprecated and will be removed in the next major version 
 Compiled active_admin/editor.css  (1096ms)  (pid 20702)
 Compiled active_admin/editor/wysiwyg.css  (0ms)  (pid 20702)
 Compiled active_admin/print.css  (193ms)  (pid 20702)
+Connecting to database specified by database.yml
+Compiled jquery.js  (3ms)  (pid 5871)
+Compiled jquery-ui.js  (10ms)  (pid 5871)
+Compiled jquery_ujs.js  (0ms)  (pid 5871)
+Compiled active_admin/lib/namespace.js  (589ms)  (pid 5871)
+Compiled active_admin/components/jquery.aa.checkbox-toggler.js  (274ms)  (pid 5871)
+Compiled active_admin/components/jquery.aa.dropdown-menu.js  (193ms)  (pid 5871)
+Compiled active_admin/components/jquery.aa.popover.js  (184ms)  (pid 5871)
+Compiled active_admin/components/jquery.aa.table-checkbox-toggler.js  (215ms)  (pid 5871)
+Compiled active_admin/pages/application.js  (162ms)  (pid 5871)
+Compiled active_admin/pages/batch_actions.js  (169ms)  (pid 5871)
+Compiled active_admin/application.js  (1856ms)  (pid 5871)
+Compiled active_admin/base.js  (1981ms)  (pid 5871)
+Compiled active_admin.js  (2011ms)  (pid 5871)
+Compiled app.js  (0ms)  (pid 5871)
+Compiled application.js  (4ms)  (pid 5871)
+Compiled cufon-yui.js  (0ms)  (pid 5871)
+Compiled fonts.js  (50ms)  (pid 5871)
+Compiled foundation.min.js  (3ms)  (pid 5871)
+Compiled jquery.cycle2.min.js  (0ms)  (pid 5871)
+Compiled jquery.dropkick.js  (0ms)  (pid 5871)
+Compiled jquery.jcarousel.min.js  (0ms)  (pid 5871)
+Compiled modernizr.foundation.js  (0ms)  (pid 5871)
+Compiled script.js  (0ms)  (pid 5871)
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 6 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_sections.css.scss, in `section-header'
+         from line 16 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_forms.css.scss
+         from line 11 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 24 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_buttons.css.scss, in `default-button'
+         from line 65 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_buttons.css.scss, in `dark-button'
+         from line 181 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_forms.css.scss
+         from line 11 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 35 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_buttons.css.scss, in `default-button'
+         from line 65 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_buttons.css.scss, in `dark-button'
+         from line 181 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_forms.css.scss
+         from line 11 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 44 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_buttons.css.scss, in `light-button'
+         from line 197 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_forms.css.scss
+         from line 11 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 56 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_buttons.css.scss, in `light-button'
+         from line 197 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_forms.css.scss
+         from line 11 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 44 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_buttons.css.scss, in `light-button'
+         from line 279 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_forms.css.scss
+         from line 11 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 56 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_buttons.css.scss, in `light-button'
+         from line 279 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_forms.css.scss
+         from line 11 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 6 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/components/_popovers.css.scss
+         from line 15 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 62 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/components/_popovers.css.scss
+         from line 15 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 6 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_sections.css.scss, in `section-header'
+         from line 18 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/components/_tables.css.scss
+         from line 16 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 44 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_buttons.css.scss, in `light-button'
+         from line 5 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/components/_dropdown_menu.scss
+         from line 20 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 56 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_buttons.css.scss, in `light-button'
+         from line 5 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/components/_dropdown_menu.scss
+         from line 20 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 83 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/components/_dropdown_menu.scss
+         from line 20 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 96 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/components/_dropdown_menu.scss
+         from line 20 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 24 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_buttons.css.scss, in `default-button'
+         from line 65 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_buttons.css.scss, in `dark-button'
+         from line 11 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/components/_buttons.scss
+         from line 21 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 35 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_buttons.css.scss, in `default-button'
+         from line 65 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_buttons.css.scss, in `dark-button'
+         from line 11 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/components/_buttons.scss
+         from line 21 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 44 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_buttons.css.scss, in `light-button'
+         from line 11 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/components/_pagination.scss
+         from line 24 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 56 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_buttons.css.scss, in `light-button'
+         from line 11 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/components/_pagination.scss
+         from line 24 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 24 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_buttons.css.scss, in `default-button'
+         from line 15 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/components/_pagination.scss
+         from line 24 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 35 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_buttons.css.scss, in `default-button'
+         from line 15 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/components/_pagination.scss
+         from line 24 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 6 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_sections.css.scss, in `section-header'
+         from line 28 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_sections.css.scss, in `section'
+         from line 2 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/components/_panels.scss
+         from line 25 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 6 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_sections.css.scss, in `section-header'
+         from line 28 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_sections.css.scss, in `section'
+         from line 6 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/components/_panels.scss
+         from line 25 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 44 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_buttons.css.scss, in `light-button'
+         from line 25 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/components/_table_tools.css.scss
+         from line 29 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 56 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_buttons.css.scss, in `light-button'
+         from line 25 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/components/_table_tools.css.scss
+         from line 29 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 41 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/components/_table_tools.css.scss
+         from line 29 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 84 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/components/_table_tools.css.scss
+         from line 29 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 6 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_sections.css.scss, in `section-header'
+         from line 28 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_sections.css.scss, in `section'
+         from line 4 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/pages/_dashboard.scss
+         from line 30 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 6 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_sections.css.scss, in `section-header'
+         from line 15 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/pages/_logged_out.scss
+         from line 31 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 18 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/pages/_logged_out.scss
+         from line 31 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 6 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_sections.css.scss, in `section-header'
+         from line 2 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/structure/_title_bar.scss
+         from line 34 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 5 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/structure/_title_bar.scss
+         from line 34 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 44 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_buttons.css.scss, in `light-button'
+         from line 34 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/structure/_title_bar.scss
+         from line 34 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 56 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_buttons.css.scss, in `light-button'
+         from line 34 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/structure/_title_bar.scss
+         from line 34 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+Compiled active_admin.css  (2720ms)  (pid 5871)
+Compiled app.css  (0ms)  (pid 5871)
+Compiled application.css  (0ms)  (pid 5871)
+Compiled foundation.css  (0ms)  (pid 5871)
+Compiled jquery.ui.core.js  (0ms)  (pid 5871)
+Compiled jquery.ui.widget.js  (0ms)  (pid 5871)
+Compiled jquery.ui.accordion.js  (15ms)  (pid 5871)
+Compiled jquery.ui.position.js  (0ms)  (pid 5871)
+Compiled jquery.ui.menu.js  (8ms)  (pid 5871)
+Compiled jquery.ui.autocomplete.js  (88ms)  (pid 5871)
+Compiled jquery.ui.button.js  (3ms)  (pid 5871)
+Compiled jquery.ui.datepicker.js  (2ms)  (pid 5871)
+Compiled jquery.ui.mouse.js  (3ms)  (pid 5871)
+Compiled jquery.ui.draggable.js  (13ms)  (pid 5871)
+Compiled jquery.ui.resizable.js  (4ms)  (pid 5871)
+Compiled jquery.ui.dialog.js  (36ms)  (pid 5871)
+Compiled jquery.ui.droppable.js  (6ms)  (pid 5871)
+Compiled jquery.ui.effect.js  (0ms)  (pid 5871)
+Compiled jquery.ui.effect-blind.js  (5ms)  (pid 5871)
+Compiled jquery.ui.effect-bounce.js  (1ms)  (pid 5871)
+Compiled jquery.ui.effect-clip.js  (1ms)  (pid 5871)
+Compiled jquery.ui.effect-drop.js  (1ms)  (pid 5871)
+Compiled jquery.ui.effect-explode.js  (1ms)  (pid 5871)
+Compiled jquery.ui.effect-fade.js  (1ms)  (pid 5871)
+Compiled jquery.ui.effect-fold.js  (1ms)  (pid 5871)
+Compiled jquery.ui.effect-highlight.js  (1ms)  (pid 5871)
+Compiled jquery.ui.effect-pulsate.js  (1ms)  (pid 5871)
+Compiled jquery.ui.effect-scale.js  (1ms)  (pid 5871)
+Compiled jquery.ui.effect-shake.js  (1ms)  (pid 5871)
+Compiled jquery.ui.effect-slide.js  (2ms)  (pid 5871)
+Compiled jquery.ui.effect-transfer.js  (1ms)  (pid 5871)
+Compiled jquery.ui.progressbar.js  (3ms)  (pid 5871)
+Compiled jquery.ui.selectable.js  (4ms)  (pid 5871)
+Compiled jquery.ui.slider.js  (4ms)  (pid 5871)
+Compiled jquery.ui.sortable.js  (5ms)  (pid 5871)
+Compiled jquery.ui.spinner.js  (4ms)  (pid 5871)
+Compiled jquery.ui.tabs.js  (3ms)  (pid 5871)
+Compiled jquery.ui.tooltip.js  (4ms)  (pid 5871)
+Compiled jquery.ui.all.js  (516ms)  (pid 5871)
+Compiled wysihtml5.js  (3ms)  (pid 5871)
+Compiled active_admin/editor/wysiwyg.css  (0ms)  (pid 5871)
+Compiled active_admin/editor/config.js  (26ms)  (pid 5871)
+Compiled active_admin/editor/templates/toolbar.js  (9ms)  (pid 5871)
+Compiled active_admin/editor/templates/uploader.js  (0ms)  (pid 5871)
+Compiled active_admin/editor/editor.js  (34ms)  (pid 5871)
+Compiled active_admin/editor/parser_rules.js  (0ms)  (pid 5871)
+Compiled active_admin/editor.js  (181ms)  (pid 5871)
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 25 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/active_admin_editor-1.0.6/app/assets/stylesheets/active_admin/editor.css.scss
+
+Compiled active_admin/editor.css  (1097ms)  (pid 5871)
+Compiled active_admin/print.css  (126ms)  (pid 5871)
+Connecting to database specified by database.yml
+Compiled jquery.js  (5ms)  (pid 5871)
+Compiled jquery-ui.js  (10ms)  (pid 5871)
+Compiled jquery_ujs.js  (0ms)  (pid 5871)
+Compiled active_admin/lib/namespace.js  (159ms)  (pid 5871)
+Compiled active_admin/components/jquery.aa.checkbox-toggler.js  (185ms)  (pid 5871)
+Compiled active_admin/components/jquery.aa.dropdown-menu.js  (242ms)  (pid 5871)
+Compiled active_admin/components/jquery.aa.popover.js  (182ms)  (pid 5871)
+Compiled active_admin/components/jquery.aa.table-checkbox-toggler.js  (166ms)  (pid 5871)
+Compiled active_admin/pages/application.js  (162ms)  (pid 5871)
+Compiled active_admin/pages/batch_actions.js  (167ms)  (pid 5871)
+Compiled active_admin/application.js  (1315ms)  (pid 5871)
+Compiled active_admin/base.js  (1522ms)  (pid 5871)
+Compiled active_admin.js  (1532ms)  (pid 5871)
+Compiled app.js  (0ms)  (pid 5871)
+Compiled application.js  (4ms)  (pid 5871)
+Compiled cufon-yui.js  (0ms)  (pid 5871)
+Compiled fonts.js  (1ms)  (pid 5871)
+Compiled foundation.min.js  (3ms)  (pid 5871)
+Compiled jquery.cycle2.min.js  (0ms)  (pid 5871)
+Compiled jquery.dropkick.js  (0ms)  (pid 5871)
+Compiled jquery.jcarousel.min.js  (0ms)  (pid 5871)
+Compiled modernizr.foundation.js  (0ms)  (pid 5871)
+Compiled script.js  (0ms)  (pid 5871)
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 6 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_sections.css.scss, in `section-header'
+         from line 16 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_forms.css.scss
+         from line 11 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 24 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_buttons.css.scss, in `default-button'
+         from line 65 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_buttons.css.scss, in `dark-button'
+         from line 181 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_forms.css.scss
+         from line 11 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 35 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_buttons.css.scss, in `default-button'
+         from line 65 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_buttons.css.scss, in `dark-button'
+         from line 181 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_forms.css.scss
+         from line 11 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 44 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_buttons.css.scss, in `light-button'
+         from line 197 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_forms.css.scss
+         from line 11 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 56 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_buttons.css.scss, in `light-button'
+         from line 197 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_forms.css.scss
+         from line 11 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 44 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_buttons.css.scss, in `light-button'
+         from line 279 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_forms.css.scss
+         from line 11 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 56 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_buttons.css.scss, in `light-button'
+         from line 279 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_forms.css.scss
+         from line 11 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 6 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/components/_popovers.css.scss
+         from line 15 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 62 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/components/_popovers.css.scss
+         from line 15 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 6 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_sections.css.scss, in `section-header'
+         from line 18 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/components/_tables.css.scss
+         from line 16 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 44 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_buttons.css.scss, in `light-button'
+         from line 5 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/components/_dropdown_menu.scss
+         from line 20 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 56 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_buttons.css.scss, in `light-button'
+         from line 5 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/components/_dropdown_menu.scss
+         from line 20 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 83 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/components/_dropdown_menu.scss
+         from line 20 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 96 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/components/_dropdown_menu.scss
+         from line 20 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 24 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_buttons.css.scss, in `default-button'
+         from line 65 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_buttons.css.scss, in `dark-button'
+         from line 11 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/components/_buttons.scss
+         from line 21 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 35 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_buttons.css.scss, in `default-button'
+         from line 65 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_buttons.css.scss, in `dark-button'
+         from line 11 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/components/_buttons.scss
+         from line 21 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 44 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_buttons.css.scss, in `light-button'
+         from line 11 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/components/_pagination.scss
+         from line 24 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 56 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_buttons.css.scss, in `light-button'
+         from line 11 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/components/_pagination.scss
+         from line 24 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 24 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_buttons.css.scss, in `default-button'
+         from line 15 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/components/_pagination.scss
+         from line 24 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 35 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_buttons.css.scss, in `default-button'
+         from line 15 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/components/_pagination.scss
+         from line 24 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 6 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_sections.css.scss, in `section-header'
+         from line 28 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_sections.css.scss, in `section'
+         from line 2 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/components/_panels.scss
+         from line 25 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 6 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_sections.css.scss, in `section-header'
+         from line 28 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_sections.css.scss, in `section'
+         from line 6 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/components/_panels.scss
+         from line 25 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 44 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_buttons.css.scss, in `light-button'
+         from line 25 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/components/_table_tools.css.scss
+         from line 29 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 56 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_buttons.css.scss, in `light-button'
+         from line 25 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/components/_table_tools.css.scss
+         from line 29 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 41 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/components/_table_tools.css.scss
+         from line 29 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 84 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/components/_table_tools.css.scss
+         from line 29 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 6 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_sections.css.scss, in `section-header'
+         from line 28 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_sections.css.scss, in `section'
+         from line 4 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/pages/_dashboard.scss
+         from line 30 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 6 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_sections.css.scss, in `section-header'
+         from line 15 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/pages/_logged_out.scss
+         from line 31 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 18 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/pages/_logged_out.scss
+         from line 31 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 6 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_sections.css.scss, in `section-header'
+         from line 2 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/structure/_title_bar.scss
+         from line 34 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 5 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/structure/_title_bar.scss
+         from line 34 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 44 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_buttons.css.scss, in `light-button'
+         from line 34 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/structure/_title_bar.scss
+         from line 34 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 56 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/mixins/_buttons.css.scss, in `light-button'
+         from line 34 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/structure/_title_bar.scss
+         from line 34 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/activeadmin-0.5.1/app/assets/stylesheets/active_admin/_base.css.scss
+         from line 12 of /home/taras/dev/project/rails/h/icn/app/assets/stylesheets/active_admin.css.scss
+
+Compiled active_admin.css  (2327ms)  (pid 5871)
+Compiled app.css  (0ms)  (pid 5871)
+Compiled application.css  (0ms)  (pid 5871)
+Compiled foundation.css  (0ms)  (pid 5871)
+Compiled jquery.ui.core.js  (0ms)  (pid 5871)
+Compiled jquery.ui.widget.js  (0ms)  (pid 5871)
+Compiled jquery.ui.accordion.js  (15ms)  (pid 5871)
+Compiled jquery.ui.position.js  (0ms)  (pid 5871)
+Compiled jquery.ui.menu.js  (10ms)  (pid 5871)
+Compiled jquery.ui.autocomplete.js  (22ms)  (pid 5871)
+Compiled jquery.ui.button.js  (3ms)  (pid 5871)
+Compiled jquery.ui.datepicker.js  (2ms)  (pid 5871)
+Compiled jquery.ui.mouse.js  (3ms)  (pid 5871)
+Compiled jquery.ui.draggable.js  (13ms)  (pid 5871)
+Compiled jquery.ui.resizable.js  (4ms)  (pid 5871)
+Compiled jquery.ui.dialog.js  (36ms)  (pid 5871)
+Compiled jquery.ui.droppable.js  (6ms)  (pid 5871)
+Compiled jquery.ui.effect.js  (0ms)  (pid 5871)
+Compiled jquery.ui.effect-blind.js  (5ms)  (pid 5871)
+Compiled jquery.ui.effect-bounce.js  (1ms)  (pid 5871)
+Compiled jquery.ui.effect-clip.js  (1ms)  (pid 5871)
+Compiled jquery.ui.effect-drop.js  (2ms)  (pid 5871)
+Compiled jquery.ui.effect-explode.js  (1ms)  (pid 5871)
+Compiled jquery.ui.effect-fade.js  (1ms)  (pid 5871)
+Compiled jquery.ui.effect-fold.js  (1ms)  (pid 5871)
+Compiled jquery.ui.effect-highlight.js  (1ms)  (pid 5871)
+Compiled jquery.ui.effect-pulsate.js  (1ms)  (pid 5871)
+Compiled jquery.ui.effect-scale.js  (1ms)  (pid 5871)
+Compiled jquery.ui.effect-shake.js  (1ms)  (pid 5871)
+Compiled jquery.ui.effect-slide.js  (1ms)  (pid 5871)
+Compiled jquery.ui.effect-transfer.js  (1ms)  (pid 5871)
+Compiled jquery.ui.progressbar.js  (3ms)  (pid 5871)
+Compiled jquery.ui.selectable.js  (4ms)  (pid 5871)
+Compiled jquery.ui.slider.js  (4ms)  (pid 5871)
+Compiled jquery.ui.sortable.js  (5ms)  (pid 5871)
+Compiled jquery.ui.spinner.js  (4ms)  (pid 5871)
+Compiled jquery.ui.tabs.js  (3ms)  (pid 5871)
+Compiled jquery.ui.tooltip.js  (4ms)  (pid 5871)
+Compiled jquery.ui.all.js  (466ms)  (pid 5871)
+Compiled wysihtml5.js  (59ms)  (pid 5871)
+Compiled active_admin/editor/config.js  (1ms)  (pid 5871)
+Compiled active_admin/editor/templates/toolbar.js  (3ms)  (pid 5871)
+Compiled active_admin/editor/templates/uploader.js  (0ms)  (pid 5871)
+Compiled active_admin/editor/editor.js  (17ms)  (pid 5871)
+Compiled active_admin/editor/parser_rules.js  (0ms)  (pid 5871)
+Compiled active_admin/editor.js  (115ms)  (pid 5871)
+WARNING: box-shadow is deprecated and will be removed in the next major version release
+         on line 7 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/bourbon-3.1.1/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-shadow'
+         from line 25 of /home/taras/.rvm/gems/ruby-1.9.3-p362/gems/active_admin_editor-1.0.6/app/assets/stylesheets/active_admin/editor.css.scss
+
+Compiled active_admin/editor.css  (1038ms)  (pid 5871)
+Compiled active_admin/editor/wysiwyg.css  (0ms)  (pid 5871)
+Compiled active_admin/print.css  (122ms)  (pid 5871)
+Connecting to database specified by database.yml
+Started GET "/prices" for 127.0.0.1 at 2013-03-20 10:07:44 +0200
+Processing by PricesController#index as HTML
+  Rendered prices/_credit.html.erb (121.5ms)
+Compiled jquery.localscroll.js  (0ms)  (pid 6057)
+Compiled jquery.scrollto.js  (0ms)  (pid 6057)
+  Rendered prices/_add.html.erb (607.0ms)
+  Rendered prices/_ured.html.erb (3.9ms)
+  Rendered prices/_add.html.erb (4.3ms)
+  Rendered prices/_avans.html.erb (2.8ms)
+  Rendered prices/_add.html.erb (4.1ms)
+  Rendered prices/index.html.erb within layouts/application (806.2ms)
+  Rendered layouts/_header.html.erb (3.3ms)
+  Rendered layouts/_footer.html.erb (2.6ms)
+  Rendered contact/_form.html.erb (4.0ms)
+  Rendered layouts/_popups.html.erb (5.2ms)
+Completed 200 OK in 1031ms (Views: 988.4ms | ActiveRecord: 41.9ms)
+Started GET "/assets/foundation-cf48c275a29773f15cd40328d8f45406.css" for 127.0.0.1 at 2013-03-20 10:07:45 +0200
+Served asset /foundation-cf48c275a29773f15cd40328d8f45406.css - 200 OK (3ms)
+Started GET "/assets/active_admin/editor/wysiwyg-3b8478ab4e16cc9509c3f51677faadd2.css" for 127.0.0.1 at 2013-03-20 10:07:45 +0200
+Served asset /active_admin/editor/wysiwyg-3b8478ab4e16cc9509c3f51677faadd2.css - 200 OK (14ms)
+Started GET "/assets/application-8e3eeec9a63c444507aff45ee83b99f1.js" for 127.0.0.1 at 2013-03-20 10:07:45 +0200
+Served asset /application-8e3eeec9a63c444507aff45ee83b99f1.js - 200 OK (15ms)
+Started GET "/assets/app-26cdf8dab03adf676114258b2eabb4c9.css" for 127.0.0.1 at 2013-03-20 10:07:45 +0200
+Served asset /app-26cdf8dab03adf676114258b2eabb4c9.css - 200 OK (7ms)
+Started GET "/assets/jquery.dropkick-c5495d69e98974cfe84fa3088a440a87.js" for 127.0.0.1 at 2013-03-20 10:07:45 +0200
+Served asset /jquery.dropkick-c5495d69e98974cfe84fa3088a440a87.js - 200 OK (0ms)
+Started GET "/assets/script-37ce48b886a574cb84164e62fb7241a6.js" for 127.0.0.1 at 2013-03-20 10:07:45 +0200
+Served asset /script-37ce48b886a574cb84164e62fb7241a6.js - 200 OK (2ms)
+Started GET "/assets/jquery.jcarousel.min-c2bb468f2a6caca93ca1dae0260260dc.js" for 127.0.0.1 at 2013-03-20 10:07:45 +0200
+Served asset /jquery.jcarousel.min-c2bb468f2a6caca93ca1dae0260260dc.js - 200 OK (0ms)
+Started GET "/assets/modernizr.foundation-5c8db04796b258cc87b05ceddc790040.js" for 127.0.0.1 at 2013-03-20 10:07:45 +0200
+Served asset /modernizr.foundation-5c8db04796b258cc87b05ceddc790040.js - 200 OK (1ms)
+Started GET "/assets/cufon-yui-085b6a3d725e70507d709c1d97e3d424.js" for 127.0.0.1 at 2013-03-20 10:07:45 +0200
+Served asset /cufon-yui-085b6a3d725e70507d709c1d97e3d424.js - 200 OK (2ms)
+Started GET "/assets/jquery.localscroll-cb1407221c27057e2f5168ec88b52b75.js" for 127.0.0.1 at 2013-03-20 10:07:45 +0200
+Served asset /jquery.localscroll-cb1407221c27057e2f5168ec88b52b75.js - 200 OK (0ms)
+Started GET "/assets/fonts-85e19a932967ce0cd7d460101ef73e3a.js" for 127.0.0.1 at 2013-03-20 10:07:45 +0200
+Served asset /fonts-85e19a932967ce0cd7d460101ef73e3a.js - 200 OK (6ms)
+Started GET "/assets/jquery.scrollto-b73e4c6ca0edfdd6d83971e32db094a3.js" for 127.0.0.1 at 2013-03-20 10:07:45 +0200
+Served asset /jquery.scrollto-b73e4c6ca0edfdd6d83971e32db094a3.js - 200 OK (0ms)
+Started GET "/assets/jquery.ui.all-e748e5646a2146ba31019ed17612bbfe.js" for 127.0.0.1 at 2013-03-20 10:07:45 +0200
+Served asset /jquery.ui.all-e748e5646a2146ba31019ed17612bbfe.js - 200 OK (1ms)
+Started GET "/assets/jquery.cycle2.min-4626d6aae3a30f3fb69d7e8ed58341f8.js" for 127.0.0.1 at 2013-03-20 10:07:45 +0200
+Served asset /jquery.cycle2.min-4626d6aae3a30f3fb69d7e8ed58341f8.js - 200 OK (0ms)
+Started GET "/assets/app-d7160640eb69ed532f51c56ab58d9bcb.js" for 127.0.0.1 at 2013-03-20 10:07:45 +0200
+Served asset /app-d7160640eb69ed532f51c56ab58d9bcb.js - 200 OK (2ms)
+Started GET "/assets/logo-d81114eb3944439dd34d0dcef5036b76.png" for 127.0.0.1 at 2013-03-20 10:07:45 +0200
+Served asset /logo-d81114eb3944439dd34d0dcef5036b76.png - 200 OK (61ms)
+Started GET "/assets/foot-logo-b7aaca58f682889699459742173b8800.png" for 127.0.0.1 at 2013-03-20 10:07:46 +0200
+Served asset /foot-logo-b7aaca58f682889699459742173b8800.png - 200 OK (1ms)
+Started GET "/assets/twitter-83fdc942eb785596a6b490f0a611db9b.png" for 127.0.0.1 at 2013-03-20 10:07:46 +0200
+Served asset /twitter-83fdc942eb785596a6b490f0a611db9b.png - 200 OK (1ms)
+Started GET "/assets/vkontakte-7fd01a7e6cbd14c3dd5dd0fe272892ee.gif" for 127.0.0.1 at 2013-03-20 10:07:46 +0200
+Served asset /vkontakte-7fd01a7e6cbd14c3dd5dd0fe272892ee.gif - 200 OK (1ms)
+Started GET "/assets/facebook-a2d8e3cb745a7fb022e2a5541000e7c5.png" for 127.0.0.1 at 2013-03-20 10:07:46 +0200
+Served asset /facebook-a2d8e3cb745a7fb022e2a5541000e7c5.png - 200 OK (2ms)
+Started GET "/assets/hb-0fa9d9cccdba2d0ffa23f71b89c4db0b.png" for 127.0.0.1 at 2013-03-20 10:07:46 +0200
+Served asset /hb-0fa9d9cccdba2d0ffa23f71b89c4db0b.png - 200 OK (1ms)
+Started GET "/assets/pack.png" for 127.0.0.1 at 2013-03-20 10:07:46 +0200
+Served asset /pack.png - 200 OK (1ms)
+Started GET "/assets/login_box.png" for 127.0.0.1 at 2013-03-20 10:07:46 +0200
+Served asset /login_box.png - 200 OK (1ms)
+Started GET "/assets/tabs.png" for 127.0.0.1 at 2013-03-20 10:07:46 +0200
+Served asset /tabs.png - 200 OK (1ms)
+Started GET "/assets/block_center.png" for 127.0.0.1 at 2013-03-20 10:07:46 +0200
+Served asset /block_center.png - 200 OK (1ms)
+Started GET "/assets/sprite.png" for 127.0.0.1 at 2013-03-20 10:07:46 +0200
+Served asset /sprite.png - 200 OK (5ms)
+Started GET "/assets/up_down.png" for 127.0.0.1 at 2013-03-20 10:07:46 +0200
+Served asset /up_down.png - 200 OK (1ms)
+Started GET "/assets/bot.png" for 127.0.0.1 at 2013-03-20 10:07:46 +0200
+Served asset /bot.png - 200 OK (1ms)
+Started GET "/assets/popups.png" for 127.0.0.1 at 2013-03-20 10:07:46 +0200
+Served asset /popups.png - 200 OK (1ms)
+Started GET "/assets/current.png" for 127.0.0.1 at 2013-03-20 10:07:46 +0200
+Served asset /current.png - 200 OK (3ms)
+Started GET "/assets/top.png" for 127.0.0.1 at 2013-03-20 10:07:46 +0200
+Served asset /top.png - 200 OK (1ms)
