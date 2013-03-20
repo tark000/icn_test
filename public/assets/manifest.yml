@@ -137,6 +137,10 @@ jquery.dropkick.js: jquery.dropkick-c5495d69e98974cfe84fa3088a440a87.js
 jquery/index.dropkick.js: jquery.dropkick-c5495d69e98974cfe84fa3088a440a87.js
 jquery.jcarousel.min.js: jquery.jcarousel.min-c2bb468f2a6caca93ca1dae0260260dc.js
 jquery/index.jcarousel.min.js: jquery.jcarousel.min-c2bb468f2a6caca93ca1dae0260260dc.js
+jquery.localscroll.js: jquery.localscroll-cb1407221c27057e2f5168ec88b52b75.js
+jquery/index.localscroll.js: jquery.localscroll-cb1407221c27057e2f5168ec88b52b75.js
+jquery.scrollto.js: jquery.scrollto-b73e4c6ca0edfdd6d83971e32db094a3.js
+jquery/index.scrollto.js: jquery.scrollto-b73e4c6ca0edfdd6d83971e32db094a3.js
 modernizr.foundation.js: modernizr.foundation-5c8db04796b258cc87b05ceddc790040.js
 modernizr/index.foundation.js: modernizr.foundation-5c8db04796b258cc87b05ceddc790040.js
 script.js: script-37ce48b886a574cb84164e62fb7241a6.js
