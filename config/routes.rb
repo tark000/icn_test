@@ -1,6 +1,6 @@
 IcnSite::Application.routes.draw do
 
-
+  resources :streets
 
   match 'contact' => 'contact#new', :as => 'contact', :via => :get
   match 'contact' => 'contact#create', :as => 'contact', :via => :post

@@ -19,6 +19,7 @@ gem 'contact_us', '~> 0.4.0'
 
 gem 'activeadmin'
 gem 'active_admin_editor'
+gem 'rabl'
 
 # Gems used only for assets and not required
 # in production environments by default.

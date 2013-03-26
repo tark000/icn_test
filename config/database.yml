@@ -1,3 +1,15 @@
+icn_houses:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: isp
+  pool: 5
+  username: icn_site
+  password: wasq12
+  host: 79.135.200.8
+  socket: /var/run/mysqld/mysqld.sock
+
+
 # SQLite version 3.x
 #   gem install sqlite3
 #
@@ -36,3 +48,5 @@ production:
   username: root
   password: "123"
   socket: /var/run/mysqld/mysqld.sock
+
+
