@@ -22,7 +22,7 @@ development:
   database: icn_ror
   pool: 5
   username: root
-  password: "123"
+  password: wasq12
   socket: /var/run/mysqld/mysqld.sock
 
 # Warning: The database defined as "test" will be erased and
@@ -35,7 +35,7 @@ test:
   database: icn_ror
   pool: 5
   username: root
-  password: "123"
+  password: wasq12
   socket: /var/run/mysqld/mysqld.sock
 
 production:
@@ -46,7 +46,18 @@ production:
   pool: 5
   host: localhost
   username: root
-  password: "123"
+  password: wasq12
   socket: /var/run/mysqld/mysqld.sock
 
+
+icn_houses:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: isp
+  pool: 5
+  username: icn_site
+  password: wasq12
+  host: 79.135.200.8
+  socket: /var/run/mysqld/mysqld.sock
 

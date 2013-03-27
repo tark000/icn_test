@@ -1,3 +1,80 @@
+<script type="text/javascript">
+    String.prototype.replaceAll = function(search, replace){
+        return this.split(search).join(replace);
+    }
+
+
+    $(document).ready(function(){
+        var flag = false;
+
+        function getList(item){
+           var list1 = '';
+           var cl = '';
+            if (flag){
+                cl = 'class="gree"';
+                flag = false;
+            } else {
+                flag = true;
+            }
+
+            list1 += '<li '+cl+'><a href="#" class="plus">'+item.street.name+'</a> <div class="clear"></div><ul>';
+            $.each(item.street.builds, function(i, it){
+                if ((it.build.status != 'not_connected') && (it.build.status != 'can_not_connect')) {
+                    list1 += '<li><a href="#">'+it.build.name;
+
+                    if (it.build.status == 'connected'){
+                        list1 += '<span class="hide_icon">- <span class="icon_1"></span></span>'
+                    }
+                    if (it.build.status == 'can_connect'){
+                        list1 += '<span class="hide_icon">- <span class="icon_2"></span></span>'
+                    }
+
+                    list1 += '</a></li>';
+                }
+
+            });
+            list1 += '</ul>'
+
+            return list1;
+        }
+
+       var data = '<%= render(template: "streets/index.json.rabl") %>';
+       var dat = data.replaceAll("&quot;", '"');
+
+        var obj = jQuery.parseJSON(dat);
+       var limit = obj.length;
+        limit /= 4;
+       var list1 = '<ul>', list2= '<ul>', list3= '<ul>', list4= '<ul>';
+       var f1 = false, f2 = false, f3 = false, f4 = false;
+       var cl = 'gree';
+
+
+        $.each(obj, function(i, item) {
+         if (i <= limit){
+             list1 += getList(item);
+         }
+        else if ((i > limit) && (i < 2*limit)){
+             list2 += getList(item);
+         }
+       else  if ((i >= 2*limit) && (i < 3*limit)){
+             list3 += getList(item);
+         } else {
+             list4 += getList(item);
+         }
+        });
+         list1 += '</ul>';
+         list2 += '</ul>';
+         list3 += '</ul>';
+         list4 += '</ul>';
+
+        $('.list_box').append(list1);
+        $('.list_box').append(list2);
+        $('.list_box').append(list3);
+        $('.list_box').append(list4);
+
+    });
+</script>
+
 <div class="b-main-wrapper">
 
   <div class="tabs_payment">
@@ -22,8 +99,6 @@
           </form>
           <div class="maps_description">
             <span>- доступны все сервисы</span>
-            <span>- только оптическое подключение</span>
-            <span>- доступно срочное включение</span>
             <span>- собираем заявки</span>
           </div><!--end maps_description-->
         </div><!--end b-main-content-->
@@ -33,11 +108,7 @@
     <div id="list">
       <div class="list_box">
         <p>Ниже представлена карта покрытия в виде информационного списка. Чтобы проверить возможность подключения к интернету Вашего дома, а
-          также оставить заявку на подключение к интернету перейдите по этой <a href="<%= contact_path %>">ссылке</a> и заполните предложенную форму.</p>
-
-
-        <div id="streets" data-articles="<%= render(template: "streets/index.json.rabl") %>">
-
+          также оставить заявку на подключение к интернету перейдите по этой <a href="#">ссылке</a> и заполните предложенную форму.</p>
       </div><!--end list_box-->
     </div><!--end list-->
   </div><!--end tabs_payment-->

@@ -1,6 +1,14 @@
 class StreetsController < ApplicationController
   def index
-    @streets = Street.all
+    @temp = Street.all
+    @streets = []
+    @temp.each do  |street|
+
+      if !street.builds.empty?
+        @streets << street
+      end
+    end
+
   end
 
   def show

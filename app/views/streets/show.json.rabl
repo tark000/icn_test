@@ -3,6 +3,5 @@ attributes :id, :name
 
 
 child :builds do
-    attributes :id, :name
-    node(:url) { |build| build_url(build) }
+    attributes :id, :status, :name
 end
