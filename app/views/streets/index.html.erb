@@ -17,7 +17,7 @@
                 flag = true;
             }
 
-            list1 += '<li class="gree"'+cl+'><a href="#" class="plus">'+item.street.name+'</a> <div class="clear"></div><ul>';
+            list1 += '<li '+cl+'><a href="#" class="plus">'+item.street.name+'</a> <div class="clear"></div><ul>';
             $.each(item.street.builds, function(i, it){
                 if ((it.build.status != 'not_connected') && (it.build.status != 'can_not_connect')) {
                     list1 += '<li><a href="#">'+it.build.name;
@@ -86,7 +86,7 @@
           </div>
           <ul class="tariff_list">
             <li><a href="#list">Показать скписком<span></span></a></li>
-            <li><a href="#map">Показать карту<span></span></a></li>
+            <li><a >Показать карту<span></span></a></li>       <!--href="#map" -->
           </ul>
           <form action="" method="get" class="search_street">
             <select name="search_street" class="default">

@@ -3,15 +3,16 @@
   <h3>Расположение и время работы абонентских отделов:</h3>
 </div>
   <div class="tabs_about">
-    <% @departments.each do |department| %>
-      <div class="about_block"  style="float:left; width: 470px; margin-right: 10px;" >
-        <a id="<%=department.id%>"></a>
-            <%= raw department.map %>
+
+      <div class="about_block"   >
+        <% @departments.each do |department| %>
+            <a id="<%=department.id%>"></a>
+        <% end %>
 
 
-        <% raw @dep.map %>
+        <%= raw @dep.map %>
       </div><!--end about_block-->
-    <% end %>
+
     <div class="show_on_map">
       <% @departments.each do |department| %>
           <div class="show_on_map_block">
