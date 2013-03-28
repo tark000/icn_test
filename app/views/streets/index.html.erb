@@ -17,7 +17,7 @@
                 flag = true;
             }
 
-            list1 += '<li '+cl+'><a href="#" class="plus">'+item.street.name+'</a> <div class="clear"></div><ul>';
+            list1 += '<li class="gree"'+cl+'><a href="#" class="plus">'+item.street.name+'</a> <div class="clear"></div><ul>';
             $.each(item.street.builds, function(i, it){
                 if ((it.build.status != 'not_connected') && (it.build.status != 'can_not_connect')) {
                     list1 += '<li><a href="#">'+it.build.name;

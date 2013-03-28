@@ -151,8 +151,8 @@ script.js: script-e77d420504ffe5d27138a72376ed0dd3.js
 script/index.js: script-e77d420504ffe5d27138a72376ed0dd3.js
 active_admin.css: active_admin-90609299a46139379c83b41e2efa617b.css
 active_admin/index.css: active_admin-90609299a46139379c83b41e2efa617b.css
-app.css: app-664c446e97cb3ae33a08a86d1f569cf5.css
-app/index.css: app-664c446e97cb3ae33a08a86d1f569cf5.css
+app.css: app-d67c37a215540c0b241a651ebd5a49f6.css
+app/index.css: app-d67c37a215540c0b241a651ebd5a49f6.css
 application.css: application-1b13569e9620782f423d4cd3ce931750.css
 application/index.css: application-1b13569e9620782f423d4cd3ce931750.css
 foundation.css: foundation-cf48c275a29773f15cd40328d8f45406.css

@@ -1,6 +1,6 @@
 class StreetsController < ApplicationController
   def index
-    @temp = Street.all
+    @temp = Street.order("name ASC").all
     @streets = []
     @temp.each do  |street|
 

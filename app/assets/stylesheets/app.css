@@ -2397,3 +2397,32 @@ table span {
     margin-right: 1em; }
 .flickr_pagination .next_page {
     margin-left: 1em; }
+
+.list_box ul li a.plus {
+    background:url(plus.png) no-repeat left 4px;
+    margin-left:-15px;
+    padding-left:15px;
+}
+.list_box ul li a .hide_icon {display:inline-block;}
+.list_box ul li ul li a:hover .hide_icon {visibility:visible;}
+.icon_1 {background:url("sprite.png") no-repeat scroll -690px -571px transparent; width:15px; height:10px; display:inline-block;}
+.icon_2 {background:url("sprite.png") no-repeat scroll -690px -586px transparent; width:15px; height:10px; display:inline-block;}
+.icon_3 {background:url("sprite.png") no-repeat scroll -690px -601px transparent; width:15px; height:10px; display:inline-block;}
+.icon_4 {background:url("sprite.png") no-repeat scroll -690px -616px transparent; width:15px; height:10px; display:inline-block;}
+.list_box ul li a.plus.current {
+    background:url(minus.png) no-repeat left 4px;
+}
+
+
+.list_box ul li:hover ul {
+}
+.list_box ul ul {
+    margin-bottom:10px;
+    width:100%;
+    display:none;
+}
+.list_box ul ul li {
+    width:100%;
+    float:left;
+}
+
