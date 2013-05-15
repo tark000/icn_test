@@ -31,7 +31,7 @@
               <p><%= department.worktime %></p>
             </article>
           </div><!--end show_on_map_block-->
-        <a href="#<%= department.id %>" title="Показать на карте" class="show_on_map_link"><span>Показать на карте</span></a>
+          <a href=<%= department_path(department.id) %> title="Показать на карте" class="show_on_map_link"><span>Показать на карте</span></a>
 
           </div><!--end show_on_map-->
       <% end %>
