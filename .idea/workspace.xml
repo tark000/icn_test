@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81bf2660-5470-4da3-8bb0-d67089fc39e1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/mailers/notifications_mailer.rb" afterPath="$PROJECT_DIR$/app/mailers/notifications_mailer.rb" />
     </list>
     <ignored path="icn.iws" />
@@ -48,7 +46,7 @@
       <file leaf-file-name="notifications_mailer.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/mailers/notifications_mailer.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="36" selection-start="124" selection-end="124" vertical-scroll-proportion="0.078947365">
+            <state line="3" column="34" selection-start="122" selection-end="122" vertical-scroll-proportion="0.078947365">
               <folding />
             </state>
           </provider>
@@ -648,7 +646,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/mailers/notifications_mailer.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="36" selection-start="124" selection-end="124" vertical-scroll-proportion="0.078947365">
+        <state line="3" column="34" selection-start="122" selection-end="122" vertical-scroll-proportion="0.078947365">
           <folding />
         </state>
       </provider>
