@@ -7,8 +7,23 @@ class StreetsController < ApplicationController
       if !street.builds.search_build(params[:search2]).empty?
         @streets << street
       end
-    end
 
+
+      @builds=[]
+
+      @streets.each do |str|
+        if params[:search2] != nil
+
+          str.builds.where('name LIKE ?', "%#{params[:search2]}%").each do |build|
+            @builds << build
+          end
+        else
+          str.builds.each do |build|
+            @builds << build
+          end
+        end
+      end
+    end
   end
 
   def show

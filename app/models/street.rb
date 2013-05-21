@@ -1,5 +1,5 @@
 class Street < ActiveRecord::Base
-  establish_connection :icn_houses
+ # establish_connection :icn_houses
   attr_accessible :name
 	has_many :builds
 
@@ -11,4 +11,6 @@ class Street < ActiveRecord::Base
       scoped
     end
   end
+
+
 end

@@ -88,7 +88,7 @@
             <li><a href="#list">Показать скписком<span></span></a></li>
             <li><a >Показать карту<span></span></a></li>       <!--href="#map" -->
           </ul>
-          <%= form_tag streets_path, :method => 'get', :id => "products_search", :class=>"search_street" do %>
+          <%= form_tag streets_path, :method => 'get', :class=>"search_street" do %>
 
                 <%= text_field_tag :search, params[:search], :placeholder=>"Улица" %>
               <%= text_field_tag :search2, params[:search2], :placeholder=>"Дом" %>
