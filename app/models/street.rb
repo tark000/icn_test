@@ -4,10 +4,6 @@ class Street < ActiveRecord::Base
 	has_many :builds
 
 
-
-
-
-
   def self.search(search)
     if search
       where('name LIKE ?', "%#{search}%")

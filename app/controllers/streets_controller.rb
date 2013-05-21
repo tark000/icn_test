@@ -4,7 +4,7 @@ class StreetsController < ApplicationController
     @streets = []
     @temp.each do  |street|
 
-      if !street.builds.empty?
+      if !street.builds.search_build(params[:search2]).empty?
         @streets << street
       end
     end
