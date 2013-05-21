@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81bf2660-5470-4da3-8bb0-d67089fc39e1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/streets_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/streets_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/build.rb" afterPath="$PROJECT_DIR$/app/models/build.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/street.rb" afterPath="$PROJECT_DIR$/app/models/street.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/streets/show.json.rabl" afterPath="$PROJECT_DIR$/app/views/streets/show.json.rabl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
     </list>
     <ignored path="icn.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,10 +35,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.json.rabl" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="show.json.rabl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/streets/show.json.rabl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="7" selection-start="46" selection-end="46" vertical-scroll-proportion="0.10676157">
+            <state line="4" column="7" selection-start="46" selection-end="46" vertical-scroll-proportion="-1.9354838">
               <folding />
             </state>
           </provider>
@@ -59,16 +56,16 @@
       <file leaf-file-name="build.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/build.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="1" selection-start="34" selection-end="34" vertical-scroll-proportion="-0.48387095">
+            <state line="1" column="0" selection-start="33" selection-end="33" vertical-scroll-proportion="-0.48387095">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="street.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="street.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/street.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="3" selection-start="37" selection-end="37" vertical-scroll-proportion="-0.48387095">
+            <state line="1" column="2" selection-start="36" selection-end="36" vertical-scroll-proportion="0.026690392">
               <folding />
             </state>
           </provider>
@@ -129,10 +126,10 @@
         <option value="$PROJECT_DIR$/app/views/streets/street.js.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/streets.js.coffee" />
         <option value="$PROJECT_DIR$/app/views/streets/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/models/build.rb" />
-        <option value="$PROJECT_DIR$/app/models/street.rb" />
         <option value="$PROJECT_DIR$/app/controllers/streets_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/streets/show.json.rabl" />
+        <option value="$PROJECT_DIR$/app/models/build.rb" />
+        <option value="$PROJECT_DIR$/app/models/street.rb" />
       </list>
     </option>
   </component>
@@ -591,20 +588,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/street.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="3" selection-start="37" selection-end="37" vertical-scroll-proportion="-0.48387095">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/build.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="1" selection-start="34" selection-end="34" vertical-scroll-proportion="-0.48387095">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/streets_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="36" selection-start="386" selection-end="386" vertical-scroll-proportion="-6.290323">
@@ -626,7 +609,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/streets/show.json.rabl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="7" selection-start="46" selection-end="46" vertical-scroll-proportion="0.10676157">
+        <state line="4" column="7" selection-start="46" selection-end="46" vertical-scroll-proportion="-1.9354838">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/build.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="33" selection-end="33" vertical-scroll-proportion="-0.48387095">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/street.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="2" selection-start="36" selection-end="36" vertical-scroll-proportion="0.026690392">
           <folding />
         </state>
       </provider>
