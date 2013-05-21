@@ -88,15 +88,20 @@
             <li><a href="#list">Показать скписком<span></span></a></li>
             <li><a >Показать карту<span></span></a></li>       <!--href="#map" -->
           </ul>
-          <form action="" method="get" class="search_street">
-            <select name="search_street" class="default">
-              <option>ул.Ленина</option>
-              <option>ул.Ленина 150</option>
-              <option>ул.Ленина 300</option>
-            </select>
-            <input name="" type="text" placeholder="Поиск вашей улицы и дома">
-            <input name="" type="button" value="Искать">
-          </form>
+
+
+
+          <%= form_tag streets_path, :method => 'get', :id => "products_search", :class=>"search_street" do %>
+                <select name="search_street" class="default">
+                  <option>ул.Ленина</option>
+                  <option>ул.Ленина 150</option>
+                  <option>ул.Ленина 300</option>
+                </select>
+                <%= text_field_tag :search, params[:search], :placeholder=>"Поиск вашей улицы и дома" %>
+                <%= submit_tag "Search", :name => nil %>
+
+
+          <% end %>
           <div class="maps_description">
             <span>- доступны все сервисы</span>
             <span>- собираем заявки</span>
