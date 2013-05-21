@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="81bf2660-5470-4da3-8bb0-d67089fc39e1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/build.rb" afterPath="$PROJECT_DIR$/app/models/build.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/street.rb" afterPath="$PROJECT_DIR$/app/models/street.rb" />
     </list>
     <ignored path="icn.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,7 +37,7 @@
       <file leaf-file-name="build.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/build.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="23" selection-start="293" selection-end="293" vertical-scroll-proportion="0.24734983">
+            <state line="14" column="17" selection-start="270" selection-end="270" vertical-scroll-proportion="0.24734983">
               <folding />
             </state>
           </provider>
@@ -627,7 +626,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/build.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="23" selection-start="293" selection-end="293" vertical-scroll-proportion="0.24734983">
+        <state line="14" column="17" selection-start="270" selection-end="270" vertical-scroll-proportion="0.24734983">
           <folding />
         </state>
       </provider>

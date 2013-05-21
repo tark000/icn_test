@@ -12,4 +12,3 @@ class Build < ActiveRecord::Base
   end
 
 end
-                     gi
