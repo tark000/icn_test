@@ -32,7 +32,7 @@ class StreetsController < ApplicationController
   end
   def search
     @streets = Street.order(:name).where("name like ?", "%#{params[:street_name]}%")
-    render json: @streers.map(&:name)
+    render json: @streets.map(&:name)
   end
 
   def show
