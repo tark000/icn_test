@@ -11,8 +11,9 @@ class StreetsController < ApplicationController
 
 
     end
-
-    if @streets.size == 1
+    @size = @streets.size
+    @absent = "true"
+    if @size == 1
       @builds=[]
       @streets.each do |str|
         if params[:build] != nil
@@ -25,6 +26,9 @@ class StreetsController < ApplicationController
           end
         end
       end
+    elsif @size == 0
+      @absent = 'false'
+
     end
 
 

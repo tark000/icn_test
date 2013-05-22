@@ -2,6 +2,14 @@ object @street
 attributes :id, :name
 
 
-child :builds do
+if (@size == 1)
+  child @builds do
     attributes :id, :status, :name
+  end
+else
+  child :builds do
+    attributes :id, :status, :name
+  end
 end
+
+
