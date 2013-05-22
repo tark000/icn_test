@@ -17,8 +17,11 @@ class StreetsController < ApplicationController
       @builds=[]
       @streets.each do |str|
         if params[:build] != nil
-          str.builds.where('name LIKE ?', "%#{params[:build]}%").each do |build|
-            @builds << build
+          str.builds.each do |build|
+            if build.name.scan(params[:build]).present?
+              @builds << build
+            end
+
           end
         else
           str.builds.each do |build|
