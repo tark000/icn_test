@@ -1,21 +1,22 @@
 class StreetsController < ApplicationController
   def index
-    @temp = Street.search(params[:search]).order("name ASC").all
+    @temp = Street.search(params[:street_name]).order("name ASC").all
     @streets = []
     @temp.each do  |street|
 
-      if !street.builds.search_build(params[:search2]).empty?
+      if !street.builds.search_build(params[:build]).empty?
         @streets << street
       end
 
 
 
     end
+
     if @streets.size == 1
       @builds=[]
       @streets.each do |str|
-        if params[:search2] != nil
-          str.builds.where('name LIKE ?', "%#{params[:search2]}%").each do |build|
+        if params[:build] != nil
+          str.builds.where('name LIKE ?', "%#{params[:build]}%").each do |build|
             @builds << build
           end
         else
@@ -25,6 +26,13 @@ class StreetsController < ApplicationController
         end
       end
     end
+
+
+
+  end
+  def search
+    @streets = Street.order(:name).where("name like ?", "%#{params[:street_name]}%")
+    render json: @streers.map(&:name)
   end
 
   def show

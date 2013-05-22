@@ -1,6 +1,7 @@
 class Street < ActiveRecord::Base
   establish_connection :icn_houses
-  attr_accessible :name
+  attr_accessible :name, :street_name
+
 	has_many :builds
 
 
@@ -10,6 +11,14 @@ class Street < ActiveRecord::Base
     else
       scoped
     end
+  end
+
+  def street_name
+    street.try(:name)
+  end
+
+  def street_name=(name)
+    self.street = Street.find_by_name(name) if name.present?
   end
 
 
