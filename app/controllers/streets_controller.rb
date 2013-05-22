@@ -16,9 +16,10 @@ class StreetsController < ApplicationController
     if @size == 1
       @builds=[]
       @streets.each do |str|
+
         if params[:build] != nil
           str.builds.each do |build|
-            if build.name.scan(params[:build]).present?
+            if build.name.scan(params[:build].to_s).present?
               @builds << build
             end
 
