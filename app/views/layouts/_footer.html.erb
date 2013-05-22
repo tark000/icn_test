@@ -7,7 +7,7 @@
     <ul class="b-foot-nav">
       <li><%= link_to 'Тарифы', prices_path %></li>
       <li><%= link_to 'О нас', abouts_path %></li>
-      <li><%= link_to 'Форум', 'http://forum.icn.od.ua/' %></li>
+      <li><%= link_to 'Форум', 'http://forum.icn.od.ua/', :target=>"_blank" %></li>
     </ul>
     <a href="<%= streets_path %>" title="" class="b-foot-map">
       <span class="ico"></span>
@@ -16,10 +16,10 @@
     </a>
     <div class="b-foot-social">
       <h4>Мы в социальных сетях</h4>
-      <%= link_to image_tag("facebook.png"), "http://www.facebook.com/icn.ua?fref=ts", :class=>"social-link", :width=>"16", :height=>"16" %>
-      <%= link_to image_tag("twitter.png"), "http://79.135.200.40/", :class=>"social-link", :width=>"16", :height=>"16" %>
-      <%= link_to image_tag("vkontakte.gif"), "http://vk.com/icn_ua", :class=>"social-link", :width=>"16", :height=>"16" %>
+      <%= link_to image_tag("facebook.png"), "http://www.facebook.com/icn.ua?fref=ts", :class=>"social-link", :width=>"16", :height=>"16", :target=>"_blank" %>
+      <%= link_to image_tag("twitter.png"), "https://twitter.com/", :class=>"social-link", :width=>"16", :height=>"16", :target=>"_blank" %>
+      <%= link_to image_tag("vkontakte.gif"), "http://vk.com/icn_ua", :class=>"social-link", :width=>"16", :height=>"16", :target=>"_blank" %>
     </div>
-      <%= link_to image_tag("hb.png"), "http://hb.od.ua", :height=>"18" %>
+      <%= link_to image_tag("hb.png"), "http://hb.od.ua", :height=>"18", :target=>"_blank" %>
   </div>
  </footer>
