@@ -2429,12 +2429,6 @@ table span {
     display: none;
 }
 
-
-
-
-
-
-
 .ui-widget
 {
     border: 1px solid #007c6d;
@@ -2462,17 +2456,24 @@ table span {
     cursor: pointer;
     background-color: #f9f9f9;
 }
-.ui-menu .ui-menu-item a:hover
-{
-    display: block;
-
+.ui-menu .ui-menu-item a.ui-state-focus,
+.ui-menu .ui-menu-item a.ui-state-active {
+    background-position:-454px -679px;
+    background-repeat:no-repeat;
+    background-color:#fff;
+    border-bottom-color: #dfe3e2;
+    color: #6c6c6c;
     text-decoration: none;
-    color: White;
-    cursor: pointer;
-    background-color: ButtonText;
 }
 .ui-widget-content a
 {
     color: #007c6d;
 }
+
+.ui-autocomplete { max-height: 200px; overflow-y: scroll; overflow-x: hidden; }
+
+.ui-  {
+
+}
+
 

@@ -7,20 +7,15 @@ class StreetsController < ApplicationController
       if !street.builds.search_build(params[:build]).empty?
         @streets << street
       end
-
-
-
     end
-
 
     @str = []
     Street.all.each do |w|
        if w.builds.present?
          @str << w.name
        end
-
     end
-    @s = @str.map
+
   end
 
   def show

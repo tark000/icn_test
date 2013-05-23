@@ -6,8 +6,15 @@
 
     $(document).ready(function(){
         var flag = false;
+        var array = '<%= raw @str %>'.replace(/\"/g, ' ').replace(/\[/g, ' ').replace(/\]/g, ' ').split(",")
+        var l = array.length;
+        var src = [];
+
+        for (var i = 0; i < l; i++) {
+            src.push(array[i].replace(/^\s+/, "").replace(/\s+$/, ""));
+        }
         $( "#street_name" ).autocomplete({
-            source: '<%= raw @str %>'.replace(/\"/g, '').replace(/\[/g, '').replace(/\]/g, '').split(",")
+            source: src
         });
         function getList(item){
            var list1 = '';
@@ -92,12 +99,9 @@
             <li><a >Показать карту<span></span></a></li>       <!--href="#map" -->
           </ul>
           <%= form_tag streets_path, :method => 'get', :class=>"search_street" do %>
-
                 <%= text_field_tag :street_name, params[:street_name], :placeholder=>"Улица"%>
               <%= text_field_tag :build, params[:build], :placeholder=>"Дом" %>
                 <%= submit_tag "Искать", :name => nil %>
-
-
           <% end %>
           <div class="maps_description">
             <span>- доступны все сервисы</span>
