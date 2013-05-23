@@ -90,7 +90,7 @@
           </ul>
           <%= form_tag streets_path, :method => 'get', :class=>"search_street" do %>
 
-                <%= text_field_tag :street_name, params[:street_name], :placeholder=>"Улица", data: {autocomplete_source: search_streets_path}%>
+                <%= text_field_tag :street_name, params[:street_name], :placeholder=>"Улица"%>
               <%= text_field_tag :build, params[:build], :placeholder=>"Дом" %>
                 <%= submit_tag "Искать", :name => nil %>
 
