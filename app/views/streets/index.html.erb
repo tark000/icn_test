@@ -6,7 +6,9 @@
 
     $(document).ready(function(){
         var flag = false;
-
+        $( "#street_name" ).autocomplete({
+            source: '<%= raw @str %>'.replace(/\"/g, '').replace(/\[/g, '').replace(/\]/g, '').split(",")
+        });
         function getList(item){
            var list1 = '';
            var cl = '';
@@ -74,6 +76,7 @@
 
     });
 </script>
+
 
 <div class="b-main-wrapper">
 

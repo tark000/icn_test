@@ -13,13 +13,4 @@ class Street < ActiveRecord::Base
     end
   end
 
-  def street_name
-    street.try(:name)
-  end
-
-  def street_name=(name)
-    self.street = Street.find_by_name(name) if name.present?
-  end
-
-
 end

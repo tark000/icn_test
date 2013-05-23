@@ -11,35 +11,16 @@ class StreetsController < ApplicationController
 
 
     end
-    @size = @streets.size
-    @absent = "true"
-    if @size == 1
-      @builds=[]
-      @streets.each do |str|
-        if params[:build] != nil
-          str.builds.each do |build|
-            if build.name.scan(params[:build]).present?
-              @builds << build
-            end
 
-          end
-        else
-          str.builds.each do |build|
-            @builds << build
-          end
-        end
-      end
-    elsif @size == 0
-      @absent = 'false'
+
+    @str = []
+    Street.all.each do |w|
+       if w.builds.present?
+         @str << w.name
+       end
 
     end
-
-
-
-  end
-  def search
-    @streets = Street.order(:name).where("name like ?", "%#{params[:street_name]}%")
-    render json: @streets.map(&:name)
+    @s = @str.map
   end
 
   def show
