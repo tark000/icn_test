@@ -2466,7 +2466,7 @@ table span {
     color: #007c6d;
 }
 
-.ui-autocomplete { max-height: 200px; overflow-y: scroll; overflow-x: hidden; }
+.ui-autocomplete { max-height: 200px; overflow-y: auto; overflow-x: hidden; }
 
 .ui-  {
 

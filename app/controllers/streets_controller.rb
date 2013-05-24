@@ -15,7 +15,7 @@ class StreetsController < ApplicationController
          @str << w.name
        end
     end
-
+    @len = @streets.size
   end
 
   def show
