@@ -14,6 +14,7 @@ gem "rmagick"
 gem 'will_paginate', '~> 3.0'
 gem 'kaminari'
 gem 'carrierwave'
+gem 'russian', '~> 0.6.0'
 
 gem 'contact_us', '~> 0.4.0'
 
