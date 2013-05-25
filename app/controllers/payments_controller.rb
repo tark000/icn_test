@@ -7,4 +7,8 @@ class PaymentsController < InheritedResources::Base
     @types =Type.all
   end
 
+  def city_pay
+
+  end
+
 end

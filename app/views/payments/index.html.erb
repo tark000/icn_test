@@ -51,10 +51,12 @@
                   </div><!--end step-->
               <% end %>
               <% @link = Payment.where(id:man[0].payment_id)[0]  %>
-
+              <% if @link.link == ''%>
+                  <% @l = payments_path + "/" +  @link.title %>
+              <% end %>
               <% if @link.show == true %>
 
-                 <div style="width: 100%; float: left;"><%= @link.description %>  <%=  link_to "здесь", @link.link %>.</div>
+                 <div style="width: 100%; float: left;"><%= @link.description %>  <%=  link_to "здесь", @l %>.</div>
 
               <%else%>
 

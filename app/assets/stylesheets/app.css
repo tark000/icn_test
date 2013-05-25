@@ -289,7 +289,7 @@ span::-moz-selection {
     background:url("hover.png") repeat-x bottom #ffffff;
 }
 .b-app-but:active {
-    margin:35px 0 -1px 18px;
+
     background:url("menu_hover.png") repeat-x 0 -36px #ffffff;
     box-shadow: 0 1px 2px rgba(28, 92, 127, 0.3) inset;
 }
@@ -1585,7 +1585,7 @@ span::-moz-selection {
 }
 .step {
     width:311px;
-    height:355px;
+    height:375px;
     position:relative;
     margin:0 9px 30px 0;
     float:left;

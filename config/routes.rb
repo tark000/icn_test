@@ -1,10 +1,11 @@
 IcnSite::Application.routes.draw do
-
-  resources :streets do
+  resources :payments do
     collection do
-      get 'search'
+      get 'city_pay'
     end
   end
+
+  resources :streets
 
   match 'contact' => 'contact#new', :as => 'contact', :via => :get
   match 'contact' => 'contact#create', :as => 'contact', :via => :post
@@ -30,7 +31,7 @@ IcnSite::Application.routes.draw do
   resources :posts
 
 
-  resources :payments
+
 
 
   resources :jobs

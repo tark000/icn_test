@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130325115528) do
+ActiveRecord::Schema.define(:version => 20130525162755) do
 
   create_table "abouts", :force => true do |t|
     t.string   "title"
@@ -76,6 +76,13 @@ ActiveRecord::Schema.define(:version => 20130325115528) do
   add_index "admin_users", ["email"], :name => "index_admin_users_on_email", :unique => true
   add_index "admin_users", ["reset_password_token"], :name => "index_admin_users_on_reset_password_token", :unique => true
 
+  create_table "builds", :force => true do |t|
+    t.string "name",      :limit => 100
+    t.string "status",    :limit => 10
+    t.string "active",    :limit => 100
+    t.string "street_id", :limit => 100
+  end
+
   create_table "departments", :force => true do |t|
     t.string   "title"
     t.string   "addres"
@@ -134,6 +141,8 @@ ActiveRecord::Schema.define(:version => 20130325115528) do
     t.string   "link"
     t.string   "description"
     t.boolean  "show"
+    t.boolean  "show_time"
+    t.boolean  "on"
   end
 
   create_table "pdf_files", :force => true do |t|
@@ -199,8 +208,7 @@ ActiveRecord::Schema.define(:version => 20130325115528) do
   end
 
   create_table "streets", :force => true do |t|
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.string "name", :limit => 100
   end
 
   create_table "types", :force => true do |t|
