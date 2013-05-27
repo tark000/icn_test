@@ -53,7 +53,7 @@
         var obj = jQuery.parseJSON(dat);
        var limit = obj.length;
         limit /= 4;
-       var list1 = '<ul>', list2= '<ul>', list3= '<ul>', list4= '<ul>';
+        var list1 = '<ul style="padding:17px;">', list2= '<ul style="padding:17px;">', list3= '<ul style="padding:17px;">', list4= '<ul style="padding:17px;">';
        var f1 = false, f2 = false, f3 = false, f4 = false;
        var cl = 'gree';
 
@@ -99,9 +99,9 @@
             <li><a >Показать карту<span></span></a></li>       <!--href="#map" -->
           </ul>
           <%= form_tag streets_path, :method => 'get', :class=>"search_street" do %>
-                <%= text_field_tag :street_name, params[:street_name], :placeholder=>"Улица"%>
+                <%= text_field_tag :street_name, params[:street_name], :placeholder=>"Улица" , :style=>"width: 240px;"%>
               <%= text_field_tag :build, params[:build], :placeholder=>"Дом" %>
-                <%= submit_tag "Искать", :name => nil %>
+                <%= submit_tag "Искать", :name => nil, :class => "search_street_button"  %>
           <% end %>
           <div class="maps_description">
             <span>- доступны все сервисы</span>

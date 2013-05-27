@@ -16,7 +16,7 @@
     <label>Телефон:<span>*</span></label>
     <%= form.text_field :phone %>
     <label>Сообщение:</label>
-    <%= form.text_field :message %>
+    <%= form.text_area :message %>
     <a href="#" title="" class="clear_inputs" onClick="document.forms['subform'].reset()">Очистить</a>
     <%= form.submit "Отправить", :class=>"contactb" %>
 <% end %>

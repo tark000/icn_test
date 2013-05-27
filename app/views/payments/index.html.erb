@@ -50,17 +50,16 @@
                     <%= image_tag m.image_url(:manual) %>
                   </div><!--end step-->
               <% end %>
-              <% @link = Payment.where(id:man[0].payment_id)[0]  %>
-              <% if @link.link == ''%>
-                  <% @l = payments_path + "/" +  @link.title %>
+              <% @payment = Payment.where(id:man[0].payment_id)[0]  %>
+              <% if @payment.show_map == true%>
+                  <div style="width: 100%; float: left;"><%= @payment.map_description %>  <%=  link_to "здесь", payment_path(@payment) %>.</div>
               <% end %>
-              <% if @link.show == true %>
 
-                 <div style="width: 100%; float: left;"><%= @link.description %>  <%=  link_to "здесь", @l %>.</div>
-
-              <%else%>
-
+              <% if @payment.show == true%>
+                  <div style="width: 100%; float: left;"><%= @payment.description %>  <%=  link_to "здесь", @payment.link, :target=>"_blank" %>.</div>
               <% end %>
+
+
 
             </div><!--end tabs-12-->
           <% else %>

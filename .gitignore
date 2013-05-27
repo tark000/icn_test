@@ -5,3 +5,5 @@
 /tmp
 /config/database.yml
 /public/uploads/product/image
+/public/uploads
+

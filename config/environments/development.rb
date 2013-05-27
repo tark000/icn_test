@@ -17,7 +17,7 @@ IcnSite::Application.configure do
   config.action_mailer.raise_delivery_errors = true
 
   # Change mail delvery to either :smtp, :sendmail, :file, :test
-  
+  config.serve_static_assets = false
 
 
   # Print deprecation notices to the Rails logger

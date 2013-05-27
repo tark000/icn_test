@@ -11,4 +11,9 @@ class PaymentsController < InheritedResources::Base
 
   end
 
+  def show
+    @payment = Payment.find(params[:id])
+
+  end
+
 end

@@ -7,9 +7,9 @@
     </ul>
    <% @quides.each do |quide| %>
         <div class="about_block" id="tabs-<%= quide.ochered %>">
-          <p><%= image_tag quide.image_url(:quide) if quide.image? %>
-            <%= quide.info %></p>
-
+          <div style="text-align:center;
+                  vertical-align:middle; "><%= image_tag quide.image_url(:quide) if quide.image? %></div></br> </br>
+          <%= quide.info %>
         </div><!--end about_block-->
     <% end %>
 

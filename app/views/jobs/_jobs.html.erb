@@ -1,12 +1,12 @@
 <div class="about">
   <div class="tabs_about">
     <% @jobs.each do |job| %>
-        <div class="our_services jobs">
+        <div class="our_services jobs" style="width: 28%; height: 245px;">
           <section>
             <header>
               <h2><%= job.post %></h2>
             </header>
-            <p><%= truncate(job.description, :length => 100) %> </p>
+            <p><%= truncate(job.description, :length => 200) %> </p>
             <%= link_to 'Подробнее', job_path(job) %>
           </section>
          </div><!--end our_services-->

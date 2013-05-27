@@ -18,7 +18,7 @@
         <%= image_tag page.image_url(:index) if page.image? %>
       </div>
         <% if page.show_time.present? %>
-         <div class="b-days-left"><span class="days"><%= ((page.finish_at - Time.now)/86400).ceil %></span> <%= Russian.p(((page.finish_at - Time.now)/86400).ceil, "день", "дня", "дней") %></div>
+         <div class="b-days-left"><span class="days"><%= date(page) %></span> <%= Russian.p(date(page), "день", "дня", "дней") %></div>
         <% end %>
       <div class="b-main-slider_slide-descr">
         <h2><%= page.title %></h2>

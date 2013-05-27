@@ -8,33 +8,60 @@
         <% @departments.each do |department| %>
             <a id="<%=department.id%>"></a>
         <% end %>
+        <div class="clear"></div>
+        <div class="google_map_box">
+          <%= raw @dep.map %>
+        </div><!--end google_map_box-->
 
-
-        <%= raw @dep.map %>
       </div><!--end about_block-->
 
-    <div class="show_on_map">
-      <% @departments.each do |department| %>
-          <div class="show_on_map_block">
-            <article>
-              <header>
-                <span>Адрес:</span>
-              </header>
-              <p><%= department.addres %></p>
-            </article>
-          </div><!--end show_on_map_block-->
-          <div class="show_on_map_block">
-            <article>
-              <header>
-                <span>График работы:</span>
-              </header>
-              <p><%= department.worktime %></p>
-            </article>
-          </div><!--end show_on_map_block-->
-          <a href=<%= department_path(department.id) %> title="Показать на карте" class="show_on_map_link"><span>Показать на карте</span></a>
 
-          </div><!--end show_on_map-->
-      <% end %>
+      <% @departments.each do |department| %>
+        <% if department == Department.last%>
+            <div class="show_on_map show_on_map_last">
+              <div class="show_on_map_block">
+                <article>
+                  <header>
+                    <span>Адрес:</span>
+                  </header>
+                  <%= raw department.addres %>
+                </article>
+              </div><!--end show_on_map_block-->
+              <div class="show_on_map_block">
+                <article>
+                  <header>
+                    <span>График работы:</span>
+                  </header>
+                  <%= raw department.worktime %>
+                </article>
+              </div><!--end show_on_map_block-->
+              <a href=<%= department_path(department.id) %> title="Показать на карте" class="show_on_map_link"><span>Показать на карте</span></a>
+
+            </div><!--end show_on_map-->
+
+        <% else %>
+            <div class="show_on_map">
+              <div class="show_on_map_block">
+                <article>
+                  <header>
+                    <span>Адрес:</span>
+                  </header>
+                  <%= raw department.addres %>
+                </article>
+              </div><!--end show_on_map_block-->
+              <div class="show_on_map_block">
+                <article>
+                  <header>
+                    <span>График работы:</span>
+                  </header>
+                  <%= raw department.worktime %>
+                </article>
+              </div><!--end show_on_map_block-->
+              <a href=<%= department_path(department.id) %> title="Показать на карте" class="show_on_map_link"><span>Показать на карте</span></a>
+
+            </div><!--end show_on_map-->
+        <% end %>
+    <% end %>
+    <div class="clear" style=" border-bottom: 0"></div>
   </div>
   </div>
-<div class="clear"></div>
