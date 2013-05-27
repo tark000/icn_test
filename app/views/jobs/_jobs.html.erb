@@ -6,7 +6,7 @@
             <header>
               <h2><%= job.post %></h2>
             </header>
-            <p><%= truncate(job.description, :length => 200) %> </p>
+            <p><%= truncate(job.description, :length => 127) %> </p>
             <%= link_to 'Подробнее', job_path(job) %>
           </section>
          </div><!--end our_services-->

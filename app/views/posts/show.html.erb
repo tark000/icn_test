@@ -1,3 +1,4 @@
+<div class="b-main-content">
 <div class="main_item">
   <div class="b-main-slider">
     <div class="cycle-slideshow" data-cycle-speed="500" data-cycle-timeout="0" data-cycle-slides="> div" data-cycle-pager=".b-main-slider_switches">
@@ -10,11 +11,11 @@
 
 
       <% @post_images.each do |post_im| %>
-          <div class="b-main-slider_item">
-            <div class="b-main-slider_imgs">
-              <%= image_tag post_im.image_url(:big_post)%>
-            </div>
-          </div>
+      <div class="b-main-slider_item">
+        <div class="b-main-slider_imgs">
+          <%= image_tag post_im.image_url(:big_post)%>
+        </div>
+      </div>
       <% end %>
     </div>
 
@@ -28,7 +29,7 @@
     <a href="javascript:history.back()" title="" class="back_link"><span>назад</span></a>
     <div class="clear"></div>
     <p><%= @post.text %></p>
-  </article><!--end news_item-->
+      </article><!--end news_item-->
   <div class="clear"></div>
 </div><!--end main_item-->
 <a href=<%= post_path(@previous) %> title="" class="prev_post"><span>Предыдущая</span></a>
@@ -37,3 +38,8 @@
 
 
 <div class="clear"></div>
+</div>
+
+
+
+
