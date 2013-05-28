@@ -192,7 +192,7 @@ span::-moz-selection {
 .b-head-bot-nav-add .web-mail {
     line-height:36px;
     position: relative;
-    padding: 0 0 0 25px;
+    padding: 0 0 0 35px;
     color: #007c6d;
     text-decoration: none;
     text-shadow: 1px 1px 0 #fff;
@@ -248,11 +248,12 @@ span::-moz-selection {
     -webkit-border-radius:0 0 10px 10px;
     display:none;
     position:absolute;
-    width:315px;
+    width:328px;
     left:0;
     z-index:900;
     padding:10px 20px 0;
     top:38px;
+    margin-top:-2px;
 
 }
 .b-head-bot-nav-add .item_mail .login_box {
@@ -2508,4 +2509,22 @@ table span {
     width: 550px;
     margin-left: 25px;
 
+}
+
+.submmit_button {
+    background:url("button.png") repeat-x;
+    font-size:15px;
+    color:#fff;
+    cursor:pointer;
+    box-shadow:0 1px 2px #c0ced6;
+    -webkit-box-shadow:0 1px 2px #c0ced6;
+    -moz-border-box-shadow:0 1px 2px #c0ced6;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    width:145px;
+    height:31px;
+    margin:0 0 10px;
+    border:0 none;
+    float:right;
 }

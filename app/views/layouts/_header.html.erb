@@ -26,28 +26,25 @@
           <%= link_to 'Личный кабинет', 'https://stat.icn.od.ua/', :class=>"personal-room", :target=>"_blank" %>
           <div class="login_box">
 
+
             <%= form_tag("https://stat.icn.od.ua/index.php/content/login", :method => "get") do %>
 
                 <%= text_field_tag :login %>
 
                 <%= text_field_tag :password %>
-                <%= submit_tag "Вход"%>
+                <%= submit_tag "Вход", :class=>"submmit_button"%>
             <% end %>
-
-            <form action="" method="get">
-              <input name="" type="text" placeholder="Логин" class="error_input">
-              <input name="" type="password" placeholder="Пароль">
-              <input name="" type="button" value="Вход">
-            </form>
           </div><!--end login_box-->
         </div><!--end item-->
         <div class="item item_mail"><%= link_to 'Веб почта', 'http://webmail.icn.od.ua/', :class=>"web-mail", :target=>"_blank" %>
           <div class="login_box">
-            <form action="" method="get">
-              <input name="" type="text" placeholder="Логин" class="error_input">
-              <input name="" type="password" placeholder="Пароль">
-              <input name="" type="button" value="Вход">
-            </form>
+            <%= form_tag("https://stat.icn.od.ua/index.php/content/login", :method => "get") do %>
+
+                <%= text_field_tag :login %>
+
+                <%= text_field_tag :password %>
+                <%= submit_tag "Вход", :class=>"submmit_button"%>
+            <% end %>
           </div><!--end login_box-->
         </div>
       </div>
