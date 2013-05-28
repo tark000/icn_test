@@ -905,7 +905,7 @@ span::-moz-selection {
     -moz-border-radius:0;
     -webkit-border-radius:0;
     width:500px;
-    height:400px;
+    height:440px;
     position:relative;
     overflow:hidden;
     float:left;
