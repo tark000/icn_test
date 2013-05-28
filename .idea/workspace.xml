@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81bf2660-5470-4da3-8bb0-d67089fc39e1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/app.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/production.log" afterPath="$PROJECT_DIR$/log/production.log" />
     </list>
     <ignored path="icn.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,7 +78,7 @@
       <file leaf-file-name="_header.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="40" selection-start="1600" selection-end="1600" vertical-scroll-proportion="0.6463878">
+            <state line="40" column="50" selection-start="1991" selection-end="1991" vertical-scroll-proportion="0.76045626">
               <folding />
             </state>
           </provider>
@@ -681,7 +678,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="40" selection-start="1600" selection-end="1600" vertical-scroll-proportion="0.6463878">
+        <state line="40" column="50" selection-start="1991" selection-end="1991" vertical-scroll-proportion="0.76045626">
           <folding />
         </state>
       </provider>
