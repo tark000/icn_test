@@ -2247,7 +2247,7 @@ table span {
 }
 .list_box ul {
     width:25%;
-    margin:0 0 220px;
+    margin:0 0 0;
     list-style:none;
     float:left;
 }
@@ -2457,6 +2457,7 @@ table span {
     list-style: none outside none;
     margin: 0;
     padding: 2px;
+    border-radius: 0 0 6px 6px;
 }
 .ui-autocomplete
 {
@@ -2470,13 +2471,13 @@ table span {
 
     text-decoration: none;
     cursor: pointer;
-    background-color: #f9f9f9;
+    background-color: #fff;
 }
 .ui-menu .ui-menu-item a.ui-state-focus,
 .ui-menu .ui-menu-item a.ui-state-active {
     background-position:-454px -679px;
     background-repeat:no-repeat;
-    background-color:#fff;
+    background-color:#f9f9f9;
     border-bottom-color: #dfe3e2;
     color: #6c6c6c;
     text-decoration: none;
