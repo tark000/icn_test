@@ -179,14 +179,14 @@ span::-moz-selection {
 }
 .b-head-bot-nav-add {
     float: right;
-    width:332px;
+    width:328px;
 }
 .b-head-bot-nav-add .item {
     float: left;
     margin:0 -15px 0 0;
     padding:0 1   10px 2px;
     position:relative;
-    width:171px;
+    width:170px;
 }
 .b-head-bot-nav-add .personal-room,
 .b-head-bot-nav-add .web-mail {
