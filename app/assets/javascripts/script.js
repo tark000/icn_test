@@ -140,3 +140,15 @@ $(document).ready(function() {
         }
     });
 })
+
+
+
+$(document).ready(function() {
+    var len = $('#mycarousel li').length;
+    if (len < 6 ) {$('.jcarousel-next').addClass('jcarousel-prev-disabled jcarousel-prev-disabled-vertical');
+
+    }
+
+})
+
+

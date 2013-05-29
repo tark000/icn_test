@@ -2,9 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81bf2660-5470-4da3-8bb0-d67089fc39e1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/build.rb" afterPath="$PROJECT_DIR$/app/models/build.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/street.rb" afterPath="$PROJECT_DIR$/app/models/street.rb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/script-6c2c54632c660eed4e437f6855b31b6c.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/script-6c2c54632c660eed4e437f6855b31b6c.js.gz" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/active_admin-615f53605989f58aefd67f21b1661ab2.js.gz" afterPath="$PROJECT_DIR$/public/assets/active_admin-615f53605989f58aefd67f21b1661ab2.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/active_admin-90609299a46139379c83b41e2efa617b.css.gz" afterPath="$PROJECT_DIR$/public/assets/active_admin-90609299a46139379c83b41e2efa617b.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/active_admin.css.gz" afterPath="$PROJECT_DIR$/public/assets/active_admin.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/active_admin.js.gz" afterPath="$PROJECT_DIR$/public/assets/active_admin.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/active_admin/application-779f888844e34dddc8281502d7c62620.js.gz" afterPath="$PROJECT_DIR$/public/assets/active_admin/application-779f888844e34dddc8281502d7c62620.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/active_admin/application.js.gz" afterPath="$PROJECT_DIR$/public/assets/active_admin/application.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/active_admin/editor-41c95fdf7086a0f2bc91c443a473523f.css.gz" afterPath="$PROJECT_DIR$/public/assets/active_admin/editor-41c95fdf7086a0f2bc91c443a473523f.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/active_admin/editor-8b60be62113ebdd81753fa5ed82f1d40.js.gz" afterPath="$PROJECT_DIR$/public/assets/active_admin/editor-8b60be62113ebdd81753fa5ed82f1d40.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/active_admin/editor.css.gz" afterPath="$PROJECT_DIR$/public/assets/active_admin/editor.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/active_admin/editor.js.gz" afterPath="$PROJECT_DIR$/public/assets/active_admin/editor.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/active_admin/editor/wysiwyg-3b8478ab4e16cc9509c3f51677faadd2.css.gz" afterPath="$PROJECT_DIR$/public/assets/active_admin/editor/wysiwyg-3b8478ab4e16cc9509c3f51677faadd2.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/active_admin/editor/wysiwyg.css.gz" afterPath="$PROJECT_DIR$/public/assets/active_admin/editor/wysiwyg.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/active_admin/pages/application-9962e9eb4723fd98f06bcc5dd97d3416.js.gz" afterPath="$PROJECT_DIR$/public/assets/active_admin/pages/application-9962e9eb4723fd98f06bcc5dd97d3416.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/active_admin/pages/application.js.gz" afterPath="$PROJECT_DIR$/public/assets/active_admin/pages/application.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/active_admin/print-80ebe25ed30c2f719a2720c7dffad181.css.gz" afterPath="$PROJECT_DIR$/public/assets/active_admin/print-80ebe25ed30c2f719a2720c7dffad181.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/active_admin/print.css.gz" afterPath="$PROJECT_DIR$/public/assets/active_admin/print.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/app-7a035a6b0187793a1f13f212b1c93f32.css.gz" afterPath="$PROJECT_DIR$/public/assets/app-7a035a6b0187793a1f13f212b1c93f32.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/app-d7160640eb69ed532f51c56ab58d9bcb.js.gz" afterPath="$PROJECT_DIR$/public/assets/app-d7160640eb69ed532f51c56ab58d9bcb.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/app.css.gz" afterPath="$PROJECT_DIR$/public/assets/app.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/app.js.gz" afterPath="$PROJECT_DIR$/public/assets/app.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application-1b13569e9620782f423d4cd3ce931750.css.gz" afterPath="$PROJECT_DIR$/public/assets/application-1b13569e9620782f423d4cd3ce931750.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application-8e3eeec9a63c444507aff45ee83b99f1.js.gz" afterPath="$PROJECT_DIR$/public/assets/application-8e3eeec9a63c444507aff45ee83b99f1.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application.css.gz" afterPath="$PROJECT_DIR$/public/assets/application.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application.js.gz" afterPath="$PROJECT_DIR$/public/assets/application.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/cufon-yui-085b6a3d725e70507d709c1d97e3d424.js.gz" afterPath="$PROJECT_DIR$/public/assets/cufon-yui-085b6a3d725e70507d709c1d97e3d424.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/cufon-yui.js.gz" afterPath="$PROJECT_DIR$/public/assets/cufon-yui.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/fonts-85e19a932967ce0cd7d460101ef73e3a.js.gz" afterPath="$PROJECT_DIR$/public/assets/fonts-85e19a932967ce0cd7d460101ef73e3a.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/fonts.js.gz" afterPath="$PROJECT_DIR$/public/assets/fonts.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/foundation-cf48c275a29773f15cd40328d8f45406.css.gz" afterPath="$PROJECT_DIR$/public/assets/foundation-cf48c275a29773f15cd40328d8f45406.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/foundation.css.gz" afterPath="$PROJECT_DIR$/public/assets/foundation.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/foundation.min-0d0b853be067e34c7c61f0f595668702.js.gz" afterPath="$PROJECT_DIR$/public/assets/foundation.min-0d0b853be067e34c7c61f0f595668702.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/foundation.min.js.gz" afterPath="$PROJECT_DIR$/public/assets/foundation.min.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery.cycle2.min-4626d6aae3a30f3fb69d7e8ed58341f8.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery.cycle2.min-4626d6aae3a30f3fb69d7e8ed58341f8.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery.cycle2.min.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery.cycle2.min.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery.dropkick-c5495d69e98974cfe84fa3088a440a87.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery.dropkick-c5495d69e98974cfe84fa3088a440a87.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery.dropkick.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery.dropkick.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery.jcarousel.min-c2bb468f2a6caca93ca1dae0260260dc.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery.jcarousel.min-c2bb468f2a6caca93ca1dae0260260dc.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery.jcarousel.min.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery.jcarousel.min.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery.localscroll-cb1407221c27057e2f5168ec88b52b75.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery.localscroll-cb1407221c27057e2f5168ec88b52b75.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery.localscroll.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery.localscroll.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery.scrollto-b73e4c6ca0edfdd6d83971e32db094a3.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery.scrollto-b73e4c6ca0edfdd6d83971e32db094a3.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery.scrollto.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery.scrollto.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery.ui.all-e748e5646a2146ba31019ed17612bbfe.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery.ui.all-e748e5646a2146ba31019ed17612bbfe.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery.ui.all.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery.ui.all.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/modernizr.foundation-5c8db04796b258cc87b05ceddc790040.js.gz" afterPath="$PROJECT_DIR$/public/assets/modernizr.foundation-5c8db04796b258cc87b05ceddc790040.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/modernizr.foundation.js.gz" afterPath="$PROJECT_DIR$/public/assets/modernizr.foundation.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/script.js.gz" afterPath="$PROJECT_DIR$/public/assets/script.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/script.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/quides/_b.html.erb" afterPath="$PROJECT_DIR$/app/views/quides/_b.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/production.log" afterPath="$PROJECT_DIR$/log/production.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/manifest.yml" afterPath="$PROJECT_DIR$/public/assets/manifest.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/script.js" afterPath="$PROJECT_DIR$/public/assets/script.js" />
     </list>
     <ignored path="icn.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,7 +94,7 @@
       <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="141" column="2" selection-start="2500" selection-end="2500" vertical-scroll-proportion="0.0">
+            <state line="154" column="0" selection-start="2700" selection-end="2700" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -56,10 +109,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="quide.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/quide.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="24" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="street.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/street.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="2" selection-start="36" selection-end="36" vertical-scroll-proportion="0.02529511">
+            <state line="1" column="2" selection-start="36" selection-end="36" vertical-scroll-proportion="0.017667845">
               <folding />
             </state>
           </provider>
@@ -68,7 +130,7 @@
       <file leaf-file-name="_b.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/quides/_b.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="37" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0">
+            <state line="16" column="3" selection-start="617" selection-end="617" vertical-scroll-proportion="-9.375">
               <folding />
             </state>
           </provider>
@@ -128,19 +190,19 @@
         <option value="$PROJECT_DIR$/app/controllers/quides_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/streets/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/app.css" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/script.js" />
         <option value="$PROJECT_DIR$/app/views/quides/_b.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/app.css" />
         <option value="$PROJECT_DIR$/app/models/build.rb" />
         <option value="$PROJECT_DIR$/app/models/street.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
+    <option name="x" value="1431" />
     <option name="y" value="24" />
-    <option name="width" value="1301" />
-    <option name="height" value="744" />
+    <option name="width" value="1215" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -299,6 +361,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -485,14 +569,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
+    <frame x="1431" y="24" width="1215" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.55279505" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933652" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19584332" sideWeight="0.95652175" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21030043" sideWeight="0.95652175" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -560,11 +644,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="1.3870968" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -609,20 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="2" selection-start="2500" selection-end="2500" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/quides/_b.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="37" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/abouts/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -644,6 +709,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="154" column="0" selection-start="2700" selection-end="2700" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/quides/_b.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="3" selection-start="617" selection-end="617" vertical-scroll-proportion="-9.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/quide.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="24" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/build.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="2" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
@@ -653,7 +739,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/street.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="2" selection-start="36" selection-end="36" vertical-scroll-proportion="0.02529511">
+        <state line="1" column="2" selection-start="36" selection-end="36" vertical-scroll-proportion="0.017667845">
           <folding />
         </state>
       </provider>
