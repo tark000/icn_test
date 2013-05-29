@@ -1,10 +1,14 @@
+<script>
+
+</script>
+
 <header class="b-main-header">
   <div class="b-main-inner">
     <div class="b-head-logo"><%= link_to image_tag("logo.png"), pages_path %></div>
     <nav class="b-head-nav">
       <ul class="b-head-nav_list clearfix">
         <li class="b-head-nav_item"><%= link_to 'Тарифы', prices_path %></li>
-        <li class="b-head-nav_item"><%= link_to 'Новости', posts_path %></li>
+        <li class="b-head-nav_item"><%= link_to 'Новости', posts_path%></li>
         <li class="b-head-nav_item"><%= link_to 'О Компании', abouts_path %></li>
         <li class="b-head-nav_item"><%= link_to 'Контакты', contact_path %></li>
         </ul>
@@ -38,7 +42,7 @@
         </div><!--end item-->
         <div class="item item_mail"><%= link_to 'Веб почта', 'http://webmail.icn.od.ua/', :class=>"web-mail", :target=>"_blank" %>
           <div class="login_box">
-            <%= form_tag("http://webmail.icn.od.ua", :method => "get") do %>
+            <%= form_tag("http://webmail.icn.od.ua/", :method => "get") do %>
 
                 <%= text_field_tag :login, nil, :placeholder => 'Логин' %>
 

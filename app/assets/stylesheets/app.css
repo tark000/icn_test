@@ -178,6 +178,7 @@ span::-moz-selection {
     background:url("menu_hover.png") repeat-x 0 -36px !important;
 }
 .b-head-bot-nav-add {
+
     float: right;
     width:328px;
 }
@@ -186,16 +187,19 @@ span::-moz-selection {
     margin:0 -15px 0 0;
     padding:0 1   10px 2px;
     position:relative;
-    width:170px;
+    width:172px;
 }
 .b-head-bot-nav-add .personal-room,
 .b-head-bot-nav-add .web-mail {
     line-height:36px;
     position: relative;
-    padding: 0 0 0 35px;
+    padding: 0 0 0 40px;
     color: #007c6d;
     text-decoration: none;
     text-shadow: 1px 1px 0 #fff;
+}
+.b-head-bot-nav-add .web-mail{
+    padding: 0 0 0 55px;
 }
 .b-head-bot-nav-add .personal-room {
     z-index:5;
@@ -226,7 +230,7 @@ span::-moz-selection {
     -webkit-box-shadow:none !important;
     -moz-box-box-shadow:none !important;
     margin-right:0 !important;
-    width:159px;
+    width:156px;
     float: right;
     z-index:7 !important;
 }
@@ -264,9 +268,11 @@ span::-moz-selection {
     display:block;
 }
 .b-head-bot-nav-add .personal-room:before {
+    margin: 0 0 0 13px;
     background: url("pack.png") -122px -138px;
 }
 .b-head-bot-nav-add .web-mail:before {
+    margin: 0 0 0 27px;
     background: url("pack.png") -122px -122px;
 }
 .b-app-but {
@@ -378,8 +384,8 @@ span::-moz-selection {
 }
 .b-foot-map {
     float: left;
-    width: 252px;
-    margin: -1px 69px 0 0;
+    width: 280px;
+    margin: -1px 35px 0 0;
     color: #ee7406;
 }
 .b-foot-map .ico {
