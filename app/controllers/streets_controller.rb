@@ -1,4 +1,5 @@
 class StreetsController < ApplicationController
+  layout "street_layout"
   def index
     @temp = Street.search(params[:street_name]).order("name ASC").all
     @streets = []
