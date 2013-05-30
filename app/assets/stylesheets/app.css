@@ -2527,8 +2527,17 @@ table span {
     float:right;
 }
 
+@font-face {
+    font-family: Tahoma;
+
+    src:
+    url('fonts/tahoma.ttf') format('truetype');
+
+
+}
+/*
 @font-face
 {
     font-family: Tahoma;
     src: url('fonts/tahoma.ttf');
-}
+} */
