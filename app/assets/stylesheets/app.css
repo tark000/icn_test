@@ -148,13 +148,12 @@ span::-moz-selection {
     box-shadow: 0 1px 2px rgba(28, 92, 127, 0.3);
 }
 .b-head-bot-nav-list {
-    margin:0 0 0 3px;
+    margin:0 0 0 2px;
     float: left;
     list-style: none;
 }
 .b-head-bot-nav-list li {
     float: left;
-
 }
 .b-head-bot-nav-list li + li:before {
     content: '|';
@@ -164,44 +163,37 @@ span::-moz-selection {
     line-height:36px;
     color: #898989;
     text-decoration: none;
-    margin:0 -2px;
+    margin:0 -3px;
     padding: 0 40px 0 40px;
     display:inline-block;
-    font-size: 11px;
 }
 .b-head-bot-nav-list_first a {
     border-radius:10px 0 0 !important;
 }
 .b-head-bot-nav-list a:hover {
-    background:url("menu_hover.png") repeat-x 0 0;
+    background:url(menu_hover.png) repeat-x 0 0;
 }
 .b-head-bot-nav-list a:active,.active a {
-    background:url("menu_hover.png") repeat-x 0 -36px !important;
+    background:url(menu_hover.png) repeat-x 0 -36px !important;
 }
 .b-head-bot-nav-add {
-    width:317px;
     float: right;
-
 }
 .b-head-bot-nav-add .item {
     float: left;
     margin:0 -15px 0 0;
-    padding:0 1   10px 2px;
+    padding:0 20px 2px;
     position:relative;
-    width:167px;
+    width:180px;
 }
 .b-head-bot-nav-add .personal-room,
 .b-head-bot-nav-add .web-mail {
-    font-size: 11px;
     line-height:36px;
     position: relative;
-    padding: 0 0 0 55px;
+    padding: 0 0 0 33px;
     color: #007c6d;
     text-decoration: none;
     text-shadow: 1px 1px 0 #fff;
-}
-.b-head-bot-nav-add .web-mail{
-    padding: 0 0 0 55px;
 }
 .b-head-bot-nav-add .personal-room {
     z-index:5;
@@ -232,8 +224,7 @@ span::-moz-selection {
     -webkit-box-shadow:none !important;
     -moz-box-box-shadow:none !important;
     margin-right:0 !important;
-    width:151px;
-    float: right;
+    width:150px;
     z-index:7 !important;
 }
 .b-head-bot-nav-add .item_mail:hover {
@@ -245,7 +236,7 @@ span::-moz-selection {
     z-index:8;
 }
 .login_box {
-    background:url("login_box.png") repeat-x bottom #f7f7f7 !important;
+    background:url(login_box.png) repeat-x bottom #f7f7f7 !important;
     box-shadow:0 1px 2px #e5e5e5,-1px 1px  #e5e5e5;
     -webkit-box-shadow:0 1px 2px #e5e5e5,-1px 1px 2px #e5e5e5;
     -moz-box-shadow:0 1px 2px #e5e5e5,-1px 1px 2px #e5e5e5;
@@ -254,12 +245,11 @@ span::-moz-selection {
     -webkit-border-radius:0 0 10px 10px;
     display:none;
     position:absolute;
-    width:317px;
+    width:315px;
     left:0;
     z-index:900;
     padding:10px 20px 0;
     top:38px;
-    margin-top:-2px;
 
 }
 .b-head-bot-nav-add .item_mail .login_box {
@@ -270,13 +260,13 @@ span::-moz-selection {
     display:block;
 }
 .b-head-bot-nav-add .personal-room:before {
-    margin: 0 0 0 22px;
-    background: url("pack.png") -122px -138px;
+    background: url(pack.png) -122px -138px;
 }
 .b-head-bot-nav-add .web-mail:before {
-    margin: 0 0 0 22px;
-    background: url("pack.png") -122px -122px;
+    background: url(pack.png) -122px -122px;
 }
+
+
 .b-app-but {
     position: relative;
     float: left;
