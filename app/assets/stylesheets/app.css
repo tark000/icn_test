@@ -2526,3 +2526,9 @@ table span {
     border:0 none;
     float:right;
 }
+
+@font-face
+{
+    font-family: Tahoma;
+    src: url('fonts/tahoma.ttf');
+}
