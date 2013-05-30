@@ -2527,6 +2527,16 @@ table span {
     float:right;
 }
 
+
+@font-face {
+    font-family: 'Tahoma';
+    src: url('fonts/tahoma.eot');
+    src: url('fonts/tahoma.eot') format('embedded-opentype'),
+    url('fonts/tahoma.woff') format('woff'),
+    url('fonts/tahoma.ttf') format('truetype'),
+    url('fonts/tahoma.svg#TahomaRegular') format('svg');
+}
+/*
 @font-face {
     font-family: Tahoma;
 
@@ -2535,7 +2545,7 @@ table span {
 
 
 }
-/*
+
 @font-face
 {
     font-family: Tahoma;
