@@ -7,5 +7,9 @@ class PagesController < InheritedResources::Base
     @about = About.first
   end
 
+  def show
+    @page = Page.find(params[:id])
+  end
+
 
 end

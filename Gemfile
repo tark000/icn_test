@@ -22,6 +22,8 @@ gem 'activeadmin'
 gem 'active_admin_editor'
 gem 'rabl'
 gem 'oj'
+gem "friendly_id"
+gem "babosa"
 
 # Gems used only for assets and not required
 # in production environments by default.

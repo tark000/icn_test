@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130527173800) do
+ActiveRecord::Schema.define(:version => 20130531140201) do
 
   create_table "abouts", :force => true do |t|
     t.string   "title"
@@ -90,6 +90,7 @@ ActiveRecord::Schema.define(:version => 20130527173800) do
     t.text     "map"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.string   "slug"
   end
 
   create_table "jobs", :force => true do |t|
@@ -97,6 +98,7 @@ ActiveRecord::Schema.define(:version => 20130527173800) do
     t.text     "description"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
+    t.string   "slug"
   end
 
   create_table "mailers", :force => true do |t|
@@ -131,6 +133,7 @@ ActiveRecord::Schema.define(:version => 20130527173800) do
     t.datetime "finish_at"
     t.boolean  "show_time"
     t.boolean  "on"
+    t.string   "slug"
   end
 
   create_table "payments", :force => true do |t|
@@ -143,11 +146,10 @@ ActiveRecord::Schema.define(:version => 20130527173800) do
     t.string   "link"
     t.string   "description"
     t.boolean  "show"
-    t.boolean  "show_time"
-    t.boolean  "on"
     t.boolean  "show_map"
     t.text     "map"
     t.string   "map_description"
+    t.string   "slug"
   end
 
   create_table "pdf_files", :force => true do |t|
@@ -178,6 +180,7 @@ ActiveRecord::Schema.define(:version => 20130527173800) do
     t.datetime "created_at",   :null => false
     t.datetime "updated_at",   :null => false
     t.integer  "post_type_id"
+    t.string   "slug"
   end
 
   create_table "prices", :force => true do |t|
