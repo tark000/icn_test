@@ -1,11 +1,6 @@
 <script>
-
-
     $(".b-main-slider_switches").live("click", function () {  $('.cycle-slideshow').cycle('pause');
     });
-
-
-
 </script>
 
 <div class="b-main-slider">
@@ -72,6 +67,7 @@
     <h3>О компании:</h3>
     <p class="b-mc-about_col"><%=  @about.discription1 %></p>
     <p class="b-mc-about_col"><%=  @about.discription2 %></p>
+    <%=  link_to 'Читать далее', abouts_path%>
   </div>
   <div class="clear"></div>
 </div>
