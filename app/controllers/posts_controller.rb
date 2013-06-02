@@ -1,7 +1,7 @@
 class PostsController < InheritedResources::Base
 
   def index
-    @posts = Post.paginate(:page => params[:page], :per_page => 9)
+    @posts = Post.order("created_at DESC").paginate(:page => params[:page], :per_page => 9)
   end
 
   def show
