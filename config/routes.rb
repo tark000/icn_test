@@ -11,6 +11,10 @@ IcnSite::Application.routes.draw do
   match 'contact' => 'contact#create', :as => 'contact', :via => :post
 
 
+  match "iptv" => redirect("http://iptv.icn.ua/iptv")
+
+
+
   resources :payments
 
 
