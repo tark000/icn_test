@@ -21,6 +21,10 @@
 8/index.jpg: 8-732a793a61dce7e4e53fd111844a39cc.jpg
 block_center.png: block_center-b16cd8f3fb3b37cfadb23ac25a75bd48.png
 block_center/index.png: block_center-b16cd8f3fb3b37cfadb23ac25a75bd48.png
+bo_head.gif: bo_head-1e2629f893d87aea864cb4c7a9c8c797.gif
+bo_head/index.gif: bo_head-1e2629f893d87aea864cb4c7a9c8c797.gif
+bo_icos.gif: bo_icos-52c94829d6fce0e18fe8f4b931a9deec.gif
+bo_icos/index.gif: bo_icos-52c94829d6fce0e18fe8f4b931a9deec.gif
 bot.png: bot-9897e5ea18014f8a9ed73a064ddcc5e3.png
 bot/index.png: bot-9897e5ea18014f8a9ed73a064ddcc5e3.png
 button.png: button-607ed64f11d490a60e192393ac0650f2.png
@@ -125,8 +129,8 @@ vkontakte.gif: vkontakte-7fd01a7e6cbd14c3dd5dd0fe272892ee.gif
 vkontakte/index.gif: vkontakte-7fd01a7e6cbd14c3dd5dd0fe272892ee.gif
 active_admin.js: active_admin-615f53605989f58aefd67f21b1661ab2.js
 active_admin/index.js: active_admin-615f53605989f58aefd67f21b1661ab2.js
-app.js: app-d7160640eb69ed532f51c56ab58d9bcb.js
-app/index.js: app-d7160640eb69ed532f51c56ab58d9bcb.js
+app.js: app-da28387d078da89f55da4ee02d59a12e.js
+app/index.js: app-da28387d078da89f55da4ee02d59a12e.js
 application.js: application-8e3eeec9a63c444507aff45ee83b99f1.js
 application/index.js: application-8e3eeec9a63c444507aff45ee83b99f1.js
 cufon-yui.js: cufon-yui-085b6a3d725e70507d709c1d97e3d424.js
@@ -151,8 +155,8 @@ script.js: script-41fabed84bceaf1c0c684245e70b788f.js
 script/index.js: script-41fabed84bceaf1c0c684245e70b788f.js
 active_admin.css: active_admin-90609299a46139379c83b41e2efa617b.css
 active_admin/index.css: active_admin-90609299a46139379c83b41e2efa617b.css
-app.css: app-08a26a3a9454cab07e20d372498e4c61.css
-app/index.css: app-08a26a3a9454cab07e20d372498e4c61.css
+app.css: app-a50196b3baebd5c5fe839e1ee52e07c4.css
+app/index.css: app-a50196b3baebd5c5fe839e1ee52e07c4.css
 application.css: application-1b13569e9620782f423d4cd3ce931750.css
 application/index.css: application-1b13569e9620782f423d4cd3ce931750.css
 fonts/tahoma.eot: fonts/tahoma-8452f65126611d3607f9c4c0acbab1c5.eot

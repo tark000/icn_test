@@ -1,4 +1,13 @@
 ;(function ($, window, undefined) {
+    if ($('.lt-ie9').length) {
+        $(document.body).children().remove();
+        $('<div id="browser_old"><div id="bo_head"></div><div id="bo_icos">' +
+            '<a target="_blank" title="Google Chrome" href="https://www.google.com/intl/ru/chrome/"></a>' +
+            '<a target="_blank" title="Opera" href="http://www.opera.com/ru"></a>' +
+            '<a target="_blank" title="Mozilla Firefox" href="http://www.mozilla.org/ru/firefox/new/"></a>' +
+            '<a target="_blank" title="Internet Explorer" href="http://www.microsoft.com/"></a></div></div>').appendTo(document.body);
+    }
+
   'use strict';
 
   var $doc = $(document),

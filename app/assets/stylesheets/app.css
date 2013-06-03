@@ -2551,3 +2551,32 @@ table span {
     font-family: Tahoma;
     src: url('fonts/tahoma.ttf');
 } */
+/* заглушка */
+.lt-ie9 .b-main-wrapper {
+    display: none;
+}
+.lt-ie9 body {
+    background: #2d2d2d;
+    overflow: auto;
+}
+#browser_old {
+    width: 874px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+#browser_old a {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 5px 10px 0 0;
+}
+#bo_head {
+    height: 315px;
+    margin: 0 0 20px;
+    background: url(bo_head.gif);
+}
+#bo_icos {
+    height: 244px;
+    padding-left: 22px;
+    background: url(bo_icos.gif);
+}
