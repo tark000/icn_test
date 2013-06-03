@@ -11,7 +11,7 @@
     </header>
     <a href="javascript:history.back()" title="" class="back_link"><span>назад</span></a>
     <div class="clear"></div>
-    <p><%= @page.description %></p>
+    <p><%= markdown(@page.description) %></p>
   </article><!--end news_item-->
   <div class="clear"></div>
 </div><!--end main_item-->

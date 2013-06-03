@@ -30,7 +30,7 @@
     </header>
     <a href="javascript:history.back()" title="" class="back_link"><span>назад</span></a>
     <div class="clear"></div>
-    <p><%= @post.text %></p>
+    <p><%= markdown(@post.text) %></p>
       </article><!--end news_item-->
   <div class="clear"></div>
 </div><!--end main_item-->
