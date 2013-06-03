@@ -13,7 +13,7 @@ IcnSite::Application.routes.draw do
 
   match "iptv" => redirect("http://iptv.icn.ua/iptv")
 
-
+  match "iptv/mw" => redirect("http://iptv.icn.ua/iptv/mw")
 
   resources :payments
 
