@@ -60,6 +60,16 @@ return false;
 
 });
 
+    $('.show_on_map_link').click(function(e){
+
+        $('#popups').show();
+
+        $('#popups_container').slideDown();
+
+        return false;
+
+    });
+
 $('#popups').click(function(e){
 
 $('#popups').hide();  
