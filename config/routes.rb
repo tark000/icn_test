@@ -1,7 +1,7 @@
 IcnSite::Application.routes.draw do
   resources :payments do
     collection do
-      get 'city_pay'
+      get 'city'
     end
   end
 

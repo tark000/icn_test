@@ -2580,3 +2580,7 @@ table span {
     padding-left: 22px;
     background: url(bo_icos.gif);
 }
+
+
+.invalid { border:1px solid red !important; width:264px !important; padding:0 9px !important;}
+.center_popups_container .invalid { border:1px solid red !important; width:255px !important; padding:0 9px !important;}
