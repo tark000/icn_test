@@ -69,8 +69,18 @@ return false;
         return false;
 
     });
+    $('.connetions').click(function(e){
 
-$('#popups').click(function(e){
+        $('#popups').show();
+
+        $('#popups_container').slideDown();
+
+        return false;
+
+    });
+
+
+    $('#popups').click(function(e){
 
 $('#popups').hide();  
 
