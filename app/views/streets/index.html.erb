@@ -5,6 +5,7 @@
 
 
     $(document).ready(function(){
+
         var flag = false;
         var array = '<%= raw @str %>'.replace(/\"/g, ' ').replace(/\[/g, ' ').replace(/\]/g, ' ').split(",")
         var l = array.length;
@@ -13,12 +14,27 @@
         for (var i = 0; i < l; i++) {
             src.push(array[i].replace(/^\s+/, "").replace(/\s+$/, ""));
         }
-        $( "#street_name" ).autocomplete({
+        $( "input[name=street_name]" ).autocomplete({
             source: src
         });
-        function getList(item){
-           var list1 = '';
-           var cl = '';
+
+
+        var data = '<%= render(template: "streets/index.json.rabl") %>';
+        var dat = data.replaceAll("&quot;", '"');
+
+        var obj = jQuery.parseJSON(dat);
+
+        var limit = obj.length;
+        limit /= 4;
+        var list1 = '<ul style="padding:17px;">', list2= '<ul style="padding:17px;">', list3= '<ul style="padding:17px;">', list4= '<ul style="padding:17px;">';
+        var f1 = false, f2 = false, f3 = false, f4 = false;
+        var cl = 'gree';
+
+
+
+        function getList(item,h){
+            var list1 = '';
+            var cl = '';
             if (flag){
                 cl = 'class="gree"';
                 flag = false;
@@ -28,17 +44,20 @@
 
             list1 += '<li class="gree"'+cl+'><a href="#" class="plus">'+item.street.name+'</a> <div class="clear"></div><ul>';
             $.each(item.street.builds, function(i, it){
-                if ((it.build.status != 'not_connected') && (it.build.status != 'can_not_connect')) {
-                    list1 += '<li><a href="#">'+it.build.name;
+                if (it.build.name.toLowerCase().indexOf(h) >= 0) {
+                    if ((it.build.status != 'not_connected') && (it.build.status != 'can_not_connect')) {
+                        list1 += '<li><a href="#">'+it.build.name;
 
-                    if (it.build.status == 'connected'){
-                        list1 += '<span class="hide_icon">- <span class="icon_1"></span></span>'
-                    }
-                    if (it.build.status == 'can_connect'){
-                        list1 += '<span class="hide_icon">- <span class="icon_2"></span></span>'
+                        if (it.build.status == 'connected'){
+                            list1 += '<span class="hide_icon">- <span class="icon_1"></span></span>'
+                        }
+                        if (it.build.status == 'can_connect'){
+                            list1 += '<span class="hide_icon">- <span class="icon_2"></span></span>'
+                        }
+
+                        list1 += '</a></li>';
                     }
 
-                    list1 += '</a></li>';
                 }
 
             });
@@ -47,39 +66,97 @@
             return list1;
         }
 
-       var data = '<%= render(template: "streets/index.json.rabl") %>';
-       var dat = data.replaceAll("&quot;", '"');
+        function builds_filter(item,h){
+            var z = 0;
 
-        var obj = jQuery.parseJSON(dat);
-       var limit = obj.length;
-        limit /= 4;
-        var list1 = '<ul style="padding:17px;">', list2= '<ul style="padding:17px;">', list3= '<ul style="padding:17px;">', list4= '<ul style="padding:17px;">';
-       var f1 = false, f2 = false, f3 = false, f4 = false;
-       var cl = 'gree';
+            for (var i=0; i<item.street.builds.length; i++) {
+               if (item.street.builds[i].build.name.toLowerCase().indexOf(h) >= 0){
+                   z = z +1;
+               } else {
+                   z = z;
+               }
+
+            }
 
 
-        $.each(obj, function(i, item) {
-         if (i <= limit){
-             list1 += getList(item);
-         }
-        else if ((i > limit) && (i < 2*limit)){
-             list2 += getList(item);
-         }
-       else  if ((i >= 2*limit) && (i < 3*limit)){
-             list3 += getList(item);
-         } else {
-             list4 += getList(item);
-         }
+
+
+            return z;
+
+
+        }
+        function jsonn(s,b) {
+
+            var data = '<%= render(template: "streets/index.json.rabl") %>';
+            var dat = data.replaceAll("&quot;", '"');
+
+            var obj = jQuery.parseJSON(dat);
+
+            var limit = obj.length;
+            limit /= 4;
+            var list1 = '<ul style="padding:17px;">', list2= '<ul style="padding:17px;">', list3= '<ul style="padding:17px;">', list4= '<ul style="padding:17px;">';
+            var f1 = false, f2 = false, f3 = false, f4 = false;
+            var cl = 'gree';
+
+
+            var n=0;
+            var z=0;
+
+
+
+
+            $.each(obj, function(i, item) {
+
+                z=1;
+                if (b != ""){
+
+                    z = builds_filter(item,b);
+                }
+
+
+                if (( item.street.name.toLowerCase().indexOf(s) >= 0) && (z > 0))  {
+                    if (n <= limit){
+                        list1 += getList(item,b);
+                    }
+                    else if ((n > limit) && (i < 2*limit)){
+                        list2 += getList(item,b);
+                    }
+                    else  if ((n >= 2*limit) && (i < 3*limit)){
+                        list3 += getList(item,b);
+                    } else {
+                        list4 += getList(item,b);
+                    }
+                    n = n+1;
+                }
+
+
+
+
+
+
+            });
+            list1 += '</ul>';
+            list2 += '</ul>';
+            list3 += '</ul>';
+            list4 += '</ul>';
+
+            $('.list_box_text').append(list1);
+            $('.list_box_text').append(list2);
+            $('.list_box_text').append(list3);
+            $('.list_box_text').append(list4);
+
+
+        }
+
+        jsonn("","")
+
+
+        $('.search_street_button').click(function(){
+            var value_street = $("input[name=street_name]").val().toLowerCase();
+            var value_build = $("input[name=build_name]").val().toLowerCase();
+            $(".list_box_text").empty();
+            jsonn(value_street,value_build)
         });
-         list1 += '</ul>';
-         list2 += '</ul>';
-         list3 += '</ul>';
-         list4 += '</ul>';
-
-        $('.list_box').append(list1);
-        $('.list_box').append(list2);
-        $('.list_box').append(list3);
-        $('.list_box').append(list4);
 
     });
 </script>
@@ -98,11 +175,13 @@
             <li ><a href="#list" style="border-radius: 5px ;"></a></li>
             <!--<li><a >Показать карту<span></span></a></li>       <!--href="#map" -->
           </ul>
-          <%= form_tag streets_path, :method => 'get', :class=>"search_street" do %>
-                <%= text_field_tag :street_name, params[:street_name], :placeholder=>"Улица" , :style=>"width: 240px;"%>
-              <%= text_field_tag :build, params[:build], :placeholder=>"Дом" %>
-                <%= submit_tag "Искать", :name => nil, :class => "search_street_button"  %>
-          <% end %>
+
+          <form action="" method="get" class="search_street">
+            <input name="street_name" type="text" placeholder="Улица" style="width: 240px;" >
+            <input name="build_name" type="text" placeholder="Дом">
+            <input name="" type="button" value="Искать" class="search_street_button">
+          </form>
+
           <div class="maps_description">
             <span>- доступны все сервисы</span>
             <span>- собираем заявки</span>
@@ -115,12 +194,13 @@
       <div class="list_box">
         <p>Ниже представлена карта покрытия в виде информационного списка. Чтобы проверить возможность подключения к интернету Вашего дома, а
           также оставить заявку на подключение к интернету перейдите по этой <%=  link_to "ссылке", contact_path  %> и заполните предложенную форму.</p>
-
+        <div class="list_box_text">
         <% if @len == 0 %>
             <p style= "font-size: 16px;">
               Улица или дом не найдены.
             </p>
         <% end %>
+          </div>
       </div><!--end list_box-->
     </div><!--end list-->
   </div><!--end tabs_payment-->
