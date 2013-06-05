@@ -133,8 +133,9 @@
 
 
 
-
             });
+
+
             list1 += '</ul>';
             list2 += '</ul>';
             list3 += '</ul>';
@@ -145,6 +146,15 @@
             $('.list_box_text').append(list3);
             $('.list_box_text').append(list4);
 
+
+            if (n == 1){
+                $('.plus').addClass('current')
+                $('.gree').addClass('current')
+                $('.gree ul').css("display", "block");
+
+            } else if ( n == 0){
+                $('.list_box_text').append('<p style= "font-size: 16px;"> Улица или дом не найдены.</p>');
+            }
 
         }
 
@@ -158,6 +168,16 @@
             jsonn(value_street,value_build)
         });
 
+
+
+        $('input[type=text]').on('keyup', function(e) {
+            if (e.which == 13) {
+                var value_street = $("input[name=street_name]").val().toLowerCase();
+                var value_build = $("input[name=build_name]").val().toLowerCase();
+                $(".list_box_text").empty();
+                jsonn(value_street,value_build)
+            }
+        });
     });
 </script>
 
@@ -195,11 +215,7 @@
         <p>Ниже представлена карта покрытия в виде информационного списка. Чтобы проверить возможность подключения к интернету Вашего дома, а
           также оставить заявку на подключение к интернету перейдите по этой <%=  link_to "ссылке", contact_path  %> и заполните предложенную форму.</p>
         <div class="list_box_text">
-        <% if @len == 0 %>
-            <p style= "font-size: 16px;">
-              Улица или дом не найдены.
-            </p>
-        <% end %>
+
           </div>
       </div><!--end list_box-->
     </div><!--end list-->
