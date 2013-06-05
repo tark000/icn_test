@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81bf2660-5470-4da3-8bb0-d67089fc39e1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/streets/index.html.erb" afterPath="$PROJECT_DIR$/app/views/streets/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/production.log" afterPath="$PROJECT_DIR$/log/production.log" />
     </list>
     <ignored path="icn.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,10 +34,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="street.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="street.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/street.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="21" selection-start="250" selection-end="250" vertical-scroll-proportion="0.26501766">
+            <state line="15" column="21" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -55,10 +52,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/streets/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="112" column="25" selection-start="3324" selection-end="3324" vertical-scroll-proportion="-6.018182">
+            <state line="127" column="62" selection-start="3954" selection-end="3954" vertical-scroll-proportion="0.8847631">
               <folding />
             </state>
           </provider>
@@ -147,9 +144,9 @@
         <option value="$PROJECT_DIR$/app/views/prices/_avans.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/script.js" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/streets/index.html.erb" />
         <option value="$PROJECT_DIR$/app/models/build.rb" />
         <option value="$PROJECT_DIR$/app/models/street.rb" />
+        <option value="$PROJECT_DIR$/app/views/streets/index.html.erb" />
       </list>
     </option>
   </component>
@@ -686,13 +683,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/streets/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="25" selection-start="3324" selection-end="3324" vertical-scroll-proportion="-6.018182">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/build.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="1" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0">
@@ -702,7 +692,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/street.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="21" selection-start="250" selection-end="250" vertical-scroll-proportion="0.26501766">
+        <state line="15" column="21" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/streets/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="127" column="62" selection-start="3954" selection-end="3954" vertical-scroll-proportion="0.8847631">
           <folding />
         </state>
       </provider>

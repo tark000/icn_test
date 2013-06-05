@@ -66,7 +66,7 @@
             return list1;
         }
 
-        function builds_filter(item,h){
+        function builds_filter(item,h){  //фильтр по номерах зданий
             var z = 0;
 
             for (var i=0; i<item.street.builds.length; i++) {
@@ -114,14 +114,14 @@
                 }
 
 
-                if (( item.street.name.toLowerCase().indexOf(s) >= 0) && (z > 0))  {
+                if (( item.street.name.toLowerCase().indexOf(s) >= 0) && (z > 0))  {  //фильтр по улицах
                     if (n <= limit){
                         list1 += getList(item,b);
                     }
-                    else if ((n > limit) && (i < 2*limit)){
+                    else if ((n > limit) && (n < 2*limit)){
                         list2 += getList(item,b);
                     }
-                    else  if ((n >= 2*limit) && (i < 3*limit)){
+                    else  if ((n >= 2*limit) && (n < 3*limit)){
                         list3 += getList(item,b);
                     } else {
                         list4 += getList(item,b);
