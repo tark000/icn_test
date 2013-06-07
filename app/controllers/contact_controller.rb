@@ -2,6 +2,13 @@ class ContactController < ApplicationController
   def new
 
     @message = Message.new
+
+    @str = []
+    Street.all.each do |w|
+      if w.builds.present?
+        @str << w.name
+      end
+    end
   end
 
   def create

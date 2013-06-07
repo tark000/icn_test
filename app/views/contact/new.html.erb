@@ -1,4 +1,22 @@
+<script>
 
+
+
+
+        $(document).ready(function() {
+            var flag = false;
+            var array = '<%= raw @str %>'.replace(/\"/g, ' ').replace(/\[/g, ' ').replace(/\]/g, ' ').split(",")
+            var l = array.length;
+            var src = [];
+
+            for (var i = 0; i < l; i++) {
+                src.push(array[i].replace(/^\s+/, "").replace(/\s+$/, ""));
+            }
+            $( "#message_street" ).autocomplete({
+                source: src
+            });
+        });
+</script>
 <% @info = AddPrice.where(title:"Контактная информация страница контакты") %>
 <div class="b-main-content">
   <div id="sidebar">
