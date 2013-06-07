@@ -8,9 +8,11 @@
     <label>Отчество:</label>
     <%= form.text_field :patronymic %>
     <label>Улица:<span>*</span></label>
-    <select name="message[street]" class="default" id="message_street">
+    <select name="message[street]" class="default" id="message_street" include_blank="true">
       <%= Street.order(:name).all.each do |st| %>
-          <option value="<%= st.id %>"> <%=  st.name %> </option>
+          <% if st.builds.present? %>
+              <option value="<%= st.id %>"> <%=  st.name %> </option>
+          <% end %>
       <% end %>
     </select>
     <label>Дом:<span>*</span></label>
