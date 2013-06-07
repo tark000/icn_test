@@ -13,9 +13,14 @@ class ContactController < ApplicationController
 
   def create
         @message = Message.new(params[:message])
+        @check_connect = CheckConnect.new(:fio => @message.name + " "+ @message.surname + " " + @message.patronymic, :house=>@message.house, :apartment=>@message.apartment, :email=>@message.email, :phone=>@message.phone, :message=>@message.message, :id_street=>@message.street)
 
-    if @message.valid?
+
+
+
+        if @message.valid?
       NotificationsMailer.new_message(@message).deliver
+      @check_connect.save
       redirect_to contact_path(:notice => "Message was successfully sent.")
     else
       flash.now.alert = "Please fill all fields."
@@ -23,3 +28,5 @@ class ContactController < ApplicationController
     end
   end
 end
+
+

@@ -8,7 +8,11 @@
     <label>Отчество:</label>
     <%= form.text_field :patronymic %>
     <label>Улица:<span>*</span></label>
-    <%= form.text_field :street %>
+    <select name="message[street]" class="default" id="message_street">
+      <%= Street.order(:name).all.each do |st| %>
+          <option value="<%= st.id %>"> <%=  st.name %> </option>
+      <% end %>
+    </select>
     <label>Дом:<span>*</span></label>
     <%= form.text_field :house %>
     <label>Квартира:<span>*</span></label>

@@ -4,7 +4,7 @@
 
 Отчество:    <%= @message.patronymic %>
 
-Улица:       <%= @message.street %>
+Улица:       <%= Street.find(@message.street).name %>
 
 Дом:         <%= @message.house %>
 
