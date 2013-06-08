@@ -35,7 +35,7 @@ class ContactController < ApplicationController
       @jurnal.save
       @check_connect_history = CheckConnectHistory.new(:id_doc => @jurnal.id, :check_connect_id => @check_connect.id, :streetid => @message.street, :house => @message.house, :apartment => @message.apartment, :status => @stat, :date => Time.now )
       @check_connect_history.save
-      redirect_to contact_path(:notice => "Message was successfully sent.")
+      redirect_to contact_path(:notice => "OK")
     else
       flash.now.alert = "Please fill all fields."
       render :new
