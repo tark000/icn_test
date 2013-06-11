@@ -8,13 +8,7 @@
     <label>Отчество:</label>
     <%= form.text_field :patronymic %>
     <label>Улица:<span>*</span></label>
-    <select name="message[street]" class="default" id="message_street" include_blank="true">
-      <%= Street.order(:name).all.each do |st| %>
-          <% if st.builds.present? %>
-              <option value="<%= st.id %>"> <%=  st.name %> </option>
-          <% end %>
-      <% end %>
-    </select>
+    <%= form.collection_select :street, street(), :id, :name%>
     <label>Дом:<span>*</span></label>
     <%= form.text_field :house %>
     <label>Квартира:<span>*</span></label>
@@ -32,3 +26,7 @@
     <% end %>
 <% end %>
 
+<script>
+
+    $("#message_street").addClass("default");
+</script>
