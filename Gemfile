@@ -10,7 +10,7 @@ gem 'mysql2'
 gem 'activeadmin'
 gem 'beautiful_scaffold', '0.2.5'
 gem "carrierwave"
-gem "rmagick"
+gem "rmagick", '2.13.2'
 gem 'will_paginate', '~> 3.0'
 gem 'kaminari'
 gem 'carrierwave'
