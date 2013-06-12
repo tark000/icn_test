@@ -1,5 +1,5 @@
 class PagesController < InheritedResources::Base
-
+  caches_page :index
   def index
     @pages = Page.where("start_at < ? ", Time.now).where("finish_at > ? ", Time.now).where(:on => true)
     @post_calendar = Post.where(post_type_id:1).last

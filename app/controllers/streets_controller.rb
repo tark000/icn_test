@@ -1,4 +1,5 @@
 class StreetsController < ApplicationController
+  caches_page :index
   layout "street_layout"
   #caches_page :index
 

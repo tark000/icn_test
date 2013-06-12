@@ -1,4 +1,5 @@
 class DepartmentsController < InheritedResources::Base
+  caches_page :index
 
   def index
     @departments = Department.all
