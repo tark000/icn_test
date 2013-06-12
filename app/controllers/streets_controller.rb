@@ -1,7 +1,6 @@
 class StreetsController < ApplicationController
   caches_page :index
   layout "street_layout"
-  #caches_page :index
 
   def index
     @temp = Street.search(params[:street_name]).order("name ASC").all
