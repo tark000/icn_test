@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<html>
+<head>
+  <title>ICN</title>
+  <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+  <link href="/assets/favicon-e3eae7e08ef9af7fea6c771a8cc0b743.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link href="/assets/foundation-cf48c275a29773f15cd40328d8f45406.css" media="all" rel="stylesheet" type="text/css" />
+
+  <link href="/assets/active_admin/editor/wysiwyg-3b8478ab4e16cc9509c3f51677faadd2.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="/assets/app-06d183605c2eed3b6dee06cd78130351.css" media="screen" rel="stylesheet" type="text/css" />
+
+  <script src="/assets/application-8e3eeec9a63c444507aff45ee83b99f1.js" type="text/javascript"></script>
+  <script src="/assets/jquery.dropkick-c5495d69e98974cfe84fa3088a440a87.js" type="text/javascript"></script>
+  <script src="/assets/script-8c06c9ffc9683477450e24e987938930.js" type="text/javascript"></script>
+  <script src="/assets/jquery.jcarousel.min-c2bb468f2a6caca93ca1dae0260260dc.js" type="text/javascript"></script>
+  <script src="/assets/modernizr.foundation-5c8db04796b258cc87b05ceddc790040.js" type="text/javascript"></script>
+  <script src="/assets/cufon-yui-085b6a3d725e70507d709c1d97e3d424.js" type="text/javascript"></script>
+  <script src="/assets/fonts-85e19a932967ce0cd7d460101ef73e3a.js" type="text/javascript"></script>
+  <script src="/assets/validate-04efef2bf32bcbcc7ece97274fcf9c0f.js" type="text/javascript"></script>
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="UWjitcBOQji+fY100ALQUiUzzgpUXj6Uqao59plsM4Y=" name="csrf-token" />
+</head>
+<body>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('.b-head-bot-nav-list').children('li').each(function(index, element) {
+            var url = window.location;
+            if($(element).find('a').attr('href') == url.pathname)
+                $(element).addClass('active');
+        });
+    });
+</script>
+
+<div class="b-main-wrapper">
+  
+<header class="b-main-header">
+  <div class="b-main-inner">
+    <div class="b-head-logo"><a href="/pages"><img alt="Logo" src="/assets/logo-d81114eb3944439dd34d0dcef5036b76.png" /></a></div>
+    <nav class="b-head-nav">
+      <ul class="b-head-nav_list clearfix">
+        <li class="b-head-nav_item"><a href="/prices">Тарифы</a></li>
+        <li class="b-head-nav_item"><a href="/posts">Новости</a></li>
+        <li class="b-head-nav_item"><a href="/abouts">О Компании</a></li>
+        <li class="b-head-nav_item"><a href="/contact">Контакты</a></li>
+        </ul>
+    </nav>
+    <a href="#popups" class="b-app-but">Заявка на подключение!</a>
+    <dl class="b-telephone">
+      <dt>Телефон:</dt>
+      <dd class="b-telephone_num">048 797 22 33</dd>
+    </dl>
+    <div class="b-head-bot-nav">
+      <ul class="b-head-bot-nav-list clearfix">
+        <li class="b-head-bot-nav-list_first"><a href="/payments">Как пополнить счет</a></li>
+        <li><a href="/streets">Карта покрытия</a></li>
+        <li><a href="/departments">Абонотделы</a></li>
+        <li><a href="http://forum.icn.od.ua/" target="_blank">Форум</a></li>
+      </ul>
+      <div class="b-head-bot-nav-add">
+        <div class="item item_cab">
+          <a href="https://stat.icn.od.ua/" class="personal-room" target="_blank">Личный кабинет</a>
+          <div class="login_box">
+
+
+            <form accept-charset="UTF-8" action="https://stat.icn.od.ua/index.php/content/login" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+
+                <input id="login" name="login" placeholder="Логин" type="text" />
+
+                <input id="password" name="password" placeholder="Пароль" type="password" />
+                <input class="submmit_button" name="commit" type="submit" value="Вход" />
+</form>          </div><!--end login_box-->
+        </div><!--end item-->
+        <div class="item item_mail"><a href="http://webmail.icn.od.ua/" class="web-mail" target="_blank">Веб почта</a>
+          <div class="login_box">
+            <form accept-charset="UTF-8" action="http://webmail.icn.od.ua/" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+
+                <input id="login" name="login" placeholder="Логин" type="text" />
+
+                <input id="password" name="password" placeholder="Пароль" type="password" />
+                <input class="submmit_button" name="commit" type="submit" value="Вход" />
+</form>          </div><!--end login_box-->
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+  <div class="b-main-container">
+    <div class="b-main-inner">
+
+        <script>
+    $(".b-main-slider_switches").live("click", function () {  $('.cycle-slideshow').cycle('pause');
+    });
+</script>
+
+<div class="b-main-slider">
+  <div class="cycle-slideshow" data-cycle-speed="750" data-cycle-timeout="3000" data-cycle-slides="> div" data-cycle-pager=".b-main-slider_switches">
+
+
+    <div class="b-main-slider_item">
+      <div class="b-main-slider_imgs">
+        <img alt="Index_icn_maind" src="/uploads/page/image/1/index_icn_maind.jpg" />
+      </div>
+         <div class="b-days-left"><span class="days">81</span> день</div>
+      <div class="b-main-slider_slide-descr">
+        <h2>Акция</h2>
+        <p>А Вы хотите получить скорость 100 Мбит/с всего за 10 грн.?</p>
+
+        <a href="/pages/1" class="b-more-btn">Узнать больше!</a>
+
+      </div>
+    </div>
+
+    <div class="b-main-slider_item">
+      <div class="b-main-slider_imgs">
+        <img alt="Index_icn_maind1" src="/uploads/page/image/2/index_icn_maind1.jpg" />
+      </div>
+      <div class="b-main-slider_slide-descr">
+        <h2>Лучшая техподдержка</h2>
+        <p>Абоненты нашей компании получают лучшее обслуживание!</p>
+
+        <a href="/pages/2" class="b-more-btn">Узнать больше!</a>
+
+      </div>
+    </div>
+
+    <div class="b-main-slider_item">
+      <div class="b-main-slider_imgs">
+        <img alt="Index_pict1" src="/uploads/page/image/3/index_pict1.jpg" />
+      </div>
+      <div class="b-main-slider_slide-descr">
+        <h2>Без единого разрыва </h2>
+        <p>Мы развеем все Ваши сомнения</p>
+
+        <a href="/pages/3" class="b-more-btn">Узнать больше!</a>
+
+      </div>
+    </div>
+
+
+  </div>
+  <div class="b-main-slider_switches"></div>
+</div>
+
+<div class="b-add-sections">
+  <a href="/streets" class="b-add-sections_box">
+    <span class="ico1"></span>
+    <h4>Карта<br>покрытия</h4>
+    <span class="link">Смотреть карту</span>
+  </a>
+  <a href= "/departments" class="b-add-sections_box">
+    <span class="ico2"></span>
+    <h4>Абонентские<br>отделы</h4>
+    <span class="link">Смотреть</span>
+  </a>
+  <a href="/prices" class="b-add-sections_box">
+    <span class="ico3"></span>
+    <h4>Наши<br>тарифы</h4>
+    <span class="link">Читать далее</span>
+  </a>
+</div>
+
+<div class="b-main-content">
+  <div class="b-mc-news">
+    <h3>Новости:</h3>
+    <div class="b-mc-news_col">
+      <div class="date ico1">31.05.13</div>
+      <p></p>
+      <a href="/posts/opisanie">Читать далее</a>
+    </div>
+    <div class="b-mc-news_col">
+      <div class="date ico2">24.04.13</div>
+      <p>В четверг, 25 апреля 2013г, в связи с проведением плановых работ, будет отсутствовать доступ к ус...</p>
+      <a href="/posts/12">Читать далее</a>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <div class="b-mc-about">
+    <h3>О компании:</h3>
+    <p class="b-mc-about_col">ICN – один из крупнейших интернет-провайдеров на телекоммуникационном рынке Одессы. Компания работает с 2000 года и превратилась из небольшой «домовой» локалки в современную сеть с десятками тысяч абонентов, оптико-волоконными магистралями, мощными серверами и, что самое главное – в ней работают профессионалы высокого класса. Началось</p>
+    <p class="b-mc-about_col">все с небольшой локальной сети в одном из многоэтажных жилых домов на улице Армейской. С августа 2000 г. маленькая «домовая» локалка начала оказывать услуги по подключению к сети интернет на коммерческой основе – в качестве частного предприятия. В 2004 году ICN преобразовалось в ООО и начало ...
+    <a href="/abouts">Читать далее</a>     </p>
+  </div>
+  <div class="clear"></div>
+</div>
+
+
+
+
+
+
+
+
+
+    </div>
+
+  </div>
+  <footer class="b-main-footer">
+  <div class="b-main-inner">
+    <div class="b-foot-logo">
+      <a href="/pages"><img alt="Foot-logo" src="/assets/foot-logo-b7aaca58f682889699459742173b8800.png" /></a>
+      <div class="b-foot-phone">048 797 22 33</div>
+    </div>
+    <ul class="b-foot-nav">
+      <li><a href="/prices">Тарифы</a></li>
+      <li><a href="/abouts">О нас</a></li>
+      <li><a href="http://forum.icn.od.ua/" target="_blank">Форум</a></li>
+    </ul>
+    <a href="/streets" title="" class="b-foot-map">
+      <span class="ico"></span>
+      <h4>Карта покрытия</h4>
+      <span class="link">Смотреть карту</span>
+    </a>
+    <div class="b-foot-social">
+      <h4>Мы в социальных сетях</h4>
+      <a href="http://www.facebook.com/icn.ua?fref=ts" class="social-link" height="16" target="_blank" width="16"><img alt="Facebook" src="/assets/facebook-a2d8e3cb745a7fb022e2a5541000e7c5.png" /></a>
+      <a href="https://twitter.com/ICN_ua" class="social-link" height="16" target="_blank" width="16"><img alt="Twitter" src="/assets/twitter-83fdc942eb785596a6b490f0a611db9b.png" /></a>
+      <a href="http://vk.com/icn_official" class="social-link" height="16" target="_blank" width="16"><img alt="Vkontakte" src="/assets/vkontakte-7fd01a7e6cbd14c3dd5dd0fe272892ee.gif" /></a>
+    </div>
+    <a href="http://hb.od.ua" class="b-create-studio" height="18" target="_blank"><img alt="Hb" src="/assets/hb-0fa9d9cccdba2d0ffa23f71b89c4db0b.png" /></a>
+  </div>
+ </footer>
+</div>
+<div id="popups">
+  <div id="popups_container">
+    <div class="top_popups_container">
+      Заявка на подключение
+      <a href="#" class="close_popups"></a>
+    </div><!--end top_popups_container-->
+    <div class="center_popups_container">
+      
+
+<form accept-charset="UTF-8" action="/contact" class="contact" id="new_message" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="UWjitcBOQji+fY100ALQUiUzzgpUXj6Uqao59plsM4Y=" /></div>
+    <label>Имя:<span>*</span></label>
+    <input class="contactlabel" id="message_name" name="message[name]" size="30" type="text" />
+    <label>Фамилия:<span>*</span></label>
+    <input class="contactlabel" id="message_surname" name="message[surname]" size="30" type="text" />
+    <label>Отчество:</label>
+    <input id="message_patronymic" name="message[patronymic]" size="30" type="text" />
+    <label>Улица:<span>*</span></label>
+    <select id="message_street" name="message[street]"><option value="1">Bunina</option>
+<option value="4">Datsca</option>
+<option value="5">Didrichsona</option></select>
+    <label>Дом:<span>*</span></label>
+    <input id="message_house" name="message[house]" size="30" type="text" />
+    <label>Квартира:<span>*</span></label>
+    <input id="message_apartment" name="message[apartment]" size="30" type="text" />
+    <label>E-Mail:</label>
+    <input id="message_email" name="message[email]" size="30" type="text" />
+    <label>Телефон:<span>*</span></label>
+    <input id="message_phone" name="message[phone]" size="30" type="text" />
+    <label>Сообщение:</label>
+    <textarea cols="40" id="message_message" name="message[message]" rows="20">
+</textarea>
+    <a href="#" title="" class="clear_inputs" onClick="document.forms['subform'].reset()">Очистить</a>
+    <input class="contactb" name="commit" type="submit" value="Отправить" />
+</form>
+<script>
+
+    $("#message_street").addClass("default");
+</script>
+    </div><!--end center_popups_container-->
+  </div><!--end popups_container-->
+</div><!--end popups-->
+<script src="/assets/jquery.ui.all-e748e5646a2146ba31019ed17612bbfe.js" type="text/javascript"></script>
+<script src="/assets/jquery.cycle2.min-4626d6aae3a30f3fb69d7e8ed58341f8.js" type="text/javascript"></script>
+<script src="/assets/app-da28387d078da89f55da4ee02d59a12e.js" type="text/javascript"></script>
+</body>
+</html>
