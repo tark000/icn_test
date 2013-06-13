@@ -1,5 +1,5 @@
 class StreetsController < ApplicationController
-  #caches_page :index, :expires_in => 5.minutes
+  caches_page :index, :expires_in => 5.minutes
   layout "street_layout"
 
   def index
