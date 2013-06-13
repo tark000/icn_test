@@ -21,9 +21,9 @@
     <%= form.text_area :message %>
     <a href="#" title="" class="clear_inputs" onClick="document.forms['subform'].reset()">Очистить</a>
     <%= form.submit "Отправить", :class=>"contactb" %>
-    <%  if params[:notice].present? %>
-    <div class="send">Ваше сообщение успешно отправлено. Ждите звонка оператора, спасибо!</div>
-    <% end %>
+
+    <div class="send" style="display: none">Ваше сообщение успешно отправлено. Ждите звонка оператора, спасибо!</div>
+
 <% end %>
 
 <script>

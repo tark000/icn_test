@@ -1,14 +1,14 @@
 <% cache do %>
-<div id="popups">
-  <div id="popups_container">
-    <div class="top_popups_container">
-      Заявка на подключение
-      <a href="#" class="close_popups"></a>
-    </div><!--end top_popups_container-->
-    <div class="center_popups_container">
-      <% @message = Message.new %>
-      <%= render 'contact/form' %>
-    </div><!--end center_popups_container-->
-  </div><!--end popups_container-->
-</div><!--end popups-->
+    <div id="popups">
+      <div id="popups_container">
+        <div class="top_popups_container">
+          Заявка на подключение
+          <a href="#" class="close_popups"></a>
+        </div><!--end top_popups_container-->
+        <div class="center_popups_container">
+          <% @message = Message.new %>
+          <%= render 'contact/form' %>
+        </div><!--end center_popups_container-->
+      </div><!--end popups_container-->
+    </div><!--end popups-->
 <% end %>

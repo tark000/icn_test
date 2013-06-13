@@ -1,4 +1,5 @@
 class ContactController < ApplicationController
+  caches_page :new
   def new
 
     @message = Message.new
