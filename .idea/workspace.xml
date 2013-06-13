@@ -2,32 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81bf2660-5470-4da3-8bb0-d67089fc39e1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/BC9/350/sprockets%2F7690a7517831a6369d60206047349c58" afterPath="$PROJECT_DIR$/tmp/cache/assets/BC9/350/sprockets%2F7690a7517831a6369d60206047349c58" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/C29/8A0/sprockets%2Fa899e19256a0845205636938010c6fe5" afterPath="$PROJECT_DIR$/tmp/cache/assets/C29/8A0/sprockets%2Fa899e19256a0845205636938010c6fe5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/C4C/4B0/sprockets%2Fd203b79132c0114fd3c65206f4991859" afterPath="$PROJECT_DIR$/tmp/cache/assets/C4C/4B0/sprockets%2Fd203b79132c0114fd3c65206f4991859" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/C5F/350/sprockets%2Fba24bc490082673504017b0cf4303e21" afterPath="$PROJECT_DIR$/tmp/cache/assets/C5F/350/sprockets%2Fba24bc490082673504017b0cf4303e21" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/CC0/930/sprockets%2Ffe0918ba9934e0fe7298b4660918515b" afterPath="$PROJECT_DIR$/tmp/cache/assets/CC0/930/sprockets%2Ffe0918ba9934e0fe7298b4660918515b" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D06/840/sprockets%2F238203f22bfd8b63f55212c48cb5e0d8" afterPath="$PROJECT_DIR$/tmp/cache/assets/D06/840/sprockets%2F238203f22bfd8b63f55212c48cb5e0d8" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D17/4C0/sprockets%2F700827acd727b6fc8361f454c68a5cd7" afterPath="$PROJECT_DIR$/tmp/cache/assets/D17/4C0/sprockets%2F700827acd727b6fc8361f454c68a5cd7" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D85/BD0/sprockets%2Fb303f9b82b5313eb114ebccb5e1d5b24" afterPath="$PROJECT_DIR$/tmp/cache/assets/D85/BD0/sprockets%2Fb303f9b82b5313eb114ebccb5e1d5b24" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D88/F90/sprockets%2F9a6e12bd869badf76e94c583f7e520f9" afterPath="$PROJECT_DIR$/tmp/cache/assets/D88/F90/sprockets%2F9a6e12bd869badf76e94c583f7e520f9" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D90/BA0/sprockets%2F165af2a9d01d792c5d320e80cac5cd4e" afterPath="$PROJECT_DIR$/tmp/cache/assets/D90/BA0/sprockets%2F165af2a9d01d792c5d320e80cac5cd4e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D95/DA0/sprockets%2F1ecd763c2fbd31f9a3d3f00881d9a34a" afterPath="$PROJECT_DIR$/tmp/cache/assets/D95/DA0/sprockets%2F1ecd763c2fbd31f9a3d3f00881d9a34a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D98/190/sprockets%2F27dcaaeaca03564c7874d4228e29af2d" afterPath="$PROJECT_DIR$/tmp/cache/assets/D98/190/sprockets%2F27dcaaeaca03564c7874d4228e29af2d" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/DB2/4F0/sprockets%2Fd8fc26dbeb36146d9394ec9c3e5c89b4" afterPath="$PROJECT_DIR$/tmp/cache/assets/DB2/4F0/sprockets%2Fd8fc26dbeb36146d9394ec9c3e5c89b4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/DBA/CA0/sprockets%2Fd44ef8e868ea3d9d4f79745af38ce10e" afterPath="$PROJECT_DIR$/tmp/cache/assets/DBA/CA0/sprockets%2Fd44ef8e868ea3d9d4f79745af38ce10e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/DE1/0A0/sprockets%2Fe861573fb431988ec7a2fa8bd7c7fcec" afterPath="$PROJECT_DIR$/tmp/cache/assets/DE1/0A0/sprockets%2Fe861573fb431988ec7a2fa8bd7c7fcec" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/E07/2E0/sprockets%2F1ed42ce19b7cd9e7a17d8d0c9c2d5f8c" afterPath="$PROJECT_DIR$/tmp/cache/assets/E07/2E0/sprockets%2F1ed42ce19b7cd9e7a17d8d0c9c2d5f8c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/contact_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/contact_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/streets_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/streets_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/message.rb" afterPath="$PROJECT_DIR$/app/models/message.rb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/contact.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/street.rb" afterPath="$PROJECT_DIR$/app/models/street.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/contact/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/contact/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/contact/new.html.erb" afterPath="$PROJECT_DIR$/app/views/contact/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_popups.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_popups.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/production.log" afterPath="$PROJECT_DIR$/log/production.log" />
     </list>
     <ignored path="icn.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -115,28 +91,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="street.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="street.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/street.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="2" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
+            <state line="1" column="1" selection-start="35" selection-end="35" vertical-scroll-proportion="0.018159807">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="notifications_mailer.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="notifications_mailer.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/mailers/notifications_mailer.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="23" selection-start="243" selection-end="243" vertical-scroll-proportion="0.18159807">
+            <state line="10" column="23" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/contact/new.html.erb">
+      <file leaf-file-name="streets_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/streets_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="49" selection-start="1013" selection-end="1013" vertical-scroll-proportion="-23.75">
+            <state line="20" column="43" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -162,7 +138,6 @@
         <option value="$PROJECT_DIR$/app/views/layouts/street_layout.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/payments_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/abouts_controller.rb" />
-        <option value="$PROJECT_DIR$/app/models/street.rb" />
         <option value="$PROJECT_DIR$/app/models/message.rb" />
         <option value="$PROJECT_DIR$/app/controllers/streets_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_popups.html.erb" />
@@ -174,6 +149,7 @@
         <option value="$PROJECT_DIR$/app/models/check_connect_history.rb" />
         <option value="$PROJECT_DIR$/app/models/jurnal.rb" />
         <option value="$PROJECT_DIR$/app/mailers/notifications_mailer.rb" />
+        <option value="$PROJECT_DIR$/app/models/street.rb" />
       </list>
     </option>
   </component>
@@ -675,13 +651,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/streets_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="3" selection-start="51" selection-end="69" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/contact/create.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -747,16 +716,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/street.rb">
+    <entry file="file://$PROJECT_DIR$/app/mailers/notifications_mailer.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="2" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
+        <state line="10" column="23" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/mailers/notifications_mailer.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/streets_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="23" selection-start="243" selection-end="243" vertical-scroll-proportion="0.18159807">
+        <state line="20" column="43" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/street.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="1" selection-start="35" selection-end="35" vertical-scroll-proportion="0.018159807">
           <folding />
         </state>
       </provider>
