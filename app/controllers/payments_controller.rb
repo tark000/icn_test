@@ -1,5 +1,5 @@
 class PaymentsController < InheritedResources::Base
-  caches_page :index
+  #caches_page :index
 
   def index
     @payments=Payment.all

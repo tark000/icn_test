@@ -1,5 +1,5 @@
 class StreetsController < ApplicationController
-  caches_page :index
+
   layout "street_layout"
 
   def index

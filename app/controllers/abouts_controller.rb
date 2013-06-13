@@ -1,5 +1,5 @@
 class AboutsController < InheritedResources::Base
-  caches_page :index
+  #caches_page :index
 def index
   @about=About.last
   @jobs=Job.all
