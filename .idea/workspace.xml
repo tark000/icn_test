@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81bf2660-5470-4da3-8bb0-d67089fc39e1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/streets_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/streets_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/streets_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/streets_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/build.rb" afterPath="$PROJECT_DIR$/app/models/build.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/check_connect.rb" afterPath="$PROJECT_DIR$/app/models/check_connect.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/check_connect_history.rb" afterPath="$PROJECT_DIR$/app/models/check_connect_history.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/jurnal.rb" afterPath="$PROJECT_DIR$/app/models/jurnal.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/street.rb" afterPath="$PROJECT_DIR$/app/models/street.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_popups.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_popups.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/production.log" afterPath="$PROJECT_DIR$/log/production.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/deploy.rb" afterPath="$PROJECT_DIR$/config/deploy.rb" />
     </list>
     <ignored path="icn.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,19 +29,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/contact/_form.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="59" selection-start="652" selection-end="652" vertical-scroll-proportion="-8.125">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="street.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="street.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/street.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="2" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
+            <state line="1" column="1" selection-start="35" selection-end="35" vertical-scroll-proportion="0.017667845">
               <folding />
             </state>
           </provider>
@@ -68,7 +50,7 @@
       <file leaf-file-name="check_connect.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/check_connect.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="3" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0">
+            <state line="1" column="2" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -77,7 +59,16 @@
       <file leaf-file-name="check_connect_history.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/check_connect_history.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="3" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
+            <state line="1" column="2" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="department.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/department.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -86,7 +77,7 @@
       <file leaf-file-name="jurnal.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/jurnal.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="33" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
+            <state line="1" column="1" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -110,33 +101,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_popups.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_popups.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/_popups.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="467" selection-end="467" vertical-scroll-proportion="0.24314214">
+            <state line="13" column="0" selection-start="467" selection-end="467" vertical-scroll-proportion="-8.125">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_header.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
+      <file leaf-file-name="deploy.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/deploy.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding>
-                <marker date="1370345871000" expanded="true" signature="30:2373" placeholder="..." />
-                <marker date="1370345871000" expanded="true" signature="59:2363" placeholder="..." />
-                <marker date="1370345871000" expanded="true" signature="172:559" placeholder="..." />
-                <marker date="1370345871000" expanded="true" signature="216:548" placeholder="..." />
-                <marker date="1370345871000" expanded="true" signature="655:742" placeholder="..." />
-                <marker date="1370345871000" expanded="true" signature="775:2354" placeholder="..." />
-                <marker date="1370345871000" expanded="true" signature="823:1149" placeholder="..." />
-                <marker date="1370345871000" expanded="true" signature="1188:2343" placeholder="..." />
-                <marker date="1370345871000" expanded="true" signature="1224:1772" placeholder="..." />
-                <marker date="1370345871000" expanded="true" signature="1371:1737" placeholder="..." />
-                <marker date="1370345871000" expanded="true" signature="1824:2330" placeholder="..." />
-                <marker date="1370345871000" expanded="true" signature="1952:2295" placeholder="..." />
-              </folding>
+            <state line="2" column="20" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -157,7 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/models/message.rb" />
         <option value="$PROJECT_DIR$/app/views/contact/new.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/contact_controller.rb" />
         <option value="$PROJECT_DIR$/app/mailers/notifications_mailer.rb" />
@@ -165,14 +142,15 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/app/models/street.rb" />
         <option value="$PROJECT_DIR$/app/models/build.rb" />
-        <option value="$PROJECT_DIR$/app/models/check_connect.rb" />
-        <option value="$PROJECT_DIR$/app/models/check_connect_history.rb" />
-        <option value="$PROJECT_DIR$/app/models/jurnal.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_popups.html.erb" />
         <option value="$PROJECT_DIR$/app/helpers/streets_helper.rb" />
         <option value="$PROJECT_DIR$/app/controllers/streets_controller.rb" />
+        <option value="$PROJECT_DIR$/config/deploy.rb" />
+        <option value="$PROJECT_DIR$/app/models/check_connect.rb" />
+        <option value="$PROJECT_DIR$/app/models/check_connect_history.rb" />
+        <option value="$PROJECT_DIR$/app/models/jurnal.rb" />
+        <option value="$PROJECT_DIR$/app/models/street.rb" />
       </list>
     </option>
   </component>
@@ -252,6 +230,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -273,14 +265,6 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -293,6 +277,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -556,20 +544,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="16" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="3" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0">
@@ -602,18 +576,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1370345871000" expanded="true" signature="30:2373" placeholder="..." />
-            <marker date="1370345871000" expanded="true" signature="59:2363" placeholder="..." />
-            <marker date="1370345871000" expanded="true" signature="172:559" placeholder="..." />
-            <marker date="1370345871000" expanded="true" signature="216:548" placeholder="..." />
-            <marker date="1370345871000" expanded="true" signature="655:742" placeholder="..." />
-            <marker date="1370345871000" expanded="true" signature="775:2354" placeholder="..." />
-            <marker date="1370345871000" expanded="true" signature="823:1149" placeholder="..." />
-            <marker date="1370345871000" expanded="true" signature="1188:2343" placeholder="..." />
-            <marker date="1370345871000" expanded="true" signature="1224:1772" placeholder="..." />
-            <marker date="1370345871000" expanded="true" signature="1371:1737" placeholder="..." />
-            <marker date="1370345871000" expanded="true" signature="1824:2330" placeholder="..." />
-            <marker date="1370345871000" expanded="true" signature="1952:2295" placeholder="..." />
+            <marker date="1370345871000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1370345871000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1370345871000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1370345871000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1370345871000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1370345871000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1370345871000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1370345871000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1370345871000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1370345871000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1370345871000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1370345871000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -625,37 +599,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/street.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="2" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/build.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="3" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/check_connect.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="3" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/check_connect_history.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="3" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/jurnal.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="33" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -676,7 +622,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_popups.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="467" selection-end="467" vertical-scroll-proportion="0.24314214">
+        <state line="13" column="0" selection-start="467" selection-end="467" vertical-scroll-proportion="-8.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/deploy.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="20" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/check_connect.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="2" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/check_connect_history.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="2" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/department.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/jurnal.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="1" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/street.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="1" selection-start="35" selection-end="35" vertical-scroll-proportion="0.017667845">
           <folding />
         </state>
       </provider>
