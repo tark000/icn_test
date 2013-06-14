@@ -28,7 +28,7 @@
           <div class="login_box">
 
 
-            <%= form_tag("https://stat.icn.od.ua/index.php/content/login", :method => "get") do %>
+            <%= form_tag("https://stat.icn.od.ua/index.php/content/login", :method => "post") do %>
 
                 <%= text_field_tag :login, nil, :placeholder => 'Логин' %>
 
@@ -39,7 +39,7 @@
         </div><!--end item-->
         <div class="item item_mail"><%= link_to 'Веб почта', 'http://webmail.icn.od.ua/', :class=>"web-mail", :target=>"_blank" %>
           <div class="login_box">
-            <%= form_tag("http://webmail.icn.od.ua/", :method => "get") do %>
+            <%= form_tag("http://webmail.icn.od.ua/", :method => "post") do %>
 
                 <%= text_field_tag :login, nil, :placeholder => 'Логин' %>
 
