@@ -26,6 +26,7 @@ gem 'oj'
 gem "friendly_id"
 gem "babosa"
 gem 'dalli'
+gem 'turbolinks'
 
 
 
