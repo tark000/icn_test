@@ -1,5 +1,5 @@
 class ContactController < ApplicationController
-  caches_page :index, :expires_in => 5.minutes
+  #caches_page :index, :expires_in => 5.minutes
   def new
 
     @message = Message.new
