@@ -1,4 +1,4 @@
-
+<% cache do %>
 
 <%= form_for @message, :url => contact_path, :html => { :class => "contact"} do |form| %>
     <div class="send" style="display: none">Ваше сообщение успешно отправлено. Ждите звонка оператора, спасибо!</div>
@@ -26,7 +26,7 @@
 
 
 <% end %>
-
+<% end %>
 <script>
 
     $("#message_street").addClass("default");
