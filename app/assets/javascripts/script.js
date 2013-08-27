@@ -163,4 +163,20 @@ $(document).ready(function() {
 
 })
 
+//change padding in nav_manu
+$(document).ready(function() {
+    //console.log("test",$(window).width()/500);
+    //console.log("b-head-bot-nav-list",$('ul .b-head-bot-nav-list').width());
+
+    var a = 40;
+    $('.b-head-bot-nav-list a').css({'padding' : '0 ' + a + 'px 0 ' + a +'px'});
+    var w = $('.b-head-bot-nav-list').width();
+    if (w > 640){
+        a = 40 - $(window).width()/500;
+        $('.b-head-bot-nav-list a').css({'padding' : '0 ' + a + 'px 0 ' + a +'px'});
+    }
+
+    //console.log("b-head-bot-nav-list",$('.b-head-bot-nav-list').width());
+})
+
 
