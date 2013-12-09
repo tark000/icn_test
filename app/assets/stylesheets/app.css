@@ -1292,6 +1292,7 @@ span::-moz-selection {
     position: relative;
 }
 .dk_container a {
+    height: 32px;
     outline: 0;
 }
 
