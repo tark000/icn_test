@@ -618,3 +618,231 @@ WARNING: box-shadow is deprecated and will be removed in the next major version 
 Compiled active_admin/editor.css  (783ms)  (pid 15845)
 Compiled active_admin/editor/wysiwyg.css  (0ms)  (pid 15845)
 Compiled active_admin/print.css  (163ms)  (pid 15845)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+127.0.0.1:11211 failed (count: 0)
+DalliError: No server available
+Started GET "/contact" for 127.0.0.1 at 2013-12-09 14:32:16 +0200
+Processing by ContactController#new as HTML
+127.0.0.1:11211 failed (count: 1)
+127.0.0.1:11211 is down
+DalliError: No server available
+Read fragment views/localhost:3000/contact (1.2ms)
+DalliError: No server available
+Write fragment views/localhost:3000/contact (0.3ms)
+  Rendered contact/_form.html.erb (16.7ms)
+  Rendered contact/new.html.erb within layouts/application (60.1ms)
+Compiled jquery.dropkick.js  (2ms)  (pid 8902)
+Compiled jquery.jcarousel.min.js  (1ms)  (pid 8902)
+Compiled modernizr.foundation.js  (1ms)  (pid 8902)
+  Rendered layouts/_header.html.erb (4.4ms)
+  Rendered layouts/_footer.html.erb (2.4ms)
+Read fragment views/localhost:3000/contact (0.1ms)
+  Rendered contact/_form.html.erb (0.6ms)
+  Rendered layouts/_popups.html.erb (1.3ms)
+Compiled jquery.ui.core.js  (1ms)  (pid 8902)
+Compiled jquery.ui.widget.js  (0ms)  (pid 8902)
+Compiled jquery.ui.accordion.js  (36ms)  (pid 8902)
+Compiled jquery.ui.position.js  (1ms)  (pid 8902)
+Compiled jquery.ui.menu.js  (24ms)  (pid 8902)
+Compiled jquery.ui.autocomplete.js  (44ms)  (pid 8902)
+Compiled jquery.ui.button.js  (3ms)  (pid 8902)
+Compiled jquery.ui.datepicker.js  (4ms)  (pid 8902)
+Compiled jquery.ui.mouse.js  (2ms)  (pid 8902)
+Compiled jquery.ui.draggable.js  (25ms)  (pid 8902)
+Compiled jquery.ui.resizable.js  (6ms)  (pid 8902)
+Compiled jquery.ui.dialog.js  (75ms)  (pid 8902)
+Compiled jquery.ui.droppable.js  (4ms)  (pid 8902)
+Compiled jquery.ui.effect.js  (1ms)  (pid 8902)
+Compiled jquery.ui.effect-blind.js  (43ms)  (pid 8902)
+Compiled jquery.ui.effect-bounce.js  (1ms)  (pid 8902)
+Compiled jquery.ui.effect-clip.js  (3ms)  (pid 8902)
+Compiled jquery.ui.effect-drop.js  (1ms)  (pid 8902)
+Compiled jquery.ui.effect-explode.js  (1ms)  (pid 8902)
+Compiled jquery.ui.effect-fade.js  (1ms)  (pid 8902)
+Compiled jquery.ui.effect-fold.js  (1ms)  (pid 8902)
+Compiled jquery.ui.effect-highlight.js  (1ms)  (pid 8902)
+Compiled jquery.ui.effect-pulsate.js  (1ms)  (pid 8902)
+Compiled jquery.ui.effect-scale.js  (1ms)  (pid 8902)
+Compiled jquery.ui.effect-shake.js  (1ms)  (pid 8902)
+Compiled jquery.ui.effect-slide.js  (1ms)  (pid 8902)
+Compiled jquery.ui.effect-transfer.js  (1ms)  (pid 8902)
+Compiled jquery.ui.progressbar.js  (6ms)  (pid 8902)
+Compiled jquery.ui.selectable.js  (9ms)  (pid 8902)
+Compiled jquery.ui.slider.js  (5ms)  (pid 8902)
+Compiled jquery.ui.sortable.js  (4ms)  (pid 8902)
+Compiled jquery.ui.spinner.js  (3ms)  (pid 8902)
+Compiled jquery.ui.tabs.js  (2ms)  (pid 8902)
+Compiled jquery.ui.tooltip.js  (3ms)  (pid 8902)
+Compiled jquery.ui.all.js  (705ms)  (pid 8902)
+Compiled jquery.cycle2.min.js  (1ms)  (pid 8902)
+Completed 200 OK in 7687ms (Views: 7491.6ms | ActiveRecord: 54.3ms)
+127.0.0.1:11211 failed (count: 2)
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+127.0.0.1:11211 failed (count: 3)
+DalliError: No server available
+Started GET "/pages" for 127.0.0.1 at 2013-12-09 14:32:30 +0200
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (427.4ms)
+  Rendered layouts/_header.html.erb (6.2ms)
+  Rendered layouts/_footer.html.erb (1.3ms)
+DalliError: No server available
+Read fragment views/localhost:3000/ (0.2ms)
+DalliError: No server available
+Write fragment views/localhost:3000/ (0.2ms)
+  Rendered contact/_form.html.erb (4.3ms)
+  Rendered layouts/_popups.html.erb (4.5ms)
+Completed 200 OK in 529ms (Views: 103.7ms | ActiveRecord: 368.9ms)
+DalliError: No server available
+DalliError: No server available
+127.0.0.1:11211 failed (count: 4)
+DalliError: No server available
+127.0.0.1:11211 failed (count: 5)
+DalliError: No server available
+Started GET "/pages" for 127.0.0.1 at 2013-12-09 14:33:21 +0200
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (7.1ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.2ms)
+DalliError: No server available
+Read fragment views/localhost:3000/ (0.2ms)
+DalliError: No server available
+Write fragment views/localhost:3000/ (0.4ms)
+  Rendered contact/_form.html.erb (7.9ms)
+  Rendered layouts/_popups.html.erb (8.1ms)
+Completed 200 OK in 31ms (Views: 25.0ms | ActiveRecord: 2.2ms)
+127.0.0.1:11211 failed (count: 6)
+DalliError: No server available
+Started GET "/pages" for 127.0.0.1 at 2013-12-09 14:35:46 +0200
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (11.0ms)
+  Rendered layouts/_header.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (1.1ms)
+DalliError: No server available
+Read fragment views/localhost:3000/ (0.1ms)
+DalliError: No server available
+Write fragment views/localhost:3000/ (0.2ms)
+  Rendered contact/_form.html.erb (3.5ms)
+  Rendered layouts/_popups.html.erb (3.6ms)
+Completed 200 OK in 31ms (Views: 23.7ms | ActiveRecord: 1.9ms)
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+Connecting to database specified by database.yml
+127.0.0.1:11211 failed (count: 0)
+DalliError: No server available
+Started GET "/pages" for 127.0.0.1 at 2013-12-09 14:46:59 +0200
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (58.5ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (2.3ms)
+127.0.0.1:11211 failed (count: 1)
+127.0.0.1:11211 is down
+DalliError: No server available
+Read fragment views/localhost:3000/ (0.7ms)
+DalliError: No server available
+Write fragment views/localhost:3000/ (0.3ms)
+  Rendered contact/_form.html.erb (16.0ms)
+  Rendered layouts/_popups.html.erb (29.3ms)
+Completed 200 OK in 431ms (Views: 288.2ms | ActiveRecord: 26.1ms)
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+127.0.0.1:11211 failed (count: 2)
+DalliError: No server available
+Started GET "/pages" for 127.0.0.1 at 2013-12-09 14:47:07 +0200
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (10.6ms)
+  Rendered layouts/_header.html.erb (5.4ms)
+  Rendered layouts/_footer.html.erb (1.9ms)
+DalliError: No server available
+Read fragment views/localhost:3000/ (0.4ms)
+DalliError: No server available
+Write fragment views/localhost:3000/ (0.4ms)
+  Rendered contact/_form.html.erb (5.1ms)
+  Rendered layouts/_popups.html.erb (5.4ms)
+Completed 200 OK in 36ms (Views: 32.3ms | ActiveRecord: 0.9ms)
