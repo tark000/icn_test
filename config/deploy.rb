@@ -9,6 +9,7 @@ set :deploy_via, :remote_cache
 set :use_sudo, false
 
 set :scm, "git"
+#set :repository, "git@github.com:tark000/#{application}.git"
 set :repository, "git@bitbucket.org:grabetst/icn.git"
 set :branch, "master"
 
