@@ -45,19 +45,6 @@ ActiveRecord::Schema.define(:version => 20130602095559) do
     t.datetime "updated_at", :null => false
   end
 
-  create_table "admin_notes", :force => true do |t|
-    t.string   "resource_id",     :null => false
-    t.string   "resource_type",   :null => false
-    t.integer  "admin_user_id"
-    t.string   "admin_user_type"
-    t.text     "body"
-    t.datetime "created_at",      :null => false
-    t.datetime "updated_at",      :null => false
-  end
-
-  add_index "admin_notes", ["admin_user_type", "admin_user_id"], :name => "index_admin_notes_on_admin_user_type_and_admin_user_id"
-  add_index "admin_notes", ["resource_type", "resource_id"], :name => "index_admin_notes_on_resource_type_and_resource_id"
-
   create_table "admin_users", :force => true do |t|
     t.string   "email",                  :default => "", :null => false
     t.string   "encrypted_password",     :default => "", :null => false
@@ -75,13 +62,6 @@ ActiveRecord::Schema.define(:version => 20130602095559) do
 
   add_index "admin_users", ["email"], :name => "index_admin_users_on_email", :unique => true
   add_index "admin_users", ["reset_password_token"], :name => "index_admin_users_on_reset_password_token", :unique => true
-
-  create_table "builds", :force => true do |t|
-    t.string "name",      :limit => 100
-    t.string "status",    :limit => 10
-    t.string "active",    :limit => 100
-    t.string "street_id", :limit => 100
-  end
 
   create_table "departments", :force => true do |t|
     t.string   "title"
@@ -115,11 +95,6 @@ ActiveRecord::Schema.define(:version => 20130602095559) do
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
     t.integer  "type_id"
-  end
-
-  create_table "messages", :force => true do |t|
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
   end
 
   create_table "pages", :force => true do |t|
@@ -193,7 +168,6 @@ ActiveRecord::Schema.define(:version => 20130602095559) do
     t.string   "tarif_type"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
-    t.integer  "tarif_id"
   end
 
   create_table "quides", :force => true do |t|
@@ -204,7 +178,6 @@ ActiveRecord::Schema.define(:version => 20130602095559) do
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
     t.string   "surname"
-    t.integer  "order"
     t.integer  "ochered"
   end
 
@@ -214,10 +187,6 @@ ActiveRecord::Schema.define(:version => 20130602095559) do
     t.string   "image"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
-  end
-
-  create_table "streets", :force => true do |t|
-    t.string "name", :limit => 100
   end
 
   create_table "types", :force => true do |t|
