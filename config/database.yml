@@ -40,6 +40,5 @@ production:
   socket: /var/run/mysqld/mysqld.sock
 
 
-  CREATE TABLE streets (name VARCHAR(100)) CHARACTER SET utf8 COLLATE utf8_bin);
 
 
