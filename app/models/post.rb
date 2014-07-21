@@ -1,6 +1,10 @@
 require "babosa"
 class Post < ActiveRecord::Base
-  attr_accessible :slug, :image, :text, :title, :post_type_id, :image_big, :image_big_url, :remote_image_url
+  attr_accessible :slug, :image, :text, :title, :post_type_id, :image_big, :image_big_url, :remote_image_url, :translations_attributes
+
+  translates :text, :title
+  accepts_nested_attributes_for :translations
+
   mount_uploader :image, ImageUploader
   mount_uploader :image_big, ImageUploader
   has_many :post_images

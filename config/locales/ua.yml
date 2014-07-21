@@ -1,0 +1,17 @@
+ua:
+  header:
+    tarif: "Тариф"
+    new: "Новини"
+    about: "Про компанію"
+    contacts: "Контакти"
+    request: "Заявка на підключення"
+    add_cach: "Як поповнити рахунок"
+    map: "Карта покриття"
+    abonotdels: "Абонвідділи"
+    forum: "Форум"
+    cabin: "Особистий кабінет"
+    web_mail: "Веб пошта"
+    login: "Логін"
+    password: "Пароль"
+    enter: "Вхід"
+

@@ -1,50 +1,64 @@
 
 <header class="b-main-header">
+
+
+
   <div class="b-main-inner">
     <div class="b-head-logo"><%= link_to image_tag("logo.png"), pages_path %></div>
     <nav class="b-head-nav">
       <ul class="b-head-nav_list clearfix">
-        <li class="b-head-nav_item"><%= link_to 'Тарифы', prices_path %></li>
-        <li class="b-head-nav_item"><%= link_to 'Новости', posts_path%></li>
-        <li class="b-head-nav_item"><%= link_to 'О Компании', abouts_path %></li>
-        <li class="b-head-nav_item"><%= link_to 'Контакты', contact_path %></li>
+        <li class="b-head-nav_item"><%= link_to "#{t 'header.tarif'}", prices_path %></li>
+        <li class="b-head-nav_item"><%= link_to "#{t 'header.new'}", posts_path%></li>
+        <li class="b-head-nav_item"><%= link_to "#{t 'header.about'}", abouts_path %></li>
+        <li class="b-head-nav_item"><%= link_to "#{t 'header.contacts'}", contact_path %></li>
         </ul>
     </nav>
-    <a href="#popups" class="b-app-but">Заявка на подключение!</a>
+    <a href="#popups" class="b-app-but"><%= t 'header.request'%>!</a>
     <dl class="b-telephone">
       <dt>Телефон:</dt>
       <dd class="b-telephone_num">048 797 22 33</dd>
     </dl>
+    <% if I18n.locale == :ua%>
+        <%= link_to "   Russion", :locale=>'ru'%>
+
+    <% else %>
+        <%= link_to "   Ukrain", :locale=>'ua'%>
+
+    <%end%>
+
     <div class="b-head-bot-nav">
       <ul class="b-head-bot-nav-list clearfix">
-        <li class="b-head-bot-nav-list_first"><%= link_to 'Как пополнить счет', payments_path %></li>
-        <li><%= link_to 'Карта покрытия', streets_path %></li>
-        <li><%= link_to 'Абонотделы', departments_path %></li>
-        <li><%= link_to 'Форум', 'http://forum.icn.od.ua/', :target=>"_blank" %></li>
+        <li class="b-head-bot-nav-list_first"><%= link_to "#{t 'header.add_cach'}", payments_path %></li>
+        <li><%= link_to "#{t 'header.map'}", streets_path %></li>
+        <li><%= link_to "#{t 'header.abonotdels'}", departments_path %></li>
+        <li><%= link_to "#{t 'header.forum'}", 'http://forum.icn.od.ua/', :target=>"_blank" %></li>
       </ul>
+
+
+
       <div class="b-head-bot-nav-add">
         <div class="item item_cab">
-          <%= link_to 'Личный кабинет', 'https://stat.icn.od.ua/', :class=>"personal-room", :target=>"_blank" %>
+          <%= link_to "#{t 'header.cabin'}", 'https://stat.icn.od.ua/', :class=>"personal-room", :target=>"_blank" %>
           <div class="login_box">
 
 
             <%= form_tag("https://stat.icn.od.ua/index.php/content/login", :method => "post") do %>
 
-                <%= text_field_tag :login, nil, :placeholder => 'Логин' %>
+                <%= text_field_tag :login, nil, :placeholder => "#{t 'header.login'}" %>
 
                 <%= password_field_tag :password, nil, :placeholder => 'Пароль' %>
-                <%= submit_tag "Вход", :class=>"submmit_button"%>
+                <%= submit_tag "#{t 'header.enter'}", :class=>"submmit_button"%>
             <% end %>
           </div><!--end login_box-->
         </div><!--end item-->
-        <div class="item item_mail"><%= link_to 'Веб почта', 'http://webmail.icn.od.ua/', :class=>"web-mail", :target=>"_blank" %>
+        <div class="item item_mail"><%= link_to "#{t 'header.web_mail'}", 'http://webmail.icn.od.ua/', :class=>"web-mail", :target=>"_blank" %>
           <div class="login_box">
             <%= form_tag("http://webmail.icn.od.ua/", :method => "post") do %>
 
-                <%= text_field_tag :login, nil, :placeholder => 'Логин' %>
+                <%= text_field_tag :login, nil, :placeholder => "#{t 'header.login'}" %>
 
                 <%= password_field_tag :password, nil, :placeholder => 'Пароль' %>
-                <%= submit_tag "Вход", :class=>"submmit_button"%>
+                <%= submit_tag "#{t 'header.enter'}", :class=>"submmit_button"%>
             <% end %>
           </div><!--end login_box-->
         </div>

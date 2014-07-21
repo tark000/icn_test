@@ -1,7 +1,11 @@
 require "babosa"
 class Job < ActiveRecord::Base
-  attr_accessible :slug, :description, :post
+  attr_accessible :slug, :description, :post, :translations_attributes
   extend FriendlyId
+
+  translates :description, :post
+  accepts_nested_attributes_for :translations
+
 
   friendly_id :post, use: :slugged
 

@@ -1,0 +1,16 @@
+ru:
+  header:
+    tarif: "Тариф"
+    new: "Новости"
+    about: "О компании"
+    contacts: "Контакты"
+    request: "Заявка на подключение"
+    add_cach: "Как пополнить счет"
+    map: "Карта покрытия"
+    abonotdels: "Абонотделы"
+    forum: "Форум"
+    cabin: "Личный кабинет"
+    web_mail: "Веб почта"
+    login: "Логин"
+    password: "Пароль"
+    enter: "Вход"
