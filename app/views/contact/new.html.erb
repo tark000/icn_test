@@ -47,8 +47,8 @@
   <div id="sidebar">
     <aside>
       <div class="contact_form_description">
-        <p><span>*</span> Обязательно для заполнения</p>
-        <p><span>**</span> Данная форма не является заключением договора на подключение. По данной форме будет выполнена проверка технической возможности подключения по указанному адресу.</p>
+        <p><span>*</span><%= t 'contact.add-info1' %></p>
+        <p><span>**</span> <%= t 'contact.add-info2' %></p>
         <%@pdf = PdfFile.all %>
         <% @pdf.each do |pdf| %>
             <div class="our_services jobs">
@@ -61,7 +61,7 @@
 
 
     <div class="top_popups_container">
-      Контактная информация:
+      <%= t 'contact.contact-info' %>
     </div><!--end top_popups_container-->
 
 
@@ -75,7 +75,7 @@
 
 
     <div class="top_popups_container">
-      Заявка на подключение:
+      <%= t 'contact.request' %>
     </div><!--end top_popups_container-->
     <div class="center_popups_container">
 

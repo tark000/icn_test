@@ -28,14 +28,14 @@
       <h1><%= @post.title %></h1>
 
     </header>
-    <a href="javascript:history.back()" title="" class="back_link"><span>назад</span></a>
+    <a href="javascript:history.back()" title="" class="back_link"><span><%= t 'posts.back'%></span></a>
     <div class="clear"></div>
     <p><%= markdown(@post.text) %></p>
       </article><!--end news_item-->
   <div class="clear"></div>
 </div><!--end main_item-->
-<a href=<%= post_path(@previous) %> title="" class="prev_post"><span>Предыдущая</span></a>
-<a href=<%= post_path(@next) %> title="" class="next_post"><span>Следующая</span></a>
+<a href=<%= post_path(@previous) %> title="" class="prev_post"><span><%= t 'posts.previous'%></span></a>
+<a href=<%= post_path(@next) %> title="" class="next_post"><span><%= t 'posts.next'%></span></a>
 
 
 

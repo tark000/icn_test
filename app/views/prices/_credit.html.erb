@@ -3,12 +3,12 @@
       <div class="block_title">e-Style<sup>TM</sup>  <span><td><%= price.title %></td></span></div>
       <div class="block_center">
         <div class="block_content">
-          <div><strong>Скорость:</strong></div>
-          <p>Download: 	<span style=""><%= price.dspid %> <em>Мбит/с</em></span></p>
-          <p>Upload:		<span><%= price.uspid %><em>Мбит/с</em></span></p>
+          <div><strong><%= t 'prices.speed'%></strong></div>
+          <p>Download: 	<span style=""><%= price.dspid %> <em><%= t 'prices.mbs'%></em></span></p>
+          <p>Upload:		<span><%= price.uspid %><em><%= t 'prices.mbs'%></em></span></p>
           <div class="line"></div>
-          <div class="price_block"><strong>Цена:</strong> <span><%= price.cena %> <em>грн/мес</em></span></div>
-          <a href="#" title="Подключиться" class="show_on_map_link connetions"><span>Подключиться</span></a>
+          <div class="price_block"><strong><%= t 'prices.price'%></strong> <span><%= price.cena %> <em><%= t 'prices.grnmun'%></em></span></div>
+          <a href="#" title="Подключиться" class="show_on_map_link connetions"><span><%= t 'prices.connection'%></span></a>
         </div><!--end block_content-->
       </div><!--end block_center-->
       </div><!--end block-->
@@ -18,13 +18,13 @@
         <div class="block_title">e-Style<sup>TM</sup>  <span><%= price.title %></span></div>
         <div class="block_center">
           <div class="block_content">
-            <div><strong>Скорость:</strong></div>
-            <p>Download: 	<span><%= price.dspid %> <em>Мбит/с</em></span></p>
-            <p>Upload:		<span><%= price.uspid %><em>Мбит/с</em></span></p>
+            <div><strong><%= t 'prices.speed'%></strong></div>
+            <p>Download: 	<span><%= price.dspid %> <em><%= t 'prices.mbs'%></em></span></p>
+            <p>Upload:		<span><%= price.uspid %><em><%= t 'prices.mbs'%></em></span></p>
             <div class="line"></div>
-            <div class="price_block"><strong>Цена:</strong> <span><%= price.cena %> <em>грн/мес</em></span></div>
-            <center>Лучшее предложение!</center>
-            <a href="#" title="Подключиться" class="show_on_map_link connetions"><span>Подключиться</span></a>
+            <div class="price_block"><strong><%= t 'prices.price'%></strong> <span><%= price.cena %> <em><%= t 'prices.grnmun'%></em></span></div>
+            <center><%= t 'prices.best'%></center>
+            <a href="#" title="Подключиться" class="show_on_map_link connetions"><span><%= t 'prices.connection'%></span></a>
           </div><!--end block_content-->
         </div><!--end block_center-->
       </div><!--end block-->
@@ -34,16 +34,16 @@
         <div class="block_title">e-Style<sup>TM</sup>  <span><%= price.title %></span></div>
         <div class="block_center">
           <div class="block_content">
-            <div><strong>Скорость:</strong></div>
-            <p>Download: 	<span><%= price.dspid %> <em>Мбит/с</em></span></p>
-            <p>Upload:		<span><%= price.uspid %><em>Мбит/с</em></span></p>
+            <div><strong><%= t 'prices.speed'%></strong></div>
+            <p>Download: 	<span><%= price.dspid %> <em><%= t 'prices.mbs'%></em></span></p>
+            <p>Upload:		<span><%= price.uspid %><em><%= t 'prices.mbs'%></em></span></p>
             <div class="line"></div>
-            <div class="price_block"><strong>Цена:</strong> <span><%= price.cena %> <em> грн/мес</em></span></div>
-            <a href="#" title="Подключиться" class="show_on_map_link connetions"><span>Подключиться</span></a>
+            <div class="price_block"><strong><%= t 'prices.price'%></strong> <span><%= price.cena %> <em> <%= t 'prices.grnmun'%></em></span></div>
+            <a href="#" title="Подключиться" class="show_on_map_link connetions"><span><%= t 'prices.connection'%></span></a>
           </div><!--end block_content-->
         </div><!--end block_center-->
       </div><!--end block-->
   <% end %>
       <div class="note">
-  Примечания: <span>*</span><br>- При подписании дополнительного соглашения<br>- На всех пакетах доступ к локальной сети и одесским ресурсам  - 100 Mbit/s.
+        <%= t 'prices.connection'%> <span>*</span><br><%= t 'prices.note1'%><br><%= t 'prices.note2'%>
 </div><!--end note-->

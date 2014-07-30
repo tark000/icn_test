@@ -4,32 +4,32 @@
     @note = AddPrice.where(title:"Примечания:")
 %>
 <div class="b-mc-news">
-  <h3>Способы подключения:</h3>
+  <h3><%= t 'prices.type'%></h3>
 </div><!--end payment_block-->
 <div class="connection">
-  <span>Цена подключения:<em><strong><%= @cena[0].price%></strong> грн</em></span>
+  <span><%= t 'prices.price-conection'%><em><strong><%= @cena[0].price%></strong> грн</em></span>
   <%=raw @sposob[0].text%>
 </div><!--end connection-->
 <div class="clear"></div>
 <div class="b-mc-news b-mc-news_half">
-  <h3>Для всех наших клиентов:</h3>
+  <h3><%= t 'prices.for-all'%></h3>
   <div class="icon"></div>
   <%=raw @all_cliant[0].text%>
 </div><!--end b-mc-news-->
 <div class="b-mc-news b-mc-news_half">
-  <h3>Примечания:</h3>
+  <h3><%= t 'prices.notes'%></h3>
   <div class="icon"></div>
   <%=raw @note[0].text%>
 </div><!--end b-mc-news-->
-<a href="#large_more" class="large_more"><span>Дополнительно</span><em></em></a>     <a id="large_more"></a>
+<a href="#large_more" class="large_more"><span><%= t 'prices.additional'%></span><em></em></a>     <a id="large_more"></a>
 <div class="clear"></div>
 <div class="scroll">
   <div class="scroll_box">
     <table class="table">
       <tr>
         <td width="35"></td>
-        <td width="578">Описание</td>
-        <td><span>Цена</span></td>
+        <td width="578"><%= t 'prices.description'%></td>
+        <td><span><%= t 'prices.price'%></span></td>
       </tr>
       <% @nomer=1  %>
       <% @prices.where(tarif_type:4).each do |price| %>

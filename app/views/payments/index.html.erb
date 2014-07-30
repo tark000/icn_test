@@ -1,27 +1,27 @@
 <div class="b-main-content">
   <div class="b-mc-news">
-    <h3>Способы оплаты:</h3>
+    <h3><%= t 'payment.type'%></h3>
   </div>
   <div class="clear"></div>
-  <div class="payment_title">Пополнение счета возможно с  помощью: </div>
+  <div class="payment_title"><%= t 'payment.title'%></div>
   <div class="tabs_payment">
     <ul class="list_payment">
       <li>
         <a href="#tabs-1">
-          <span class="list_payment_title">Платежные<br>терминалы:</span>
-          <span class="list_payment_more">Подробнее</span>
+          <span class="list_payment_title"><%= t 'payment.terminal1'%><br><%= t 'payment.terminal2'%></span>
+          <span class="list_payment_more"><%= t 'payment.more'%></span>
         </a>
       </li>
       <li>
         <a href="#tabs-2">
-          <span class="list_payment_title">Карточки:<br><em>Visa/Mastercard</em></span>
-          <span class="list_payment_more">Подробнее</span>
+          <span class="list_payment_title"><%= t 'payment.card'%><br><em>Visa/Mastercard</em></span>
+          <span class="list_payment_more"><%= t 'payment.more'%></span>
         </a>
       </li>
       <li>
         <a href="#tabs-3">
-          <span class="list_payment_title">Интернет кошелек:<br><em>Webmoney</em></span>
-          <span class="list_payment_more">Подробнее</span>
+          <span class="list_payment_title"><%= t 'payment.purse'%><br><em>Webmoney</em></span>
+          <span class="list_payment_more"><%= t 'payment.more'%></span>
         </a>
       </li>
     </ul>
@@ -52,11 +52,11 @@
               <% end %>
               <% @payment = Payment.where(id:man[0].payment_id)[0]  %>
               <% if @payment.show_map == true%>
-                  <div style="width: 100%; float: left;"><%= @payment.map_description %>  <%=  link_to "здесь", payment_path(@payment) %>.</div>
+                  <div style="width: 100%; float: left;"><%= @payment.map_description %>  <%=  link_to "#{t 'payment.here'}", payment_path(@payment) %>.</div>
               <% end %>
 
               <% if @payment.show == true%>
-                  <div style="width: 100%; float: left;"><%= @payment.description %>  <%=  link_to "здесь", @payment.link, :target=>"_blank" %>.</div>
+                  <div style="width: 100%; float: left;"><%= @payment.description %>  <%=  link_to "#{t 'payment.here'}", @payment.link, :target=>"_blank" %>.</div>
               <% end %>
 
 

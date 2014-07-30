@@ -545,9 +545,11 @@ span::-moz-selection {
     height: 141px;
     padding: 34px 0 0 138px;
     color: #ee7406;
+    text-decoration: none;
 }
 .b-add-sections_box + a {
     border-left: 1px solid #d8d8d8;
+    text-decoration: none;
 }
 .b-add-sections_box .ico1,
 .b-add-sections_box .ico2,
@@ -1099,7 +1101,7 @@ span::-moz-selection {
     font:12px Tahoma, Geneva, sans-serif;
     color:#6c6c6c;
     text-align:right;
-    width:70px;
+    width:83px;
     margin:13px 5px 0 80px;
     clear:left;
     float:left;
@@ -1634,6 +1636,8 @@ span::-moz-selection {
 }
 .b-mc-news_large {
     width:100%;
+    font-size: 30px;
+    color: #007c6d;
 }
 .show_on_map {
     width:100%;
@@ -1649,7 +1653,7 @@ span::-moz-selection {
 .show_on_map_block +.show_on_map_block {
     width:460px;
 }
-.show_on_map_block span {
+.show_on_map_block header {
     font-size:18px;
     color:#007c6d;
     margin-bottom:10px;
@@ -2588,3 +2592,38 @@ table span {
 
 .invalid { border:1px solid red !important; width:264px !important; padding:0 9px !important;}
 .center_popups_container .invalid { border:1px solid red !important; width:255px !important; padding:0 9px !important;}
+
+
+.flags{
+    width: 16px;
+    height: 16px;
+    display: block;
+
+    float: right;
+    /*margin-top: 50px;*/
+    /*margin-right: 20px;*/
+}
+
+.flags a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.flags i{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.flags i.rus-flag:hover{
+    background: url(ru.png) center no-repeat;
+}
+.flags i.ua-flag:hover{
+    background: url(ukr.png) center no-repeat ;
+}
+/*.flags i.rus-flag{*/
+    /*background: url(ru.png) center no-repeat;*/
+
+/*}*/
+/*.flags i.ua-flag{*/
+    /*background: url(ukr.png) center no-repeat ;*/
+/*}*/

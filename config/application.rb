@@ -64,10 +64,14 @@ module IcnSite
     config.assets.version = '1.0'
 
     config.i18n.default_locale = :ru
+    config.i18n.available_locales = [:ru, :ua]
     # Add the fonts path
     config.assets.paths << "#{Rails.root}/app/assets/fonts"
 
 # Precompile additional assets
     config.assets.precompile += %w( .svg .eot .woff .ttf )
+
+
+
   end
 end

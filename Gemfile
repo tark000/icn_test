@@ -48,11 +48,12 @@ end
 gem "jquery-rails", "~> 2.1.0"
 gem 'jquery-ui-rails'
 
-  group :development do
-    gem 'better_errors'
-    gem 'binding_of_caller'
-    gem 'meta_request'
-  end
+group :development do
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'meta_request'
+  gem "pry"
+end
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -70,3 +71,5 @@ gem 'jquery-ui-rails'
 
 # To use debugger
 # gem 'debugger'
+gem 'globalize3'
+gem 'activeadmin-translate'

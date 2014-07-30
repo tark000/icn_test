@@ -153,7 +153,7 @@
                 $('.gree ul').css("display", "block");
 
             } else if ( n == 0){
-                $('.list_box_text').append('<p style= "font-size: 16px;"> Улица или дом не найдены.</p>');
+                $('.list_box_text').append('<p style= "font-size: 16px;"> <%= t 'streets.street-or-house'%></p>');
             }
 
         }
@@ -189,7 +189,7 @@
       <div class="b-main-inner">
         <div class="b-main-content">
           <div class="b-mc-news">
-            <h3>Карта покрытия</h3>
+            <h3><%= t 'streets.map'%></h3>
           </div>
           <ul class="tariff_list">
             <li ><a href="#list" style="border-radius: 5px ;"></a></li>
@@ -197,14 +197,14 @@
           </ul>
 
           <form action="" method="get" class="search_street">
-            <input name="street_name" type="text" placeholder="Улица" style="width: 240px;" >
-            <input name="build_name" type="text" placeholder="Дом">
+            <input name="street_name" type="text" placeholder=<%= t 'streets.street'%> style="width: 240px;" >
+            <input name="build_name" type="text" placeholder=<%= t 'streets.house'%>>
             <input name="" type="button" value="Искать" class="search_street_button">
           </form>
 
           <div class="maps_description">
-            <span>- доступны все сервисы</span>
-            <span>- собираем заявки</span>
+            <span><%= t 'streets.all-servises'%></span>
+            <span><%= t 'streets.request'%></span>
           </div><!--end maps_description-->
         </div><!--end b-main-content-->
       </div><!--end b-main-inner-->
@@ -212,8 +212,7 @@
 
     <div id="list">
       <div class="list_box">
-        <p>Ниже представлена карта покрытия в виде информационного списка. Чтобы проверить возможность подключения к интернету Вашего дома, а
-          также оставить заявку на подключение к интернету перейдите по этой <%=  link_to "ссылке", contact_path  %> и заполните предложенную форму.</p>
+        <p><%= t 'streets.text1'%> <%=  link_to "#{t 'streets.link'}", contact_path  %> <%= t 'streets.text2'%></p>
         <div class="list_box_text">
 
           </div>

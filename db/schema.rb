@@ -11,7 +11,20 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130602095559) do
+ActiveRecord::Schema.define(:version => 20140721133445) do
+
+  create_table "about_translations", :force => true do |t|
+    t.integer  "about_id",     :null => false
+    t.string   "locale",       :null => false
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
+    t.string   "title"
+    t.text     "discription1"
+    t.text     "discription2"
+  end
+
+  add_index "about_translations", ["about_id"], :name => "index_about_translations_on_about_id"
+  add_index "about_translations", ["locale"], :name => "index_about_translations_on_locale"
 
   create_table "abouts", :force => true do |t|
     t.string   "title"
@@ -37,6 +50,19 @@ ActiveRecord::Schema.define(:version => 20130602095559) do
   add_index "active_admin_comments", ["namespace"], :name => "index_active_admin_comments_on_namespace"
   add_index "active_admin_comments", ["resource_type", "resource_id"], :name => "index_admin_notes_on_resource_type_and_resource_id"
 
+  create_table "add_price_translations", :force => true do |t|
+    t.integer  "add_price_id", :null => false
+    t.string   "locale",       :null => false
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
+    t.string   "title"
+    t.string   "price"
+    t.text     "text"
+  end
+
+  add_index "add_price_translations", ["add_price_id"], :name => "index_add_price_translations_on_add_price_id"
+  add_index "add_price_translations", ["locale"], :name => "index_add_price_translations_on_locale"
+
   create_table "add_prices", :force => true do |t|
     t.string   "title"
     t.string   "price"
@@ -44,6 +70,19 @@ ActiveRecord::Schema.define(:version => 20130602095559) do
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
+
+  create_table "admin_notes", :force => true do |t|
+    t.string   "resource_id",     :null => false
+    t.string   "resource_type",   :null => false
+    t.integer  "admin_user_id"
+    t.string   "admin_user_type"
+    t.text     "body"
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
+  end
+
+  add_index "admin_notes", ["admin_user_type", "admin_user_id"], :name => "index_admin_notes_on_admin_user_type_and_admin_user_id"
+  add_index "admin_notes", ["resource_type", "resource_id"], :name => "index_admin_notes_on_resource_type_and_resource_id"
 
   create_table "admin_users", :force => true do |t|
     t.string   "email",                  :default => "", :null => false
@@ -63,6 +102,19 @@ ActiveRecord::Schema.define(:version => 20130602095559) do
   add_index "admin_users", ["email"], :name => "index_admin_users_on_email", :unique => true
   add_index "admin_users", ["reset_password_token"], :name => "index_admin_users_on_reset_password_token", :unique => true
 
+  create_table "department_translations", :force => true do |t|
+    t.integer  "department_id", :null => false
+    t.string   "locale",        :null => false
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
+    t.string   "title"
+    t.string   "addres"
+    t.string   "worktime"
+  end
+
+  add_index "department_translations", ["department_id"], :name => "index_department_translations_on_department_id"
+  add_index "department_translations", ["locale"], :name => "index_department_translations_on_locale"
+
   create_table "departments", :force => true do |t|
     t.string   "title"
     t.string   "addres"
@@ -72,6 +124,18 @@ ActiveRecord::Schema.define(:version => 20130602095559) do
     t.datetime "updated_at", :null => false
     t.string   "slug"
   end
+
+  create_table "job_translations", :force => true do |t|
+    t.integer  "job_id",      :null => false
+    t.string   "locale",      :null => false
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+    t.string   "post"
+    t.text     "description"
+  end
+
+  add_index "job_translations", ["job_id"], :name => "index_job_translations_on_job_id"
+  add_index "job_translations", ["locale"], :name => "index_job_translations_on_locale"
 
   create_table "jobs", :force => true do |t|
     t.string   "post"
@@ -87,6 +151,17 @@ ActiveRecord::Schema.define(:version => 20130602095559) do
     t.datetime "updated_at", :null => false
   end
 
+  create_table "manual_translations", :force => true do |t|
+    t.integer  "manual_id",  :null => false
+    t.string   "locale",     :null => false
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+    t.string   "title"
+  end
+
+  add_index "manual_translations", ["locale"], :name => "index_manual_translations_on_locale"
+  add_index "manual_translations", ["manual_id"], :name => "index_manual_translations_on_manual_id"
+
   create_table "manuals", :force => true do |t|
     t.integer  "payment_id"
     t.string   "title"
@@ -96,6 +171,24 @@ ActiveRecord::Schema.define(:version => 20130602095559) do
     t.datetime "updated_at", :null => false
     t.integer  "type_id"
   end
+
+  create_table "messages", :force => true do |t|
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "page_translations", :force => true do |t|
+    t.integer  "page_id",     :null => false
+    t.string   "locale",      :null => false
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+    t.string   "title"
+    t.string   "text"
+    t.text     "description"
+  end
+
+  add_index "page_translations", ["locale"], :name => "index_page_translations_on_locale"
+  add_index "page_translations", ["page_id"], :name => "index_page_translations_on_page_id"
 
   create_table "pages", :force => true do |t|
     t.string   "title"
@@ -110,6 +203,20 @@ ActiveRecord::Schema.define(:version => 20130602095559) do
     t.boolean  "on"
     t.string   "slug"
   end
+
+  create_table "payment_translations", :force => true do |t|
+    t.integer  "payment_id",      :null => false
+    t.string   "locale",          :null => false
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
+    t.string   "title"
+    t.text     "text"
+    t.string   "map_description"
+    t.string   "description"
+  end
+
+  add_index "payment_translations", ["locale"], :name => "index_payment_translations_on_locale"
+  add_index "payment_translations", ["payment_id"], :name => "index_payment_translations_on_payment_id"
 
   create_table "payments", :force => true do |t|
     t.string   "title"
@@ -127,6 +234,19 @@ ActiveRecord::Schema.define(:version => 20130602095559) do
     t.string   "slug"
   end
 
+  create_table "pdf_file_translations", :force => true do |t|
+    t.integer  "pdf_file_id", :null => false
+    t.string   "locale",      :null => false
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+    t.string   "file"
+    t.string   "siza"
+    t.string   "title"
+  end
+
+  add_index "pdf_file_translations", ["locale"], :name => "index_pdf_file_translations_on_locale"
+  add_index "pdf_file_translations", ["pdf_file_id"], :name => "index_pdf_file_translations_on_pdf_file_id"
+
   create_table "pdf_files", :force => true do |t|
     t.string   "title"
     t.string   "file"
@@ -141,6 +261,18 @@ ActiveRecord::Schema.define(:version => 20130602095559) do
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
+
+  create_table "post_translations", :force => true do |t|
+    t.integer  "post_id",    :null => false
+    t.string   "locale",     :null => false
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+    t.string   "title"
+    t.text     "text"
+  end
+
+  add_index "post_translations", ["locale"], :name => "index_post_translations_on_locale"
+  add_index "post_translations", ["post_id"], :name => "index_post_translations_on_post_id"
 
   create_table "post_types", :force => true do |t|
     t.string   "title"
@@ -159,6 +291,17 @@ ActiveRecord::Schema.define(:version => 20130602095559) do
     t.string   "image_big"
   end
 
+  create_table "price_translations", :force => true do |t|
+    t.integer  "price_id",   :null => false
+    t.string   "locale",     :null => false
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+    t.string   "title"
+  end
+
+  add_index "price_translations", ["locale"], :name => "index_price_translations_on_locale"
+  add_index "price_translations", ["price_id"], :name => "index_price_translations_on_price_id"
+
   create_table "prices", :force => true do |t|
     t.string   "title"
     t.string   "cena"
@@ -168,7 +311,22 @@ ActiveRecord::Schema.define(:version => 20130602095559) do
     t.string   "tarif_type"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.integer  "tarif_id"
   end
+
+  create_table "quide_translations", :force => true do |t|
+    t.integer  "quide_id",   :null => false
+    t.string   "locale",     :null => false
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+    t.string   "name"
+    t.string   "surname"
+    t.string   "post"
+    t.text     "info"
+  end
+
+  add_index "quide_translations", ["locale"], :name => "index_quide_translations_on_locale"
+  add_index "quide_translations", ["quide_id"], :name => "index_quide_translations_on_quide_id"
 
   create_table "quides", :force => true do |t|
     t.string   "name"
@@ -178,8 +336,21 @@ ActiveRecord::Schema.define(:version => 20130602095559) do
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
     t.string   "surname"
+    t.integer  "order"
     t.integer  "ochered"
   end
+
+  create_table "service_translations", :force => true do |t|
+    t.integer  "service_id", :null => false
+    t.string   "locale",     :null => false
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+    t.string   "title"
+    t.text     "text"
+  end
+
+  add_index "service_translations", ["locale"], :name => "index_service_translations_on_locale"
+  add_index "service_translations", ["service_id"], :name => "index_service_translations_on_service_id"
 
   create_table "services", :force => true do |t|
     t.string   "title"
@@ -187,6 +358,10 @@ ActiveRecord::Schema.define(:version => 20130602095559) do
     t.string   "image"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+  end
+
+  create_table "streets", :id => false, :force => true do |t|
+    t.string "name", :limit => 100
   end
 
   create_table "types", :force => true do |t|
