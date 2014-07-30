@@ -18,13 +18,21 @@
       <dt>Телефон:</dt>
       <dd class="b-telephone_num">048 797 22 33</dd>
     </dl>
-    <% if I18n.locale == :ua%>
-        <%= link_to "   Russion", :locale=>'ru'%>
+    <div class="flags">
 
-    <% else %>
-        <%= link_to "   Ukrain", :locale=>'ua'%>
+      <% if I18n.locale == :ua%>
 
-    <%end%>
+
+
+          <%= link_to '<i class="rus-flag"></i>'.html_safe, :locale=>'ru'%>
+
+      <% else %>
+
+          <%= link_to '<i class="ua-flag"></i>'.html_safe, :locale=>'ua'%>
+
+      <%end%>
+
+    </div>
 
     <div class="b-head-bot-nav">
       <ul class="b-head-bot-nav-list clearfix">

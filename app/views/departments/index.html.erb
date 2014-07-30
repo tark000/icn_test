@@ -1,6 +1,6 @@
 <div class="b-main-content">
 <div class="b-mc-news b-mc-news_large">
-  <h3>Расположение и время работы абонентских отделов:</h3>
+  <%= t 'departments.position' %>
 </div>
   <div class="tabs_about">
 
@@ -22,7 +22,7 @@
               <div class="show_on_map_block">
                 <article>
                   <header>
-                    <span>Адрес:</span>
+                   <%= t 'departments.addres' %>
                   </header>
                   <%= raw department.addres %>
                 </article>
@@ -30,12 +30,12 @@
               <div class="show_on_map_block">
                 <article>
                   <header>
-                    <span>График работы:</span>
+                   <%= t 'departments.work-time' %>
                   </header>
                   <%= raw department.worktime %>
                 </article>
               </div><!--end show_on_map_block-->
-              <a href=<%= department_path(department.id) %> title="Показать на карте" class="show_on_map_link"><span>Показать на карте</span></a>
+              <a href=<%= department_path(department.id) %> title="Показать на карте" class="show_on_map_link"><span><%= t 'departments.show-on-map' %></span></a>
 
             </div><!--end show_on_map-->
 
@@ -44,7 +44,7 @@
               <div class="show_on_map_block">
                 <article>
                   <header>
-                    <span>Адрес:</span>
+                    <%= t 'departments.addres' %>
                   </header>
                   <%= raw department.addres %>
                 </article>
@@ -52,12 +52,12 @@
               <div class="show_on_map_block">
                 <article>
                   <header>
-                    <span>График работы:</span>
+                    <%= t 'departments.work-time' %>
                   </header>
                   <%= raw department.worktime %>
                 </article>
               </div><!--end show_on_map_block-->
-              <a href=<%= department_path(department.id) %> title="Показать на карте" class="show_on_map_link"><span>Показать на карте</span></a>
+              <a href=<%= department_path(department.id) %> title="Показать на карте" class="show_on_map_link"><span><%= t 'departments.show-on-map' %></span></a>
 
             </div><!--end show_on_map-->
         <% end %>

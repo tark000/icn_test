@@ -18,8 +18,15 @@
   <%= javascript_include_tag  "script" %>
   <%= javascript_include_tag "jquery.jcarousel.min" %>
   <%= javascript_include_tag "modernizr.foundation" %>
-  <%= javascript_include_tag "cufon-yui" %>
-  <%= javascript_include_tag "fonts" %>
+  <% if I18n.locale == :ru%>
+      <%= javascript_include_tag "cufon-yui" %>
+      <%= javascript_include_tag "fonts" %>
+
+  <% else %>
+
+
+  <%end%>
+
   <%= javascript_include_tag "validate" %>
   <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 

@@ -13,13 +13,13 @@
         <%= image_tag page.image_url(:index) if page.image? %>
       </div>
         <% if page.show_time.present? %>
-         <div class="b-days-left"><span class="days"><%= date(page) %></span> <%= Russian.p(date(page), "день", "дня", "дней") %></div>
+         <div class="b-days-left"><span class="days"><%= date(page) %></span> <%= Russian.p(date(page), "#{t 'index.day1'}", "#{t 'index.day2'}", "#{t 'index.day3'}") %></div>
         <% end %>
       <div class="b-main-slider_slide-descr">
         <h2><%= page.title %></h2>
         <p><%= truncate(page.text, :length=>150) %></p>
 
-        <%= link_to 'Узнать больше!', page_path(page), :class=>"b-more-btn"  %>
+        <%= link_to "#{t 'index.learn-more'}", page_path(page), :class=>"b-more-btn"  %>
 
       </div>
     </div>
@@ -33,41 +33,41 @@
 <div class="b-add-sections">
   <a href="<%= streets_path%>" class="b-add-sections_box">
     <span class="ico1"></span>
-    <h4>Карта<br>покрытия</h4>
-    <span class="link">Смотреть карту</span>
+    <h4><%= t 'index.map1'%><br><%= t 'index.map2'%></h4>
+    <span class="link"><%= t 'index.show-map'%></span>
   </a>
   <a href= "<%= departments_path%>" class="b-add-sections_box">
     <span class="ico2"></span>
-    <h4>Абонентские<br>отделы</h4>
-    <span class="link">Смотреть</span>
+    <h4><%= t 'index.department1'%><br><%= t 'index.department2'%></h4>
+    <span class="link"><%= t 'index.show'%></span>
   </a>
   <a href="<%= prices_path%>" class="b-add-sections_box">
     <span class="ico3"></span>
-    <h4>Наши<br>тарифы</h4>
-    <span class="link">Читать далее</span>
+    <h4><%= t 'index.tarif1'%><br><%= t 'index.tarif2'%></h4>
+    <span class="link"><%= t 'index.read-more'%></span>
   </a>
 </div>
 
 <div class="b-main-content">
   <div class="b-mc-news">
-    <h3>Новости:</h3>
+    <h3><%= t 'index.news'%></h3>
     <div class="b-mc-news_col">
       <div class="date ico1"><%= @post_calendar.created_at.strftime("%d.%m.%y") if  @post_calendar.present? %></div>
       <p><%= truncate(@post_calendar.text, :length => 100) %></p>
-      <%=  link_to 'Читать далее', post_path(@post_calendar)%>
+      <%=  link_to "#{t 'index.read-more'}", post_path(@post_calendar)%>
     </div>
     <div class="b-mc-news_col">
       <div class="date ico2"><%= @post_break.created_at.strftime("%d.%m.%y") if @post_break.present?%></div>
       <p><%= truncate(@post_break.text, :length => 100) %></p>
-      <%=  link_to 'Читать далее', post_path(@post_break)%>
+      <%=  link_to "#{t 'index.read-more'}", post_path(@post_break)%>
     </div>
     <div class="clear"></div>
   </div>
   <div class="b-mc-about">
-    <h3>О компании:</h3>
+    <h3><%= t 'index.about'%></h3>
     <p class="b-mc-about_col"><%=  @about.discription1 %></p>
     <p class="b-mc-about_col"><%=  @about.discription2 %>
-    <%=  link_to 'Читать далее', abouts_path%>     </p>
+    <%=  link_to "#{t 'index.read-more'}", abouts_path%>     </p>
   </div>
   <div class="clear"></div>
 </div>

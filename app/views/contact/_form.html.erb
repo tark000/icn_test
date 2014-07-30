@@ -1,27 +1,27 @@
 <% cache do %>
 
 <%= form_for @message, :url => contact_path, :html => { :class => "contact"} do |form| %>
-    <div class="send" style="display: none">Ваше сообщение успешно отправлено. Ждите звонка оператора, спасибо!</div>
-    <label>Имя:<span>*</span></label>
+    <div class="send" style="display: none"><%= t 'contact.after-send' %></div>
+    <label><%= t 'contact.name' %>:<span>*</span></label>
     <%= form.text_field( :name, :class=>"contactlabel") %>
-    <label>Фамилия:<span>*</span></label>
+    <label><%= t 'contact.surname' %>:<span>*</span></label>
     <%= form.text_field(:surname, :class=>"contactlabel") %>
-    <label>Отчество:</label>
+    <label><%= t 'contact.patronymic' %>:</label>
     <%= form.text_field :patronymic %>
-    <label>Улица:<span>*</span></label>
+    <label><%= t 'contact.street' %>:<span>*</span></label>
     <%= form.collection_select :street, street(), :id, :name%>
-    <label>Дом:<span>*</span></label>
+    <label><%= t 'contact.house' %>:<span>*</span></label>
     <%= form.text_field :house %>
-    <label>Квартира:<span>*</span></label>
+    <label><%= t 'contact.flat' %>:<span>*</span></label>
     <%= form.text_field :apartment %>
-    <label>E-Mail:</label>
+    <label><%= t 'contact.email' %>:</label>
     <%= form.text_field :email %>
-    <label>Телефон:<span>*</span></label>
+    <label><%= t 'contact.phone' %>:<span>*</span></label>
     <%= form.text_field :phone %>
-    <label>Сообщение:</label>
+    <label><%= t 'contact.message' %>:</label>
     <%= form.text_area :message %>
-    <a href="#" title="" class="clear_inputs" onClick="document.forms['subform'].reset()">Очистить</a>
-    <%= form.submit "Отправить", :class=>"contactb" %>
+    <a href="#" title="" class="clear_inputs" onClick="document.forms['subform'].reset()"><%= t 'contact.clear' %></a>
+    <%= form.submit "#{t 'contact.send'}", :class=>"contactb" %>
 
 
 

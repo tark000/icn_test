@@ -1,11 +1,11 @@
 <table class="table_center">
   <tr class="title_table">
     <td width="35"></td>
-    <td width="290">Ценовой пакет</td>
-    <td width="160" class="center_td">Скорость,Мбит/с <sup>2</sup></td>
-    <td width="160" class="center_td">Неограниченый доступ</td>
-    <td width="" class="center_td">Цена</td>
-    <td width="" class="center_td">Подключиться</td>
+    <td width="290"><%= t 'prices.price-pacage'%></td>
+    <td width="160" class="center_td"><%= t 'prices.speed'%>, <%= t 'prices.mbs'%> <sup>2</sup></td>
+    <td width="160" class="center_td"><%= t 'prices.unlimited-access'%></td>
+    <td width="" class="center_td"><%= t 'prices.price'%></td>
+    <td width="" class="center_td"><%= t 'prices.connection'%></td>
   </tr>
   <% @nomer=1  %>
   <% @prices.where(tarif_type:2).each do |price| %>
@@ -13,24 +13,26 @@
     <td width="35"><%=  @nomer %></td>
     <td width="290"><%= raw price.title %></td>
     <td width="160" class="center_td"><%= price.dspid %>/<%= price.uspid %></td>
-    <td width="160" class="center_td">Неограниченый доступ</td>
+    <td width="160" class="center_td"><%= t 'prices.unlimited-access'%></td>
     <td width="" class="center_td"><%= price.cena %></td>
-    <td width="" class="center_td connetions"><a href="#">Подключиться</a></td>
+    <td width="" class="center_td connetions"><a href="#"><%= t 'prices.connection'%></a></td>
   </tr>
       <% @nomer = @nomer+1 %>
   <% end %>
 </table>
 <div class="note note_float">
-  Каждый пакет e-Style 100+ предоставляет Вам возможность доступа ко всем ресурсам сети Интернет на скорости до 100 Мбит/с в пределах лимита трафика 100ГБайт симметрично по приёму и передаче. По исчерпании лимита трафика, скорость доступа к Сети устанавливается в соответствии со скоростью пакета, симметрично по приёму и передаче. <strong>Канал на ресурсы сети ICN: 100Мбит/с.</strong> Тип подключения: PPPoE. Предоставляется псевдостатический реальный IP-адрес. Не­ис­поль­зованный трафик не переносится на следующий месяц. Учёт трафика осуществляется на все ресурсы сети в обоих направлениях.
-  Для пакетов e-Style, e-Style Социальный подключение осуществляется только по каналу PPPoE, предоставляется реальный динамический IP-адрес. Скорость доступа симметрична и одинакова для международных, украинских и одесских ресурсов, <strong>канал на ресурсы сети ICN: 100Мбит/с.</strong>
+  <%= t 'prices.text1'%> <strong><%= t 'prices.strong1'%></strong><%= t 'prices.text2'%><strong><%= t 'prices.strong2'%></strong>
+
+
+
 </div><!--end note-->
 <div class="b-mc-news">
-  <h3>Примечания:</h3>
+  <h3><%= t 'prices.notes'%></h3>
 </div><!--end payment_block-->
 <div class="connection">
-  <p>-  Стоимость указана в гривнах за месяц доступа для всех пакетов<br>
-    - Для пакетов e-Style 100+ указана пропускная способность канала для первых 100GByte трафика / после исчерпания предоплаченного лимита трафика. Для пакета Для пакетов e-Style Turbo указана пропускная способность предоставляемого канала на внешние ресурсы / Украину (UAIX) и Одессу / локальные ресурсы провайдера. Для остальных пакетов указана предоставляемого канала на внешние ресурсы<br>
-    - Пакеты доступны для подключения только по каналу PPPoE<br>
-    - Пакет e-Style Социальный HD 10/1 Mb/s по льготной цене доступен исключительно для льготных категорий населения (пенсионеры, инвалиды, “чернобыльцы”, участники боевых действий).<br>
-    - Пакет e-Style Студенческий HD 80/20 Mb/s по льготной цене 100 гривен в месяц доступен исключительно для студентов и школьников</p>
+  <p><%= t 'prices.connection1'%><br>
+    <%= t 'prices.connection2'%><br>
+    <%= t 'prices.connection3'%><br>
+    <%= t 'prices.connection4'%><br>
+    <%= t 'prices.connection5'%></p>
 </div><!--end connection-->
