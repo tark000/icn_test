@@ -1,3 +1,4 @@
+# encoding: UTF-8
 class Service < ActiveRecord::Base
   attr_accessible :image, :text, :title, :remote_image_url, :translations_attributes
 

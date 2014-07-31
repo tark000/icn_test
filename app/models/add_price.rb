@@ -1,3 +1,4 @@
+# encoding: UTF-8
 class AddPrice < ActiveRecord::Base
   attr_accessible :price, :text, :title, :translations_attributes
 

@@ -1,3 +1,4 @@
+# encoding: UTF-8
 class Street < ActiveRecord::Base
   # establish_connection :icn_houses
   attr_accessible :name, :street_name

@@ -1,3 +1,4 @@
+# encoding: UTF-8
 class Mailer < ActiveRecord::Base
 
     include ActiveModel::Validations

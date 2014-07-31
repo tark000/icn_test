@@ -1,3 +1,4 @@
+# encoding: UTF-8
 require "babosa"
 class Post < ActiveRecord::Base
   attr_accessible :slug, :image, :text, :title, :post_type_id, :image_big, :image_big_url, :remote_image_url, :translations_attributes

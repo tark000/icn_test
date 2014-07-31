@@ -1,3 +1,4 @@
+# encoding: UTF-8
 class Quide < ActiveRecord::Base
   attr_accessible :image, :info, :name, :post, :surname, :order, :ochered, :remote_image_url, :translations_attributes
 

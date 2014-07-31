@@ -1,3 +1,4 @@
+# encoding: UTF-8
 require "babosa"
 class Payment < ActiveRecord::Base
   attr_accessible :slug, :image, :text, :title, :type_id, :on, :link, :description, :show, :map_description, :show_map, :map,  :remote_image_url, :translations_attributes

@@ -1,3 +1,4 @@
+# encoding: UTF-8
 require "babosa"
 class Job < ActiveRecord::Base
   attr_accessible :slug, :description, :post, :translations_attributes

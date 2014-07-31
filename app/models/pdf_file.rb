@@ -1,3 +1,4 @@
+# encoding: UTF-8
 class PdfFile < ActiveRecord::Base
   attr_accessible :file, :siza, :title, :translations_attributes
 

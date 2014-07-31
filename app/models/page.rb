@@ -1,3 +1,4 @@
+# encoding: UTF-8
 require "babosa"
 class Page < ActiveRecord::Base
   attr_accessible :slug, :description, :image, :text, :title, :start_at, :finish_at, :show_time, :on, :remote_image_url, :translations_attributes
