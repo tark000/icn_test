@@ -1,5 +1,5 @@
 require "bundler/capistrano"
-
+require "capistrano-rbenv"
 server "79.135.200.92", :web, :app, :db, primary: true
 
 set :application, "icn"
