@@ -9,8 +9,8 @@ class Page < ActiveRecord::Base
 
 
 
-  translates :title, :text, :description
-  accepts_nested_attributes_for :translations
+  # translates :title, :text, :description
+  # accepts_nested_attributes_for :translations
 
   def normalize_friendly_id(input)
     input.to_s.to_slug.normalize(transliterations: :russian).to_s

@@ -38,7 +38,7 @@ module IcnSite
 
     # Configure the default encoding used in templates for Ruby 1.9.
     config.encoding = "utf-8"
-    export RUBYOPT='-E utf-8:utf-8'
+
     # Configure sensitive parameters which will be filtered from the log file.
     config.filter_parameters += [:password]
 
@@ -62,7 +62,7 @@ module IcnSite
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
-    # config.i18n.available_locales = [:ru, :ua]
+    config.i18n.available_locales = [:ru, :ua]
     config.i18n.default_locale = :ru
 
     # Add the fonts path
