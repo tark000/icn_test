@@ -73,4 +73,4 @@ gem 'capistrano-rbenv'
 # To use debugger
 # gem 'debugger'
 gem 'globalize3'
-gem 'activeadmin-translate'
+# gem 'activeadmin-translate'
