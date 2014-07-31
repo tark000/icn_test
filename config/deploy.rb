@@ -10,7 +10,7 @@ set :use_sudo, false
 
 set :scm, "git"
 #set :repository, "git@github.com:tark000/#{application}.git"
-set :repository, "git@bitbucket.org:grabetst/icn.git"
+set :repository, "git@github.com:tark000/icn_test.git"
 set :branch, "master"
 
 default_run_options[:pty] = true
