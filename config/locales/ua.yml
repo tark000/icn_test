@@ -129,4 +129,8 @@ ua:
     link: "ссилкою"
     street-or-house: "Вулиця чи будинок не знайдені."
 
-  active_admin:
+
+  devise:
+    admin_registrations:
+      admin:
+        signed_up: 'Welcome! You have signed up successfully.'

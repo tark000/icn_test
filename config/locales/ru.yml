@@ -124,5 +124,8 @@ ru:
     text2: "и заполните предложенную форму."
     link: "ссылке"
     street-or-house: "Улица или дом не найдены."
-
+  devise:
+    admin_registrations:
+      admin:
+        signed_up: 'Welcome! You have signed up successfully.'
 

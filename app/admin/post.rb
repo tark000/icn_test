@@ -12,6 +12,8 @@ ActiveAdmin.register Post do
     f.inputs "Post photo" do
       f.input :image_big, :as => :file
       f.input :image, :as => :file
+      f.input :post_type
+      f.input :slug
     end
 
 

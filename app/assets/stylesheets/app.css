@@ -2606,16 +2606,17 @@ table span {
     width: 100%;
     height: 100%;
     display: block;
+
 }
 .flags i{
     width: 100%;
     height: 100%;
     display: block;
 }
-.flags i.rus-flag:hover{
+.flags i.rus-flag{
     background: url(ru.png) center no-repeat;
 }
-.flags i.ua-flag:hover{
+.flags i.ua-flag{
     background: url(ukr.png) center no-repeat ;
 }
 /*.flags i.rus-flag{*/
