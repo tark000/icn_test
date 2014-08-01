@@ -4057,3 +4057,107 @@ WARNING: box-shadow is deprecated and will be removed in the next major version 
 Compiled active_admin/editor.css  (724ms)  (pid 32172)
 Compiled active_admin/editor/wysiwyg.css  (0ms)  (pid 32172)
 Compiled active_admin/print.css  (108ms)  (pid 32172)
+Connecting to database specified by database.yml
+127.0.0.1:11211 failed (count: 0)
+DalliError: No server available
+Started GET "/" for 127.0.0.1 at 2014-08-01 16:13:17 +0300
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (422.1ms)
+Compiled jquery.dropkick.js  (0ms)  (pid 1197)
+Compiled jquery.jcarousel.min.js  (0ms)  (pid 1197)
+Compiled modernizr.foundation.js  (0ms)  (pid 1197)
+  Rendered layouts/_header.html.erb (10.8ms)
+  Rendered layouts/_footer.html.erb (3.9ms)
+127.0.0.1:11211 failed (count: 1)
+127.0.0.1:11211 is down
+DalliError: No server available
+Read fragment views/localhost:3000/ (1.8ms)
+DalliError: No server available
+Write fragment views/localhost:3000/ (0.4ms)
+  Rendered contact/_form.html.erb (14.7ms)
+  Rendered layouts/_popups.html.erb (15.7ms)
+Compiled jquery.ui.core.js  (0ms)  (pid 1197)
+Compiled jquery.ui.widget.js  (0ms)  (pid 1197)
+Compiled jquery.ui.accordion.js  (8ms)  (pid 1197)
+Compiled jquery.ui.position.js  (0ms)  (pid 1197)
+Compiled jquery.ui.menu.js  (8ms)  (pid 1197)
+Compiled jquery.ui.autocomplete.js  (16ms)  (pid 1197)
+Compiled jquery.ui.button.js  (2ms)  (pid 1197)
+Compiled jquery.ui.datepicker.js  (1ms)  (pid 1197)
+Compiled jquery.ui.mouse.js  (3ms)  (pid 1197)
+Compiled jquery.ui.draggable.js  (9ms)  (pid 1197)
+Compiled jquery.ui.resizable.js  (4ms)  (pid 1197)
+Compiled jquery.ui.dialog.js  (27ms)  (pid 1197)
+Compiled jquery.ui.droppable.js  (5ms)  (pid 1197)
+Compiled jquery.ui.effect.js  (0ms)  (pid 1197)
+Compiled jquery.ui.effect-blind.js  (3ms)  (pid 1197)
+Compiled jquery.ui.effect-bounce.js  (1ms)  (pid 1197)
+Compiled jquery.ui.effect-clip.js  (2ms)  (pid 1197)
+Compiled jquery.ui.effect-drop.js  (1ms)  (pid 1197)
+Compiled jquery.ui.effect-explode.js  (1ms)  (pid 1197)
+Compiled jquery.ui.effect-fade.js  (1ms)  (pid 1197)
+Compiled jquery.ui.effect-fold.js  (1ms)  (pid 1197)
+Compiled jquery.ui.effect-highlight.js  (1ms)  (pid 1197)
+Compiled jquery.ui.effect-pulsate.js  (2ms)  (pid 1197)
+Compiled jquery.ui.effect-scale.js  (2ms)  (pid 1197)
+Compiled jquery.ui.effect-shake.js  (1ms)  (pid 1197)
+Compiled jquery.ui.effect-slide.js  (1ms)  (pid 1197)
+Compiled jquery.ui.effect-transfer.js  (1ms)  (pid 1197)
+Compiled jquery.ui.progressbar.js  (2ms)  (pid 1197)
+Compiled jquery.ui.selectable.js  (4ms)  (pid 1197)
+Compiled jquery.ui.slider.js  (4ms)  (pid 1197)
+Compiled jquery.ui.sortable.js  (5ms)  (pid 1197)
+Compiled jquery.ui.spinner.js  (3ms)  (pid 1197)
+Compiled jquery.ui.tabs.js  (2ms)  (pid 1197)
+Compiled jquery.ui.tooltip.js  (4ms)  (pid 1197)
+Compiled jquery.ui.all.js  (375ms)  (pid 1197)
+Compiled jquery.cycle2.min.js  (0ms)  (pid 1197)
+Completed 200 OK in 8664ms (Views: 8560.9ms | ActiveRecord: 18.3ms)
+127.0.0.1:11211 failed (count: 2)
+DalliError: No server available
+Started GET "/" for 127.0.0.1 at 2014-08-01 16:13:25 +0300
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (40.3ms)
+  Rendered layouts/_header.html.erb (3.2ms)
+  Rendered layouts/_footer.html.erb (1.9ms)
+DalliError: No server available
+Read fragment views/localhost:3000/ (0.6ms)
+DalliError: No server available
+Write fragment views/localhost:3000/ (0.7ms)
+  Rendered contact/_form.html.erb (12.1ms)
+  Rendered layouts/_popups.html.erb (12.5ms)
+Completed 200 OK in 69ms (Views: 61.3ms | ActiveRecord: 2.9ms)
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+DalliError: No server available
+127.0.0.1:11211 failed (count: 3)
+DalliError: No server available
